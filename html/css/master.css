@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: .9em;
+}
+/*general outline of photo*/
+/*
+
+
+*/
+.div {
+  text-align: center;
+  overflow: hidden;
+}
+.entire-pic-container {
+  border: 1px solid coral;
+  margin: 1vh auto;
+  width: 1400px;
+  height: 800px;
+  background: grey;
+  display: grid;
+  grid-template-columns: 194px 410px 124px 426px 246px; /* = 1400 */
+  grid-template-rows: 750px 18px 32px; /* = 800 */
+  /*grid-template-rows: 800px;*/
+
+}
+
+div.entire-pic-container {
+  background-color: #d362d9;
+}
+/*horizon alpha - epsilon (parent map) */
+.alpha {
+  background-color: #edc07e;
+  grid-column: 1;
+}
+
+.beta {
+  background-color: #7391c3;
+  grid-column: 2;
+}
+
+.gamma {
+  background-color: #aa87a9;
+  grid-column: 3;
+}
+
+.delta {
+  background-color: #777374;
+  grid-column: 4;
+}
+.epsilon {
+  background-color: #c2c3a4;
+  grid-column: 5;
+}
+.zeta {
+  grid-column: 1 /-1;
+  grid-row: 2;
+  background-color: #cbccaa;
+}
+.eta {
+  grid-column: 1 /-1;
+  grid-row: 3;
+  background-color: #ad6b40;
+}
+/*.epsilon-rows {
+  display: grid;
+  grid-template-columns: 1fr;
+}*/
+.row {
+  box-shadow: inset 2px 2px 12px 2px black;
+  /*border: 1px solid white;*/
+}
