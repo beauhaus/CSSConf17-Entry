@@ -69,7 +69,6 @@ div.entire-pic-container {
   grid-row: 3;
   background-color: #41220d;
   background: linear-gradient(#6e452a, #90542d);
-    /*background: linear-gradient(180deg, #683c1f 0%, #41220d 100%);*/
 }
 
 .stone {
