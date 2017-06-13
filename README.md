@@ -21,3 +21,12 @@ Grid columns have greek names.
 & rows will have A-Z names for now (at least for the outer map).
 
 Doesn't look like much now, but it has potential...
+434px
+36px
+34px
+12px
+6px
+64px
+20px
+28px
+114px

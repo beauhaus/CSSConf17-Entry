@@ -15,7 +15,6 @@
   overflow: hidden;
 }
 .entire-pic-container {
-  border: 1px solid coral;
   margin: 1vh auto;
   width: 1400px;
   height: 800px;
@@ -51,7 +50,7 @@ div.entire-pic-container {
   grid-column: 4;
 }
 .epsilon {
-  background-color: #c2c3a4;
+  background: linear-gradient(180deg, #88928a 0%,  #516d68 40%, #182120 64%, #182120 100%);
   grid-column: 5;
 }
 .zeta {
@@ -76,10 +75,6 @@ div.entire-pic-container {
   border-top: 1px solid #7f6447;
   background-color: #8a7e67;
   border-radius: 2px;
-}
-.row {
-  box-shadow: inset 2px 2px 12px 2px black;
-  /*border: 1px solid white;*/
 }
 .pavement {
   grid-row: 1;
@@ -138,4 +133,86 @@ div.entire-pic-container {
 }
 .zeta div:nth-child(18) {
   background: #9b856a;
+}
+/*=============Zeta & Eta Done ==================*/
+
+/*=============Epsilon Profile ==================*/
+/*434px
+36px
+34px
+12px
+6px
+64px
+20px
+28px
+114px*/
+/*(plus 52 of zeta & eta)*/
+
+
+.epsilon {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 434px 36px 120px 20px 28px 114px;
+  color: ivory;
+}
+
+.row {
+  /*border-bottom: 1px solid black;*/
+
+}
+.row-eps-a {
+  grid-row: 1;
+  background-color: transparent;
+}
+.row-eps-b {
+  display: grid;
+  grid-template-columns: 81px 34px 131px;
+  grid-template-rows: 1fr;
+}
+
+.eps-b-col-1, .eps-b-col-3 {
+  background-color: transparent;
+  border-bottom: 3px solid #6f391f;
+}
+.eps-b-col-2 {
+  background-color: #ac592d;
+  border-bottom: 5px solid #96431b;
+  z-index: 10;
+  box-shadow: 0px 56px 60px 20px #b18562;
+}
+.row-eps-c {
+  grid-row: 3;
+  /*58381f roof bot*/
+  /*top 7f431f*/
+  background: linear-gradient(180deg, #7f431f 0%,#75451d 30%, #321e0e 90%);
+
+
+}
+.row-eps-d {
+  background-color: #bfa187;
+}
+.row-eps-e {
+ background-color: #c4a98e;
+ border-left: 3px solid #5d391f;
+ display: grid;
+ grid-template-columns: repeat(12, 1fr);
+}
+.ep-e-panel {
+  border-left: 1px solid #837163;
+  background: linear-gradient(90deg, #998c7c 0%, rgba(46, 135, 41, 0.4) 100%);
+}
+.row-eps-e {
+ background-color: #7b8378;
+}
+.row-eps-f {
+  background: linear-gradient(180deg, #251505 0%, #a27c55 100%);
+}
+.row-eps-g {
+
+}
+.row-eps-h {
+
+}
+.row-eps-i {
+
 }
