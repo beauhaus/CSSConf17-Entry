@@ -40,16 +40,94 @@ div.entire-pic-container {
   grid-column: 2;
 }
 
-.gamma {
+/* dark house profile:  386 + 86 + 142 + 132*/
+
+
+.dark-house-col {
   background-color: #aa87a9;
   grid-column: 3;
+  /*grid-row: 3;*/
+  display: grid;
+  grid-template-rows: 386px 86px 142px 132px;
+  grid-template-columns: 1fr;
 }
 
-.delta {
-  grid-column: 4;
-  background-color: rgb(71, 112, 100);
+.dark-sky {
+  grid-row: 1;
+  background: linear-gradient(180deg, #b3b1a6 0%,  #adb0a2 40%, #659289 64%, #2e615b 100%);
+  border-bottom: 2px solid #4b5545;
 }
-.epsilon {
+
+.dark-roof {
+  grid-row:2;
+  background: linear-gradient(180deg, #675241 0%, #5a3f29 100%);
+  border-top: 3px solid #5d513b;
+  border-bottom: 2px solid #76522d;
+}
+/* FIXME:  above the border bot--do "gutters" for dark house */
+
+.dark-facade {
+  grid-row:3;
+  background: linear-gradient(140deg, #8d6a45 0%, #724421 100%);
+  border-top: 2px solid #805731;
+  border-bottom: 1px solid #8d6a45;
+}
+.dark-door {
+  grid-row:4;
+  border-top: 2px solid #99734f;
+  box-shadow: inset 0px 3px 10px -3px rgba(65, 26, 8, 0.89);
+  background: linear-gradient(45deg, #c5a987 0%, #96734f 100%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.short-house {
   background: linear-gradient(180deg, #88928a 0%,  #516d68 40%, #182120 64%, #182120 100%);
   grid-column: 5;
 }
@@ -149,7 +227,7 @@ div.entire-pic-container {
 /*(plus 52 of zeta & eta)*/
 
 
-.epsilon {
+.short-house {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 434px 36px 120px 20px 28px 114px;
@@ -213,7 +291,7 @@ div.entire-pic-container {
 .row-eps-i {
 
 }
-/*===============DELTA Profile================*/
+/*===============BRICK HOUSE Profile================*/
 
 /*
 8 layers
@@ -222,21 +300,22 @@ div.entire-pic-container {
 
 .brick-house-col {
   display: grid;
-  /*grid-template-columns: auto;*/
-  grid-template-rows: 64px 33px 146px 14px 8px 18px 24px 442px;
+  grid-column: 4;
+  background: linear-gradient(0deg, #aaa89b 0%, #a1a59d 100%);
+  grid-template-rows: 64px 33px 146px 14px 50px 444px;
 }
-.col.brick-house-col{
-  background-color: rgb(75, 108, 138);
+.brick-house-col{
+  /*background-color: rgb(75, 108, 138);*/
   color: ivory;
   border-bottom: 1px solid white;
   position: relative;
 }
-.brick-hse-sky {
-  background-color: transparent;
+.brick-sky {
+  grid-row: 1;
+  position: relative;
 }
 
-
-.brick-hse-top-chimneys {
+.brick-top-chimneys {
   grid-row: 2;
   position: relative;
   display: grid;
@@ -298,7 +377,7 @@ div.entire-pic-container {
   box-shadow: 0px -1px 1px 0px #a5694f;
 }
 
-.brick-hse-gutters {
+.brick-gutters {
   display: grid;
   grid-template-columns: 6px auto 5px;
   grid-template-rows: 7px 7px;
@@ -348,14 +427,34 @@ div.entire-pic-container {
   background-color: #745746;
 }
 
+.brick-attic-row {
+  display: grid;
+  grid-template-columns: 18px auto 15px;
+  grid-template-rows: 50px;
+}
 
+.brick-attic-left{
+  grid-column: 1;
+  background-color: #b56642;
+}
+
+.brick-attic-mid{
+  grid-column: 2;
+  background-color: #c2a382;
+}
+
+.brick-attic-right{
+  grid-column: 3;
+  background-color: #b56e52;
+}
+
+.brick-facade {
+  background-color: #b56e52;
+}
 
 
 
 /*
-
-
-
 .row-del-e-item3 {
   background-color: #dac3a1;
   grid-column: 2;
