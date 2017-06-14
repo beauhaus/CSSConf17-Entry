@@ -215,102 +215,147 @@ div.entire-pic-container {
 }
 /*===============DELTA Profile================*/
 
-/*9 layers
-64px 12px 22px 146px 14px 8px 18px 24px 440px; */
-.delta {
+/*
+8 layers
+64px 33 146px 14px 8px 18px 24px 440px;
+ */
+
+.brick-house-col {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 64px 12px 22px 146px 14px 8px 18px 24px 442px;
+  /*grid-template-columns: auto;*/
+  grid-template-rows: 64px 33px 146px 14px 8px 18px 24px 442px;
 }
-.col.delta{
+.col.brick-house-col{
   background-color: rgb(75, 108, 138);
   color: ivory;
   border-bottom: 1px solid white;
   position: relative;
 }
-.row-delta-a {
+.brick-hse-sky {
   background-color: transparent;
 }
-.row-delta-b {
+
+
+.brick-hse-top-chimneys {
+  grid-row: 2;
+  position: relative;
   display: grid;
-  grid-template-columns: 30px auto 26px;
+  grid-template-columns: 28px auto 24px;
+  grid-template-rows: 12px 21px;
 }
-.delta-b-col1 {
-  background: #b05b3e;
+
+.brick-top-chimney-capL {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: #b05b3e;
   border-bottom: 3px solid #77371f;
   border-top: 2px solid #9b6d59;
   z-index: 10;
-  grid-column: 1;
-  height: 14px;
   width: 34px;
-  position: absolute;
+  position: relative;
   left: -3px;
   border-radius: 4px;
 }
-.delta-b-col2 {
-  grid-column: 2;
-  /*border: 1px solid white;*/
-  background-color: rgba(0,0,0,0);
-}
-.delta-b-col3 {
+
+.brick-top-chimney-capR {
+  grid-column: 3;
+  grid-row: 1;
   background: #a15338;
   border-bottom: 3px solid #77371f;
   border-radius: 5px;
   border-top: 2px solid #9b6d59;
-  /*margin-left: 3vw;*/
-  width: 29px;
+  width: 28px;
   height: 14px;
   z-index: 10;
+  left: -2px;
+  border-radius: 4px;
   position: absolute;
-  right: -3px
 }
-.row-delta-c {
-  display: grid;
-  grid-template-columns: 28px auto 24px;
-}
-.delta-c-col1 {
-  background: #bd6543;
-  box-shadow: inset 0px 0px 2px 1px #73402d;
 
-}
-.delta-c-col2 {
-  background-color: transparent;
-}
-.delta-c-col3 {
+.brick-top-chimney-bodyL {
+  grid-column: 1;
+  grid-row: 2;
   background: #a75537;
-  /*border: 2px solid #92523b;*/
   box-shadow: inset 0px 0px 2px 1px #73402d;
-}
-.row-delta-c {
+  z-index: 10;
 }
 
-.row-delta-d { //roof
-  background: linear-gradient(0deg, #574e44 0%, #7c6c60 100%);
-  border-top: 3px solid #9d6a52;
+.brick-top-chimney-bodyR {
+  grid-column: 3;
+  grid-row: 2;
+  background: #a75537;
+  box-shadow: inset 0px 0px 2px 1px #73402d;
+  z-index: 10;
+}
+
+.brick-roof {
+  grid-column: 1;
+  grid-row: 3;
+  background: linear-gradient(0deg, #534f48 0%, #796b61 100%);
+  border-top: 3px solid #9e563d;
   border-bottom: 2px solid #45372c;
-}
-.row-delta-e {
-  display: grid;
-  grid-template-columns: 6px auto 4px;
-  grid-template-rows: 7px 7px;
+  z-index: 10;
+  box-shadow: 0px -1px 1px 0px #a5694f;
 }
 
-.row-del-e-item1 {
+.brick-hse-gutters {
+  display: grid;
+  grid-template-columns: 6px auto 5px;
+  grid-template-rows: 7px 7px;
+  background: fuchsia;
+}
+
+.brick-gutter-top-left {
   grid-row: 1;
-  grid-column: 1/-1;
+  grid-column: 1;
   background-color: #bfa68b;
   border-bottom: 1px solid #a07e62;
-
 }
-.row-del-e-item2 {
+
+
+.brick-gutter-top-mid {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: #bfa68b;
+  border-bottom: 1px solid #a07e62;
+}
+
+.brick-gutter-top-right {
+  grid-column: 3;
+  grid-row: 1;
+  background-color: #bfa68b;
+  border-bottom: 1px solid #a07e62;
+}
+
+.brick-gutter-bot-left {
   background-color: #4c2818;
   grid-column: 1;
   grid-row: 2;
   border: 3px solid #dac3a1;
   border-bottom: 3px solid transparent;
   border-left: 3px solid transparent;
-
 }
+
+.brick-gutter-bot-mid {
+  background-color: #dac3a1;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.brick-gutter-bot-right {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: #745746;
+}
+
+
+
+
+
+/*
+
+
+
 .row-del-e-item3 {
   background-color: #dac3a1;
   grid-column: 2;
@@ -319,13 +364,14 @@ div.entire-pic-container {
 }
 .row-del-e-item4 {
   background-color: #8d4b3b;
-  grid-column: 3;
+  width: 1px;
+  grid-column: 1;
   grid-row: 2;
-}
+}*/
 
 
 
-
+/*
 .delta-e-col1 {
   background-color: #bfa68b;
   grid-column: 1/-1;
@@ -357,7 +403,7 @@ div.entire-pic-container {
 
 .row-delta-f {
 background-color: rgba(255, 0, 0, 0.5);
-}
+}*/
 .row-delta-g {
 
 }

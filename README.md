@@ -34,3 +34,5 @@ Doesn't look like much now, but it has potential...
 #### And here's step 2.
 ![step one](https://github.com/Beauvelop/grid_painting/blob/master/html/steps/step2.png?raw=true)
 Going to be harder than I thought. This is a first pass on Epsilon. CSS Shapes is going to have to come into play here. Oi vey. That box-shadow on the roof needs alpha adjustment. Or I could hide z-index/position abs a bordor-radiused circle and shadow that puppy for a rounder shadow...(?). Ugh... Why did I start this? --Now I can't stop.
+
+I may try to change every px value to fr in order to make it responsive.
