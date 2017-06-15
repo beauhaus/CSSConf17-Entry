@@ -216,7 +216,7 @@ div.entire-pic-container {
   grid-template-rows: 434px 36px 120px 20px 28px 114px;
   color: ivory; }
 
-.row-eps-a {
+.short-sky {
   grid-row: 1;
   background-color: transparent; }
 
@@ -230,35 +230,35 @@ div.entire-pic-container {
   background-color: transparent;
   border-bottom: 3px solid #6f391f; }
 
-.eps-b-col-2 {
+.short-chimney {
   background-color: #ac592d;
   border-bottom: 5px solid #96431b;
   z-index: 10;
   box-shadow: 0 56px 60px 20px #b18562; }
 
-.row-eps-c {
+.short-roof {
   grid-row: 3;
   /*58381f roof bot*/
   /*top 7f431f*/
   background: linear-gradient(180deg, #7f431f 0%, #75451d 30%, #321e0e 90%); }
 
-.row-eps-d {
+.short-gutter {
   background-color: #bfa187; }
 
-.row-eps-e {
+.short-awning {
   background-color: #c4a98e;
   border-left: 3px solid #5d391f;
   display: grid;
   grid-template-columns: repeat(12, 1fr); }
 
-.ep-e-panel {
+.short-awning-panel {
   border-left: 1px solid #837163;
   background: linear-gradient(90deg, #998c7c 0%, rgba(46, 135, 41, 0.4) 100%); }
 
-.row-eps-e {
+.short-awning {
   background-color: #7b8378; }
 
-.row-eps-f {
+.short-facade {
   background: linear-gradient(180deg, #251505 0%, #a27c55 100%); }
 
 .white {

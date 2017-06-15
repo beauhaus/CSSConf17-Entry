@@ -266,7 +266,7 @@ div.entire-pic-container {
 .row-eps-d {
   background-color: #bfa187;
 }
-.row-eps-e {
+.short-awning {
  background-color: #c4a98e;
  border-left: 3px solid #5d391f;
  display: grid;
@@ -276,7 +276,7 @@ div.entire-pic-container {
   border-left: 1px solid #837163;
   background: linear-gradient(90deg, #998c7c 0%, rgba(46, 135, 41, 0.4) 100%);
 }
-.row-eps-e {
+.short-awning {
  background-color: #7b8378;
 }
 .row-eps-f {
