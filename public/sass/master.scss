@@ -1,0 +1,14 @@
+$bg-color: #465c6f;
+$text-color: ivory;
+$baseline: 1vw;
+
+/* At a macro-level: grid-columns (as house-names) are identified from right to left: */
+//underscores are simply for readability in the working directory
+@import "imports/general";
+@import "imports/container_frame";
+@import "imports/houses/brick";
+@import "imports/houses/_dark";
+@import "imports/houses/__peach";
+@import "imports/houses/short";
+@import "imports/houses/___white";
+@import "imports/street";

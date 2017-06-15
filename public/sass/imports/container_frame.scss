@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: .8em;
+}
+/*general outline of photo*/
+/*
+
+
+*/
+.div {
+  text-align: center;
+  overflow: hidden;
+}
+.entire-pic-container {
+  margin: 1vh auto;
+  width: 1400px;
+  height: 800px;
+  background: grey;
+  display: grid;
+  grid-template-columns: 194px 410px 124px 426px 246px; /* = 1400 */
+  grid-template-rows: 750px 18px 32px; /* = 800 */
+  /*grid-template-rows: 800px;*/
+
+}
+
+div.entire-pic-container {
+  background-color: #d362d9;
+}
