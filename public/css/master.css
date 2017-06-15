@@ -175,7 +175,7 @@ div.entire-pic-container {
   grid-column: 3;
   /*grid-row: 3;*/
   display: grid;
-  grid-template-rows: 386px 86px 142px 132px;
+  grid-template-rows: 386px 86px 142px 136px;
   grid-template-columns: 1fr; }
 
 .dark-sky {
@@ -202,9 +202,28 @@ div.entire-pic-container {
   box-shadow: inset 0px 3px 10px -3px rgba(65, 26, 8, 0.89);
   background: linear-gradient(45deg, #c5a987 0%, #96734f 100%); }
 
+/* Peach house profile
+  sky:114
+  rooftop:14
+  roof:92
+  gutter:24
+  gutter:24
+  facade:458
+  foundation:2
+  */
 .peach {
   background-color: #7391c3;
-  grid-column: 2; }
+  grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1hr;
+  grid-template-rows: 114px 14px 92px 24px 24px 458px 22px; }
+
+.peach-sky {
+  background: linear-gradient(180deg, #b2b4ac 0%, #c0bdb0 50%, #bab9ac 100%); }
+
+.peach-rooftop {
+  background: linear-gradient(180deg, #675241 0%, #5a3f29 100%); }
 
 .short-house {
   background: linear-gradient(180deg, #88928a 0%, #516d68 40%, #182120 64%, #182120 100%);
