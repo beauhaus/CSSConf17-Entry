@@ -58,3 +58,7 @@ Day (what? 5?) Ugh...this is slow. :(
 The project is now officially subdivided and modularized is sass! :)
 
 It was about 30minutes, but it was fun. --Totally helpful to reinforce my grasp of the behavior of sass --watch and it's vicissitudes.
+
+
+#### And here's step four.
+![step four](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step4.png?raw=true)
