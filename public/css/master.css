@@ -243,10 +243,23 @@ body {
   box-shadow: inset 0px 0px 2px 1px #73402d; }
 
 .brick-roof {
-  background: linear-gradient(345deg, #423f39 0%, #796b61 100%);
+  background: linear-gradient(345deg, #5d5646 0%, #897565 100%);
   border-top: 3px solid #9e563d;
   border-bottom: 2px solid #45372c;
   box-shadow: 0px -1px 1px 0px #a5694f; }
+
+.shing {
+  filter: blur(2px);
+  opacity: .5; }
+
+.shing.tan {
+  background-color: #8b7665; }
+
+.shing.brown {
+  background-color: #534638; }
+
+.shing.green {
+  background-color: #395440; }
 
 .brick-gutters {
   background: fuchsia; }
@@ -344,7 +357,190 @@ body {
 .brick-roof {
   grid-column: 1;
   grid-row: 3;
-  z-index: 10; }
+  z-index: 10;
+  display: grid;
+  grid-template-columns: repeat(26, 1fr);
+  grid-template-rows: repeat(38, 1fr); }
+
+#shing-tan1 {
+  grid-column: 9/17;
+  grid-row: 8; }
+
+#shing-tan2 {
+  grid-column: 18;
+  grid-row: 4; }
+
+#shing-tan3 {
+  grid-column: 16;
+  grid-row: 5; }
+
+#shing-tan4 {
+  grid-column: 1/16;
+  grid-row: 1; }
+
+#shing-tan5 {
+  grid-column: 2/4;
+  grid-row: 8/9; }
+
+#shing-tan6 {
+  grid-column: 1/8;
+  grid-row: 12/14; }
+
+#shing-tan7 {
+  grid-column: 17/19;
+  grid-row: 24; }
+
+#shing-tan8 {
+  grid-column: 24;
+  grid-row: 24; }
+
+#shing-tan9 {
+  grid-column: 3/11;
+  grid-row: 20; }
+
+#shing-tan10 {
+  grid-column: 11/13;
+  grid-row: 27; }
+
+#shing-tan11 {
+  grid-column: 1/4;
+  grid-row: 33; }
+
+#shing-tan12 {
+  grid-column: 23/26;
+  grid-row: 15; }
+
+#shing-tan13 {
+  grid-column: 15;
+  grid-row: 35; }
+
+#shing-tan14 {
+  grid-column: 31;
+  grid-row: 7; }
+
+#shing-tan15 {
+  grid-column: 4;
+  grid-row: 36; }
+
+#shing-br1 {
+  grid-column: 3;
+  grid-row: 7; }
+
+#shing-br2 {
+  grid-column: 4;
+  grid-row: 15; }
+
+#shing-br3 {
+  grid-column: 5;
+  grid-row: 21; }
+
+#shing-br4 {
+  grid-column: 11;
+  grid-row: 29; }
+
+#shing-br5 {
+  grid-column: 13;
+  grid-row: 18; }
+
+#shing-br6 {
+  grid-column: 18;
+  grid-row: 2; }
+
+#shing-br7 {
+  grid-column: 21;
+  grid-row: 17; }
+
+#shing-br8 {
+  grid-column: 24;
+  grid-row: 14; }
+
+#shing-br9 {
+  grid-column: 19/21;
+  grid-row: 25; }
+
+#shing-br10 {
+  grid-column: 8;
+  grid-row: 3; }
+
+#shing-br11 {
+  grid-column: 18;
+  grid-row: 36; }
+
+#shing-br12 {
+  grid-column: 4;
+  grid-row: 35; }
+
+#shing-br13 {
+  grid-column: 20/23;
+  grid-row: 34; }
+
+#shing-br14 {
+  grid-column: 25/28;
+  grid-row: 29; }
+
+#shing-br15 {
+  grid-column: 25/-1;
+  grid-row: 36; }
+
+#shing-gr1 {
+  grid-column: 17;
+  grid-row: 20; }
+
+#shing-gr2 {
+  grid-column: 4;
+  grid-row: 10; }
+
+#shing-gr3 {
+  grid-column: 3;
+  grid-row: 23; }
+
+#shing-gr4 {
+  grid-column: 21;
+  grid-row: 14; }
+
+#shing-gr5 {
+  grid-column: 10;
+  grid-row: 11; }
+
+#shing-gr6 {
+  grid-column: 9;
+  grid-row: 28; }
+
+#shing-gr7 {
+  grid-column: 15;
+  grid-row: 14; }
+
+#shing-gr8 {
+  grid-column: 20;
+  grid-row: 19; }
+
+#shing-gr9 {
+  grid-column: 25;
+  grid-row: 25; }
+
+#shing-gr10 {
+  grid-column: 20;
+  grid-row: 28; }
+
+#shing-gr11 {
+  grid-column: 5;
+  grid-row: 28; }
+
+#shing-gr12 {
+  grid-column: 1;
+  grid-row: 35; }
+
+#shing-gr13 {
+  grid-column: 11;
+  grid-row: 34; }
+
+#shing-gr14 {
+  grid-column: 23/25;
+  grid-row: 35; }
+
+#shing-gr15 {
+  grid-column: 17;
+  grid-row: 37; }
 
 .brick-gutters {
   display: grid;

@@ -5,6 +5,16 @@ $baseline: 1vw;
 /* At a macro-level: grid-columns (as house-names) are identified from right to left: */
 //underscores are simply for readability in the working directory
 
+$colors: (
+//====================shingle colors
+shing-tan: #8b7665,
+shing-br: #534638,
+shing-gr: #395440,
+);
+
+
+
+
 // NOTE: If a style-rule has a color in it --it doesn't belong in 'layout' file
 
 @import "imports/container_frame";

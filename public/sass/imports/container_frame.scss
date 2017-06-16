@@ -17,11 +17,6 @@ body {
   grid-template-rows: 1fr auto 1fr;
 }
 
-// .top-frame {
-//   grid-row: 1;
-//   grid-column: 1/-1;
-//   background: black;
-// }
 
 .div {
   text-align: center;
@@ -36,13 +31,7 @@ body {
   height: 800px;
   z-index: -1;
   background: linear-gradient(135deg, #c2bfb4 0%, #3d756f 50%, #171f1e 100%);
-  // margin: 1vh auto auto auto;
 }
-// .bottom-frame {
-//   grid-row: 1;
-//   grid-column: 1/-1;
-//   background: purple;
-// }
 
 .entire-pic-container {
   width: 1400px;
@@ -52,24 +41,3 @@ body {
   grid-template-rows: 750px 18px 32px; /* = 800 */
   overflow: hidden;
 }
-
-div.entire-pic-container {
-  // position: relative;
-  // top: 0;
-  // left: 0;
-}
-
-// .svg-container {
-//   position: absolute;
-//   height: 50vh;
-//   left: 50vw;
-//   top: 50vh;
-//   margin-left: -25vw;
-//   margin-top: -25vh;
-// }
-//
-// svg {
-//   position: relative;
-//   width: 1400px;
-//   height: 800px;
-// }

@@ -42,14 +42,36 @@
 }
 
 .brick-roof {
-  background: linear-gradient(345deg, #423f39 0%, #796b61 100%);
+  background: linear-gradient(345deg, #5d5646 0%, #897565 100%);
   border-top: 3px solid #9e563d;
   border-bottom: 2px solid #45372c;
   box-shadow: 0px -1px 1px 0px #a5694f;
 }
 .shingles-grid {
-  // https://css-tricks.com/useful-nth-child-recipies/
 }
+// https://css-tricks.com/useful-nth-child-recipies/
+// NOTE: Do this blur trick on random tiles with .shing class
+.shing {
+  filter: blur(2px);
+  opacity: .5;
+}
+// ========SHINGLES==============
+
+
+.shing.tan {
+  background-color: map-get($colors, shing-tan);
+  // display: none;
+}
+
+.shing.brown {
+  background-color: map-get($colors, shing-br);
+  // display: none;
+}
+
+.shing.green {
+  background-color: map-get($colors, shing-gr);
+}
+
 .brick-gutters {
   background: fuchsia;
 }
