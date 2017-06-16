@@ -1,6 +1,5 @@
 
 .dark-house-col {
-  background-color: #aa87a9;
   grid-column: 3;
   display: grid;
   grid-template-rows: 386px 86px 142px 136px;
@@ -10,8 +9,6 @@
 .dark-sky {
   grid-row: 1;
   grid-column: 1;
-  background: linear-gradient(180deg, #b3b1a6 0%,  #adb0a2 40%, #659289 64%, #2e615b 100%);
-  border-bottom: 2px solid #4b5545;
 }
 
 .dark-roof {

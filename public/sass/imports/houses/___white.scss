@@ -7,15 +7,17 @@
 }
 
 .white-sky{
- // background: #bfbdb2; // to be transparented
+ background: transparent; // to be transparented
 }
 
 
-.white-gutter{
+.white-gutter {
+  border-top: 2px solid rgba(224, 198, 175, 0.5);
   background-color: #ecd4bb;
   border-bottom: 2px solid #b78d6e;
   box-shadow: -5px 6px 4px 2px rgba(0,0,0,0.35);
 }
+// FIXME: perhaps rmve or "1px" the border top (above);
 
 .white-gutter-base{
   background-color: #eecca9;
