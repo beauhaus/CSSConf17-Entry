@@ -1,0 +1,124 @@
+/*===============BRICK HOUSE Profile================*/
+
+/*
+8 layers
+64px 33 146px 14px 8px 18px 24px 440px;
+ */
+
+.brick-house-col {
+  display: grid;
+  grid-column: 4;
+  grid-template-rows: 64px 33px 146px 14px 50px 444px;
+}
+.brick-house-col{
+  position: relative;
+}
+.brick-sky {
+  grid-row: 1;
+  position: relative;
+}
+
+.brick-top-chimneys {
+  grid-row: 2;
+  position: relative;
+  display: grid;
+  grid-template-columns: 28px auto 24px;
+  grid-template-rows: 12px 21px;
+}
+
+.brick-top-chimney-capL {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 10;
+  width: 34px;
+  position: relative;
+  left: -3px;
+  border-radius: 4px;
+}
+
+.brick-top-chimney-capR {
+  grid-column: 3;
+  grid-row: 1;
+  border-radius: 5px;
+  width: 28px;
+  height: 14px;
+  z-index: 10;
+  left: -2px;
+  border-radius: 4px;
+  position: absolute;
+}
+
+.brick-top-chimney-bodyL {
+  grid-column: 1;
+  grid-row: 2;
+  z-index: 10;
+}
+
+.brick-top-chimney-bodyR {
+  grid-column: 3;
+  grid-row: 2;
+  z-index: 10;
+}
+
+.brick-roof {
+  grid-column: 1;
+  grid-row: 3;
+  z-index: 10;
+}
+
+.brick-gutters {
+  display: grid;
+  grid-template-columns: 6px auto 5px;
+  grid-template-rows: 7px 7px;
+}
+
+.brick-gutter-top-left {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.brick-gutter-top-mid {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.brick-gutter-top-right {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.brick-gutter-bot-left {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.brick-gutter-bot-mid {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.brick-gutter-bot-right {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.brick-attic-row {
+  display: grid;
+  grid-template-columns: 18px auto 15px;
+  grid-template-rows: 50px;
+}
+
+.brick-attic-left{
+  grid-column: 1;
+
+}
+
+.brick-attic-mid{
+  grid-column: 2;
+
+}
+
+.brick-attic-right{
+  grid-column: 3;
+
+}

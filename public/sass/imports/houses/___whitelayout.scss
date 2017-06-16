@@ -1,0 +1,42 @@
+/*White-house layout profile
+
+*/
+
+.white-house-col {
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 162px 32px 12px 62px 482px;
+}
+.white-sky{
+  grid-row: 1;
+  grid-column: 1
+}
+
+.white-gutter {
+  grid-row: 2;
+  grid-column: 1;
+  z-index: 10;
+}
+
+.white-gutter-base{
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.white-attic{
+
+  grid-row: 4;
+  grid-column: 1;
+}
+
+.white-facade{
+  grid-row: 5;
+  grid-column: 1;
+}
+
+
+// .white-roof{
+//
+// }

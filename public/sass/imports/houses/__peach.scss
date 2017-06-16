@@ -10,76 +10,32 @@
 
 .peach {
   background-color: #7391c3;
-  grid-column: 2;
-  grid-row: 1;
-  display: grid;
-  grid-template-columns: 1hr;
-  grid-template-rows: 114px 14px 92px 24px 24px 458px 22px;
 }
 
 .peach-sky {
-background: linear-gradient(180deg, #b2b4ac 0%, #c0bdb0 50%, #bab9ac 100%);
+  background: linear-gradient(0deg, #b2b4ac 0%, #c0bdb0 50%, #bab9ac 100%);
 }
 .peach-rooftop {
   background: linear-gradient(180deg, #675241 0%, #5a3f29 100%);
 
 }
-.peach-roof {
-
+// p-roof is going to be left chimney, sky and right roof so 3 cols
+.peach-roof { //brdr-bot can fill in top of gutter-top so... 96 instead of 92
+  background-color: #c5c1b3;
 }
-.peach-gutter {
-
+.peach-gutter-top {
+  background-color: #d2b18c;
+  border-bottom: 1px solid #a7815c;
 }
-.peach-gutter-base {
-
+.peach-gutter-bottom {
+background-color: #ead2b0;
+border-bottom: 2px solid #a97347;
 }
 .peach-facade {
-
+background: linear-gradient(135deg, #ebc58e 0%, #cfa573 100%);
 }
+
 .peach-foundation {
 
-}
-
-
-
-
-/*White-house column profile */
-
-
-.white {
-  grid-column: 1;
-  grid-row: 1;
-  display: grid;
-  grid-template-columns: 1;
-  grid-template-rows: 162px 32px 12px 62px 482px;
-  background: fuchsia;
-}
-.white-sky{
- background: #bfbdb2;
-}
-
-// .white-roof{
-//
-// }
-
-.white-gutter{
-  background-color: #ecd4bb;
-  border-bottom: 2px solid #b78d6e;
-  box-shadow: -5px 6px 4px 2px rgba(0,0,0,0.35);
-  z-index: 10;
-}
-
-.white-gutter-base{
-  background-color: #eecca9;
-  border-bottom: 2px solid #9c7153;
-}
-
-.white-attic{
-
-background-color: #ecd5ba;
-border-bottom: 2px solid #b38364;
-}
-
-.white-facade{
-  background: linear-gradient(180deg, #ead0b3 0%, #ceae90 100%);
+background: linear-gradient(90deg, #a0462e 0%, #c46138 100%);
 }

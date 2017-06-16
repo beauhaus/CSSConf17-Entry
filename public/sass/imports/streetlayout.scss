@@ -1,0 +1,24 @@
+.sidewalk {
+  grid-column: 1 /-1;
+  grid-row: 2;
+  z-index: 6;
+  display: grid;
+  grid-template-columns: 12px repeat(16, 1fr) 52px;
+  grid-template-rows: 7px auto;
+}
+.earth {
+  grid-column: 1 /-1;
+  grid-row: 3;
+}
+
+.stone {
+  border-radius: 2px;
+}
+.pavement {
+  grid-row: 1;
+  grid-column: 1/-1;
+}
+
+.sidewalk div:nth-child(2) {
+  grid-row: 2;
+}

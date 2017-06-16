@@ -1,0 +1,29 @@
+
+.dark-house-col {
+  background-color: #aa87a9;
+  grid-column: 3;
+  display: grid;
+  grid-template-rows: 386px 86px 142px 136px;
+  grid-template-columns: 1fr;
+}
+
+.dark-sky {
+  grid-row: 1;
+  grid-column: 1;
+  background: linear-gradient(180deg, #b3b1a6 0%,  #adb0a2 40%, #659289 64%, #2e615b 100%);
+  border-bottom: 2px solid #4b5545;
+}
+
+.dark-roof {
+  grid-row:2;
+  grid-column: 1;
+}
+
+.dark-facade {
+  grid-row:3;
+  grid-column: 1;
+}
+.dark-door {
+  grid-row:4;
+  grid-column: 1;
+}

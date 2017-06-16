@@ -30,6 +30,260 @@
 div.entire-pic-container {
   background-color: #d362d9; }
 
+/*White-house color notes
+*/
+.white {
+  background: fuchsia; }
+
+.white-gutter {
+  background-color: #ecd4bb;
+  border-bottom: 2px solid #b78d6e;
+  box-shadow: -5px 6px 4px 2px rgba(0, 0, 0, 0.35); }
+
+.white-gutter-base {
+  background-color: #eecca9;
+  border-bottom: 2px solid #9c7153; }
+
+.white-attic {
+  background-color: #ecd5ba;
+  border-bottom: 2px solid #b38364; }
+
+.white-facade {
+  background: linear-gradient(180deg, #ead0b3 0%, #ceae90 100%); }
+
+/*White-house layout profile
+
+*/
+.white-house-col {
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 162px 32px 12px 62px 482px; }
+
+.white-sky {
+  grid-row: 1;
+  grid-column: 1; }
+
+.white-gutter {
+  grid-row: 2;
+  grid-column: 1;
+  z-index: 10; }
+
+.white-gutter-base {
+  grid-row: 3;
+  grid-column: 1; }
+
+.white-attic {
+  grid-row: 4;
+  grid-column: 1; }
+
+.white-facade {
+  grid-row: 5;
+  grid-column: 1; }
+
+/* Peach house profile
+  sky:114
+  rooftop:14
+  roof:92
+  gutter:24
+  gutter:24
+  facade:458
+  foundation:2
+  */
+.peach {
+  background-color: #7391c3; }
+
+.peach-sky {
+  background: linear-gradient(0deg, #b2b4ac 0%, #c0bdb0 50%, #bab9ac 100%); }
+
+.peach-rooftop {
+  background: linear-gradient(180deg, #675241 0%, #5a3f29 100%); }
+
+.peach-roof {
+  background-color: #c5c1b3; }
+
+.peach-gutter-top {
+  background-color: #d2b18c;
+  border-bottom: 1px solid #a7815c; }
+
+.peach-gutter-bottom {
+  background-color: #ead2b0;
+  border-bottom: 2px solid #a97347; }
+
+.peach-facade {
+  background: linear-gradient(135deg, #ebc58e 0%, #cfa573 100%); }
+
+.peach-foundation {
+  background: linear-gradient(90deg, #a0462e 0%, #c46138 100%); }
+
+/* Peach house profile
+  sky:114
+  rooftop:14
+  roof:92
+  gutter:24
+  gutter:24
+  facade:458
+  foundation:2
+  */
+.peach-house-col {
+  grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1hr;
+  grid-template-rows: 114px 14px 96px 20px 24px 458px 24px; }
+
+.peach-sky {
+  grid-row: 1;
+  grid-column: 1; }
+
+.peach-rooftop {
+  grid-row: 2;
+  grid-column: 1; }
+
+.peach-roof {
+  grid-row: 3;
+  grid-column: 1; }
+
+.peach-gutter-top {
+  grid-row: 4;
+  grid-column: 1; }
+
+.peach-gutter-bottom {
+  grid-row: 5;
+  grid-column: 1; }
+
+.peach-facade {
+  grid-row: 6;
+  grid-column: 1; }
+
+.peach-foundation {
+  grid-row: 7;
+  grid-column: 1; }
+
+/* dark house profile:  386 + 86 + 142 + 132*/
+.dark-house-col {
+  background-color: #aa87a9; }
+
+.dark-sky {
+  background: linear-gradient(180deg, #b3b1a6 0%, #adb0a2 40%, #659289 64%, #2e615b 100%);
+  border-bottom: 2px solid #4b5545; }
+
+.dark-roof {
+  background: linear-gradient(180deg, #675241 0%, #5a3f29 100%);
+  border-top: 3px solid #5d513b;
+  border-bottom: 2px solid #76522d; }
+
+.dark-facade {
+  background: linear-gradient(140deg, #8d6a45 0%, #724421 100%);
+  border-top: 2px solid #805731;
+  border-bottom: 1px solid #8d6a45; }
+
+.dark-door {
+  border-top: 2px solid #99734f;
+  box-shadow: inset 0px 3px 10px -3px rgba(65, 26, 8, 0.89);
+  background: linear-gradient(45deg, #c5a987 0%, #96734f 100%); }
+
+.dark-house-col {
+  background-color: #aa87a9;
+  grid-column: 3;
+  display: grid;
+  grid-template-rows: 386px 86px 142px 136px;
+  grid-template-columns: 1fr; }
+
+.dark-sky {
+  grid-row: 1;
+  grid-column: 1;
+  background: linear-gradient(180deg, #b3b1a6 0%, #adb0a2 40%, #659289 64%, #2e615b 100%);
+  border-bottom: 2px solid #4b5545; }
+
+.dark-roof {
+  grid-row: 2;
+  grid-column: 1; }
+
+.dark-facade {
+  grid-row: 3;
+  grid-column: 1; }
+
+.dark-door {
+  grid-row: 4;
+  grid-column: 1; }
+
+/*===============BRICK Color notes
+*
+*
+*/
+.brick-house-col {
+  background: linear-gradient(0deg, #aaa89b 0%, #a1a59d 100%); }
+
+.brick-house-col {
+  /*background-color: rgb(75, 108, 138);*/
+  color: ivory;
+  border-bottom: 1px solid white; }
+
+.brick-top-chimney-capL {
+  background-color: #b05b3e;
+  border-bottom: 3px solid #77371f;
+  border-top: 2px solid #9b6d59; }
+
+.brick-top-chimney-capR {
+  background: #a15338;
+  border-bottom: 3px solid #77371f;
+  border-top: 2px solid #9b6d59; }
+
+.brick-top-chimney-bodyL {
+  background: #a75537;
+  box-shadow: inset 0px 0px 2px 1px #73402d; }
+
+.brick-top-chimney-bodyR {
+  background: #a75537;
+  box-shadow: inset 0px 0px 2px 1px #73402d; }
+
+.brick-roof {
+  background: linear-gradient(0deg, #534f48 0%, #796b61 100%);
+  border-top: 3px solid #9e563d;
+  border-bottom: 2px solid #45372c;
+  box-shadow: 0px -1px 1px 0px #a5694f; }
+
+.brick-gutters {
+  background: fuchsia; }
+
+.brick-gutter-top-left {
+  background-color: #bfa68b;
+  border-bottom: 1px solid #a07e62; }
+
+.brick-gutter-top-mid {
+  background-color: #bfa68b;
+  border-bottom: 1px solid #a07e62; }
+
+.brick-gutter-top-right {
+  background-color: #bfa68b;
+  border-bottom: 1px solid #a07e62; }
+
+.brick-gutter-bot-left {
+  background-color: #4c2818;
+  border: 3px solid #dac3a1;
+  border-bottom: 3px solid transparent;
+  border-left: 3px solid transparent; }
+
+.brick-gutter-bot-mid {
+  background-color: #dac3a1; }
+
+.brick-gutter-bot-right {
+  background-color: #745746; }
+
+.brick-attic-left {
+  background-color: #b56642; }
+
+.brick-attic-mid {
+  background-color: #c2a382; }
+
+.brick-attic-right {
+  background-color: #b56e52; }
+
+.brick-facade {
+  background-color: #b56e52; }
+
 /*===============BRICK HOUSE Profile================*/
 /*
 8 layers
@@ -38,13 +292,9 @@ div.entire-pic-container {
 .brick-house-col {
   display: grid;
   grid-column: 4;
-  background: linear-gradient(0deg, #aaa89b 0%, #a1a59d 100%);
   grid-template-rows: 64px 33px 146px 14px 50px 444px; }
 
 .brick-house-col {
-  /*background-color: rgb(75, 108, 138);*/
-  color: ivory;
-  border-bottom: 1px solid white;
   position: relative; }
 
 .brick-sky {
@@ -61,9 +311,6 @@ div.entire-pic-container {
 .brick-top-chimney-capL {
   grid-column: 1;
   grid-row: 1;
-  background-color: #b05b3e;
-  border-bottom: 3px solid #77371f;
-  border-top: 2px solid #9b6d59;
   z-index: 10;
   width: 34px;
   position: relative;
@@ -73,10 +320,7 @@ div.entire-pic-container {
 .brick-top-chimney-capR {
   grid-column: 3;
   grid-row: 1;
-  background: #a15338;
-  border-bottom: 3px solid #77371f;
   border-radius: 5px;
-  border-top: 2px solid #9b6d59;
   width: 28px;
   height: 14px;
   z-index: 10;
@@ -87,67 +331,46 @@ div.entire-pic-container {
 .brick-top-chimney-bodyL {
   grid-column: 1;
   grid-row: 2;
-  background: #a75537;
-  box-shadow: inset 0px 0px 2px 1px #73402d;
   z-index: 10; }
 
 .brick-top-chimney-bodyR {
   grid-column: 3;
   grid-row: 2;
-  background: #a75537;
-  box-shadow: inset 0px 0px 2px 1px #73402d;
   z-index: 10; }
 
 .brick-roof {
   grid-column: 1;
   grid-row: 3;
-  background: linear-gradient(0deg, #534f48 0%, #796b61 100%);
-  border-top: 3px solid #9e563d;
-  border-bottom: 2px solid #45372c;
-  z-index: 10;
-  box-shadow: 0px -1px 1px 0px #a5694f; }
+  z-index: 10; }
 
 .brick-gutters {
   display: grid;
   grid-template-columns: 6px auto 5px;
-  grid-template-rows: 7px 7px;
-  background: fuchsia; }
+  grid-template-rows: 7px 7px; }
 
 .brick-gutter-top-left {
   grid-row: 1;
-  grid-column: 1;
-  background-color: #bfa68b;
-  border-bottom: 1px solid #a07e62; }
+  grid-column: 1; }
 
 .brick-gutter-top-mid {
   grid-column: 2;
-  grid-row: 1;
-  background-color: #bfa68b;
-  border-bottom: 1px solid #a07e62; }
+  grid-row: 1; }
 
 .brick-gutter-top-right {
   grid-column: 3;
-  grid-row: 1;
-  background-color: #bfa68b;
-  border-bottom: 1px solid #a07e62; }
+  grid-row: 1; }
 
 .brick-gutter-bot-left {
-  background-color: #4c2818;
   grid-column: 1;
-  grid-row: 2;
-  border: 3px solid #dac3a1;
-  border-bottom: 3px solid transparent;
-  border-left: 3px solid transparent; }
+  grid-row: 2; }
 
 .brick-gutter-bot-mid {
-  background-color: #dac3a1;
   grid-column: 2;
   grid-row: 2; }
 
 .brick-gutter-bot-right {
   grid-column: 3;
-  grid-row: 2;
-  background-color: #745746; }
+  grid-row: 2; }
 
 .brick-attic-row {
   display: grid;
@@ -155,123 +378,22 @@ div.entire-pic-container {
   grid-template-rows: 50px; }
 
 .brick-attic-left {
-  grid-column: 1;
-  background-color: #b56642; }
+  grid-column: 1; }
 
 .brick-attic-mid {
-  grid-column: 2;
-  background-color: #c2a382; }
+  grid-column: 2; }
 
 .brick-attic-right {
-  grid-column: 3;
-  background-color: #b56e52; }
-
-.brick-facade {
-  background-color: #b56e52; }
-
-/* dark house profile:  386 + 86 + 142 + 132*/
-.dark-house-col {
-  background-color: #aa87a9;
-  grid-column: 3;
-  /*grid-row: 3;*/
-  display: grid;
-  grid-template-rows: 386px 86px 142px 136px;
-  grid-template-columns: 1fr; }
-
-.dark-sky {
-  grid-row: 1;
-  background: linear-gradient(180deg, #b3b1a6 0%, #adb0a2 40%, #659289 64%, #2e615b 100%);
-  border-bottom: 2px solid #4b5545; }
-
-.dark-roof {
-  grid-row: 2;
-  background: linear-gradient(180deg, #675241 0%, #5a3f29 100%);
-  border-top: 3px solid #5d513b;
-  border-bottom: 2px solid #76522d; }
-
-/* FIXME:  above the border bot--do "gutters" for dark house */
-.dark-facade {
-  grid-row: 3;
-  background: linear-gradient(140deg, #8d6a45 0%, #724421 100%);
-  border-top: 2px solid #805731;
-  border-bottom: 1px solid #8d6a45; }
-
-.dark-door {
-  grid-row: 4;
-  border-top: 2px solid #99734f;
-  box-shadow: inset 0px 3px 10px -3px rgba(65, 26, 8, 0.89);
-  background: linear-gradient(45deg, #c5a987 0%, #96734f 100%); }
-
-/* Peach house profile
-  sky:114
-  rooftop:14
-  roof:92
-  gutter:24
-  gutter:24
-  facade:458
-  foundation:2
-  */
-.peach {
-  background-color: #7391c3;
-  grid-column: 2;
-  grid-row: 1;
-  display: grid;
-  grid-template-columns: 1hr;
-  grid-template-rows: 114px 14px 92px 24px 24px 458px 22px; }
-
-.peach-sky {
-  background: linear-gradient(180deg, #b2b4ac 0%, #c0bdb0 50%, #bab9ac 100%); }
-
-.peach-rooftop {
-  background: linear-gradient(180deg, #675241 0%, #5a3f29 100%); }
-
-/*White-house column profile */
-.white {
-  grid-column: 1;
-  grid-row: 1;
-  display: grid;
-  grid-template-columns: 1;
-  grid-template-rows: 162px 32px 12px 62px 482px;
-  background: fuchsia; }
-
-.white-sky {
-  background: #bfbdb2; }
-
-.white-gutter {
-  background-color: #ecd4bb;
-  border-bottom: 2px solid #b78d6e;
-  box-shadow: -5px 6px 4px 2px rgba(0, 0, 0, 0.35);
-  z-index: 10; }
-
-.white-gutter-base {
-  background-color: #eecca9;
-  border-bottom: 2px solid #9c7153; }
-
-.white-attic {
-  background-color: #ecd5ba;
-  border-bottom: 2px solid #b38364; }
-
-.white-facade {
-  background: linear-gradient(180deg, #ead0b3 0%, #ceae90 100%); }
+  grid-column: 3; }
 
 .short-house {
-  background: linear-gradient(180deg, #88928a 0%, #516d68 40%, #182120 64%, #182120 100%);
-  grid-column: 5; }
+  background: linear-gradient(180deg, #88928a 0%, #516d68 40%, #182120 64%, #182120 100%); }
 
 .short-house {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 434px 36px 120px 20px 28px 114px;
   color: ivory; }
 
 .short-sky {
-  grid-row: 1;
   background-color: transparent; }
-
-.row-eps-b {
-  display: grid;
-  grid-template-columns: 81px 34px 131px;
-  grid-template-rows: 1fr; }
 
 .eps-b-col-1,
 .eps-b-col-3 {
@@ -285,9 +407,6 @@ div.entire-pic-container {
   box-shadow: 0 56px 60px 20px #b18562; }
 
 .short-roof {
-  grid-row: 3;
-  /*58381f roof bot*/
-  /*top 7f431f*/
   background: linear-gradient(180deg, #7f431f 0%, #75451d 30%, #321e0e 90%); }
 
 .short-gutter {
@@ -295,9 +414,7 @@ div.entire-pic-container {
 
 .short-awning {
   background-color: #c4a98e;
-  border-left: 3px solid #5d391f;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr); }
+  border-left: 3px solid #5d391f; }
 
 .short-awning-panel {
   border-left: 1px solid #837163;
@@ -309,39 +426,49 @@ div.entire-pic-container {
 .short-facade {
   background: linear-gradient(180deg, #251505 0%, #a27c55 100%); }
 
-.white {
-  background-color: #edc07e;
-  grid-column: 1; }
+.short-house {
+  grid-column: 5; }
+
+.short-house {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 434px 36px 120px 20px 28px 114px; }
+
+.short-sky {
+  grid-row: 1; }
+
+.row-eps-b {
+  display: grid;
+  grid-template-columns: 81px 34px 131px;
+  grid-template-rows: 1fr; }
+
+.short-chimney {
+  z-index: 10; }
+
+.short-roof {
+  grid-row: 3; }
+
+.short-awning {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); }
 
 .sidewalk {
-  grid-column: 1 /-1;
-  grid-row: 2;
   background-color: #977b63;
-  box-shadow: -12px 20px 12px 2px rgba(0, 0, 0, 0.5);
-  z-index: 6;
-  display: grid;
-  grid-template-columns: 12px repeat(16, 1fr) 52px;
-  grid-template-rows: 7px auto; }
+  box-shadow: -12px 20px 12px 2px rgba(0, 0, 0, 0.5); }
 
 .earth {
-  grid-column: 1 /-1;
-  grid-row: 3;
   background-color: #41220d;
   background: linear-gradient(#6e452a, #90542d); }
 
 .stone {
   border: 1px solid #28160c;
   border-top: 1px solid #7f6447;
-  background-color: #8a7e67;
-  border-radius: 2px; }
+  background-color: #8a7e67; }
 
 .pavement {
-  grid-row: 1;
-  grid-column: 1/-1;
   background: linear-gradient(#866850, #a78c6e); }
 
 .sidewalk div:nth-child(2) {
-  grid-row: 2;
   background: #ae957d; }
 
 .sidewalk div:nth-child(3) {
@@ -393,5 +520,26 @@ div.entire-pic-container {
   background: #9b856a; }
 
 /*=============sidewalk & earth Done ==================*/
+.sidewalk {
+  grid-column: 1 /-1;
+  grid-row: 2;
+  z-index: 6;
+  display: grid;
+  grid-template-columns: 12px repeat(16, 1fr) 52px;
+  grid-template-rows: 7px auto; }
+
+.earth {
+  grid-column: 1 /-1;
+  grid-row: 3; }
+
+.stone {
+  border-radius: 2px; }
+
+.pavement {
+  grid-row: 1;
+  grid-column: 1/-1; }
+
+.sidewalk div:nth-child(2) {
+  grid-row: 2; }
 
 /*# sourceMappingURL=master.css.map */

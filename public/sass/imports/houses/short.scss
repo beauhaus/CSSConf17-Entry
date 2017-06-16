@@ -1,24 +1,16 @@
 .short-house {
   background: linear-gradient(180deg, #88928a 0%, #516d68 40%, #182120 64%, #182120 100%);
-  grid-column: 5;
 }
 
 .short-house {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 434px 36px 120px 20px 28px 114px;
   color: ivory;
 }
 
 .short-sky {
-  grid-row: 1;
   background-color: transparent;
 }
 
 .row-eps-b {
-  display: grid;
-  grid-template-columns: 81px 34px 131px;
-  grid-template-rows: 1fr;
 }
 
 .eps-b-col-1,
@@ -35,9 +27,6 @@
 }
 
 .short-roof {
-  grid-row: 3;
-  /*58381f roof bot*/
-  /*top 7f431f*/
   background: linear-gradient(180deg, #7f431f 0%,#75451d 30%, #321e0e 90%);
 }
 
@@ -48,8 +37,6 @@
 .short-awning {
   background-color: #c4a98e;
   border-left: 3px solid #5d391f;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
 }
 
 .short-awning-panel {

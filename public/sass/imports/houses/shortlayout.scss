@@ -1,0 +1,56 @@
+.short-house {
+  grid-column: 5;
+}
+
+.short-house {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 434px 36px 120px 20px 28px 114px;
+}
+
+.short-sky {
+  grid-row: 1;
+}
+
+.row-eps-b {
+  display: grid;
+  grid-template-columns: 81px 34px 131px;
+  grid-template-rows: 1fr;
+}
+
+.eps-b-col-1,
+.eps-b-col-3 {
+
+}
+
+.short-chimney {
+  z-index: 10;
+}
+
+.short-roof {
+  grid-row: 3;
+}
+
+.short-gutter {
+}
+
+.short-awning {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.short-awning-panel {
+}
+
+.short-awning {
+}
+
+.short-facade {
+
+}
+
+.row-eps-g {}
+
+.row-eps-h {}
+
+.row-eps-i {}

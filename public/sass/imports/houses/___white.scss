@@ -1,4 +1,39 @@
+/*White-house color notes
+*/
+
+
 .white {
-  background-color: #edc07e;
-  grid-column: 1;
+  background: fuchsia;
 }
+
+.white-sky{
+ // background: #bfbdb2; // to be transparented
+}
+
+
+.white-gutter{
+  background-color: #ecd4bb;
+  border-bottom: 2px solid #b78d6e;
+  box-shadow: -5px 6px 4px 2px rgba(0,0,0,0.35);
+}
+
+.white-gutter-base{
+  background-color: #eecca9;
+  border-bottom: 2px solid #9c7153;
+}
+
+.white-attic{
+
+background-color: #ecd5ba;
+border-bottom: 2px solid #b38364;
+}
+
+.white-facade{
+  background: linear-gradient(180deg, #ead0b3 0%, #ceae90 100%);
+}
+
+
+
+// .white-roof{
+//
+// }

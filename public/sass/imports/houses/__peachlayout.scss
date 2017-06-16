@@ -1,0 +1,48 @@
+/* Peach house profile
+  sky:114
+  rooftop:14
+  roof:92
+  gutter:24
+  gutter:24
+  facade:458
+  foundation:2
+  */
+
+.peach-house-col {
+  grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1hr;
+  grid-template-rows: 114px 14px 96px 20px 24px 458px 24px;
+}
+
+.peach-sky {
+grid-row: 1;
+grid-column: 1;
+}
+.peach-rooftop {
+grid-row:2;
+grid-column: 1;
+}
+// p-roof is going to be left chimney, sky and right roof so 3 cols
+.peach-roof { //brdr-bot can fill in top of gutter-top so... 96 instead of 92
+grid-row: 3;
+grid-column: 1;
+}
+.peach-gutter-top {
+grid-row: 4;
+grid-column: 1;
+}
+.peach-gutter-bottom {
+grid-row: 5;
+grid-column: 1;
+}
+.peach-facade {
+grid-row: 6;
+grid-column: 1;
+}
+
+.peach-foundation {
+grid-row: 7;
+grid-column: 1;
+}
