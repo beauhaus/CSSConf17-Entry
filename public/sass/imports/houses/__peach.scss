@@ -42,38 +42,44 @@ background: linear-gradient(180deg, #b2b4ac 0%, #c0bdb0 50%, #bab9ac 100%);
 
 
 
-// white-top-two: 297
 
-/*White-house column profile
-99+64+33+12+63+481*/
+/*White-house column profile */
+
 
 .white {
   grid-column: 1;
   grid-row: 1;
   display: grid;
   grid-template-columns: 1;
-  grid-template-rows: 98px 64px 32px 12px 62px 80px;
+  grid-template-rows: 162px 32px 12px 62px 482px;
+  background: fuchsia;
 }
 .white-sky{
-
+ background: #bfbdb2;
 }
 
-.white-roof{
-
-}
+// .white-roof{
+//
+// }
 
 .white-gutter{
-
+  background-color: #ecd4bb;
+  border-bottom: 2px solid #b78d6e;
+  box-shadow: -5px 6px 4px 2px rgba(0,0,0,0.35);
+  z-index: 10;
 }
 
 .white-gutter-base{
-
+  background-color: #eecca9;
+  border-bottom: 2px solid #9c7153;
 }
 
 .white-attic{
 
+background-color: #ecd5ba;
+border-bottom: 2px solid #b38364;
 }
 
 .white-facade{
-
+  background: linear-gradient(180deg, #ead0b3 0%, #ceae90 100%);
 }

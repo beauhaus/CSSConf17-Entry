@@ -22,7 +22,7 @@
   display: grid;
   grid-template-columns: 194px 410px 124px 426px 246px; /* = 1400 */
   grid-template-rows: 750px 18px 32px; /* = 800 */
-  /*grid-template-rows: 800px;*/
+  overflow: hidden;
 
 }
 
