@@ -67,5 +67,5 @@ It was about 30minutes, but it was fun. --Totally helpful to reinforce my grasp 
 #### And here's step five.
 ![step five](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step5.png?raw=true)
 discovering the power of linear-gradients at an angle.
-Having trouble centering the entire thing.
-Subdivided entire thing into modular bits.
+Having trouble centering the entire.
+Subdivided entire thing into modular bits of code semantically mirroring what is rendered in the browser.
