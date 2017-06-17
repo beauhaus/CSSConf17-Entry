@@ -72,8 +72,9 @@ Subdivided entire thing into modular bits of code semantically mirroring what is
 ![step Six](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step6.jpg?raw=true)
 This is a kind of madness.
 Rendered bricks on brick house with "IIIIIII" forever in a ::before tag and then I'm using jQuery to add a class to divs.
-Confirmed. I am a < div >eloper.
-I used polygon clipping for the white-house roof at the top-right corner. In firefox, though, it doesn't work. Gotta fix that.
+< div >eloper status: confirmed. :(
+I used polygon clipping for the white-house roof at the top-right corner. In firefox, though, there's different behavior. z-indexing, by design, is implemented differently.
+https://stackoverflow.com/questions/31646746/z-index-behaviour-is-different-in-chrome-to-firefox
 
 If this works in codepen, it'll be a miracle.
 
