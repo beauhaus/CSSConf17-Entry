@@ -65,6 +65,11 @@ body {
 .white-facade {
   background: linear-gradient(180deg, #ead0b3 0%, #ceae90 100%); }
 
+.white-roof {
+  border: 3px solid #bc8768;
+  background: #9d8d83;
+  box-shadow: inset 4px 4px 3px 2px rgba(193, 157, 131, 0.4); }
+
 /*White-house layout profile
 
 */
@@ -77,7 +82,19 @@ body {
 
 .white-sky {
   grid-row: 1;
-  grid-column: 1; }
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 100px 62px;
+  grid-template-rows: 125px auto; }
+
+.white-roof {
+  grid-column: 1;
+  grid-row: 2;
+  height: 145px;
+  width: 145px;
+  transform: rotate(28deg) translateX(-45px) translateY(18px);
+  -webkit-clip-path: polygon(0 0, 25% 40%, 100% 0);
+  clip-path: polygon(0 0, 25% 40%, 100% 0); }
 
 .white-gutter {
   grid-row: 2;
@@ -110,6 +127,29 @@ body {
 
 .peach-sky {
   background: transparent; }
+
+.peach-chimney-left {
+  position: relative; }
+
+.peach-chimney-right {
+  position: relative; }
+
+.peach-chimney-cap {
+  grid-row: 1; }
+
+.peach-chimney-crown {
+  grid-row: 2;
+  width: 34px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: -4px;
+  border-radius: 0px 0px 4px 4px; }
+
+.peach-chimney-base {
+  background-color: #e5b689;
+  border-bottom: 2px solid #b18157;
+  z-index: 10; }
 
 .peach-rooftop {
   background: linear-gradient(180deg, #675241 0%, #5a3f29 100%); }
@@ -149,7 +189,38 @@ body {
 
 .peach-sky {
   grid-row: 1;
-  grid-column: 1; }
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 26px 1fr 26px;
+  grid-template-rows: 84px 1fr; }
+
+.peach-chimney-left {
+  grid-row: 2;
+  grid-column: 1;
+  background: red;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 12px 10px 10px; }
+
+.peach-chimney-right {
+  grid-row: 2;
+  grid-column: 3;
+  background: blue;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 12px 10px 10px; }
+
+.peach-chimney-cap {
+  background-color: #e5bb8a;
+  border: 1px solid #b08962;
+  border-top: 2px solid b99e80; }
+
+.peach-chimney-crown {
+  background-color: #e5b689;
+  border-bottom: 5px solid #a17145; }
+
+.peach-chimney-base {
+  grid-row: 3; }
 
 .peach-rooftop {
   grid-row: 2;
@@ -181,7 +252,7 @@ body {
   border-bottom: 2px solid #4b5545; }
 
 .dark-roof {
-  background: linear-gradient(180deg, #675241 0%, #5a3f29 100%);
+  background: linear-gradient(130deg, #71685f 0%, #2a241e 100%);
   border-top: 3px solid #5d513b;
   border-bottom: 2px solid #76522d; }
 
@@ -290,17 +361,30 @@ body {
 .brick-gutter-bot-right {
   background-color: #745746; }
 
+.brick-facade {
+  background: linear-gradient(45deg, #933812 0%, #a85b29 100%);
+  box-shadow: -100px 130px 10px 2px rgba(0, 0, 0, 0.3); }
+
 .brick-attic-left {
   background-color: #b56642; }
 
 .brick-attic-mid {
-  background-color: #c2a382; }
+  background-color: #c2a382;
+  border-radius: 0px 0px 4px 4px; }
 
-.brick-attic-right {
-  background-color: #b56e52; }
+.brick-container {
+  overflow: hidden;
+  color: ivory;
+  font-family: sans-serif; }
 
-.brick-facade {
-  background-color: #b56e52; }
+.brick {
+  opacity: .1;
+  filter: blur(1px);
+  border-top: 1px solid white; }
+  .brick-odd::before {
+    content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"; }
+  .brick-even::before {
+    content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"; }
 
 /*===============BRICK HOUSE Profile================*/
 /*
@@ -535,12 +619,28 @@ body {
   grid-template-columns: 18px auto 15px;
   grid-template-rows: 50px auto; }
 
+.brick-container {
+  grid-column: 1/-1;
+  grid-row: 1/-1; }
+
+.brick {
+  padding: 0;
+  margin: 0;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 75%;
+  letter-spacing: 1em; }
+
+.brick-odd {
+  text-indent: 6px; }
+
 .brick-attic-row {
   grid-row: 1;
   grid-column: 1/-1;
   display: grid;
   grid-template-columns: 18px auto 15px;
-  grid-template-rows: 50px; }
+  grid-template-rows: 50px;
+  z-index: 10; }
 .brick-attic-left {
   grid-column: 1; }
 .brick-attic-mid {
@@ -617,7 +717,8 @@ body {
 
 .earth {
   background-color: #41220d;
-  background: linear-gradient(#6e452a, #90542d); }
+  background: linear-gradient(#6e452a, #90542d);
+  z-index: 4; }
 
 .stone {
   border: 1px solid #28160c;

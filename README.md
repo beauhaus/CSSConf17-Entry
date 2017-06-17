@@ -59,13 +59,25 @@ The project is now officially subdivided and modularized is sass! :)
 
 It was about 30minutes, but it was fun. --Totally helpful to reinforce my grasp of the behavior of sass --watch and it's vicissitudes.
 
-
 #### And here's step four.
 ![step four](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step4.png?raw=true)
-
 
 #### And here's step five.
 ![step five](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step5.png?raw=true)
 discovering the power of linear-gradients at an angle.
 Having trouble centering the entire.
 Subdivided entire thing into modular bits of code semantically mirroring what is rendered in the browser.
+
+#### Step 6.
+![step Six](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step6.jpg?raw=true)
+This is a kind of madness.
+Rendered bricks on brick house with "IIIIIII" forever in a ::before tag and then I'm using jQuery to add a class to divs.
+Confirmed. I am a <div>eloper.
+I used polygon clipping for the white-house roof at the top-right corner. In firefox, though, it doesn't work. Gotta fix that.
+
+If this works in codepen, it'll be a miracle.
+
+I also used "clippy" http://bennettfeely.com/clippy/ to test the shape.
+
+ok... I'm going to bed. It doesn't look like much now... but Kaizen...Kaizen...Kaizen.
+I have to admit (and I'll probably delete this later) --At 3am, detailing the angles and opacities in a radial gradient... I wonder what the hell I'm doing with my life. lol

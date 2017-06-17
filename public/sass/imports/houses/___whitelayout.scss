@@ -11,7 +11,21 @@
 }
 .white-sky{
   grid-row: 1;
-  grid-column: 1
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 100px 62px;
+  grid-template-rows: 125px auto;
+}
+.white-roof{
+  grid-column: 1;
+  grid-row: 2;
+  height: 145px;
+  width: 145px;
+  // transform-origin: 50% 50%;
+  transform: rotate(28deg) translateX(-45px) translateY(18px);
+  -webkit-clip-path: polygon(0 0, 25% 40%, 100% 0);
+  clip-path: polygon(0 0, 25% 40%, 100% 0);
+  // z-index: 12;
 }
 
 .white-gutter {
@@ -35,8 +49,3 @@
   grid-row: 5;
   grid-column: 1;
 }
-
-
-// .white-roof{
-//
-// }

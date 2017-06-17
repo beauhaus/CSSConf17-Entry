@@ -4,7 +4,7 @@
 */
 
 .brick-house-col {
-  // background: linear-gradient(0deg, #aaa89b 0%, #a1a59d 100%);
+  // background: linear-gradient(0deg, #fafafa 0%, #000 100%);
 }
 
 .brick-house-col{
@@ -107,8 +107,12 @@
   background-color: #745746;
 }
 
-.brick-attic-row {
+// This class has shadow cast onto dark-house
+.brick-facade {
+  background: linear-gradient(45deg, #933812 0%, #a85b29 100%);
+  box-shadow: -100px 130px 10px 2px rgba(#000000, 0.3);
 }
+
 
 .brick-attic-left{
   background-color: #b56642;
@@ -116,12 +120,23 @@
 
 .brick-attic-mid{
   background-color: #c2a382;
+  border-radius: 0px 0px 4px 4px;
 }
 
-.brick-attic-right{
-  background-color: #b56e52;
-}
 
-.brick-facade {
-  background-color: #b56e52;
+.brick-container {
+  overflow: hidden;
+  color: ivory;
+  font-family: sans-serif;
+}
+.brick {
+  opacity: .1;
+  filter: blur(1px);
+  border-top: 1px solid white;
+  &-odd::before {
+  content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII";
+}
+  &-even::before {
+  content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII";
+}
 }

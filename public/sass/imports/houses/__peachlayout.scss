@@ -17,9 +17,48 @@
 }
 
 .peach-sky {
-grid-row: 1;
-grid-column: 1;
+  grid-row: 1;
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 26px 1fr 26px;
+  grid-template-rows: 84px 1fr;
 }
+
+.peach-chimney-left {
+  grid-row: 2;
+  grid-column: 1;
+  background: red;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:12px 10px 10px;
+}
+
+.peach-chimney-right {
+  grid-row: 2;
+  grid-column: 3;
+  background: blue;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:12px 10px 10px;
+}
+
+.peach-chimney-cap {
+  background-color: #e5bb8a;
+  border: 1px solid #b08962;
+  border-top: 2px solid b99e80;
+}
+
+.peach-chimney-crown {
+  background-color: #e5b689;
+  border-bottom: 5px solid #a17145;
+}
+
+.peach-chimney-base {
+  grid-row: 3;
+}
+
+
+
 .peach-rooftop {
 grid-row:2;
 grid-column: 1;
