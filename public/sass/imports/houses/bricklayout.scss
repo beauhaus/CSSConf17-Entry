@@ -1,19 +1,18 @@
 /*===============BRICK HOUSE Profile================*/
-
 /*
 8 layers
 64px 33 146px 14px 8px 18px 24px 440px;
  */
-
-
 .brick-house-col {
   display: grid;
   grid-column: 4;
-  grid-template-rows: 64px 33px 146px 14px 50px 444px;
+  grid-template-rows: 64px 33px 146px 14px 494px;
 }
-.brick-house-col{
+
+.brick-house-col {
   position: relative;
 }
+
 .brick-sky {
   grid-row: 1;
   position: relative;
@@ -69,258 +68,307 @@
   grid-template-columns: repeat(26, 1fr);
   grid-template-rows: repeat(38, 1fr);
 }
+// ========SHINGLES START==============
 
+#shing {
+  &-tan {
+    &1 {
+      grid-column: 9/17;
+      grid-row: 8;
+    }
 
-// ========SHINGLES==============
+    &2 {
+      grid-column: 18;
+      grid-row: 4;
+    }
 
-#shing-tan1 {
-  grid-column: 9/17 ;
-  grid-row: 8;
-}
-#shing-tan2 {
-  grid-column: 18;
-  grid-row: 4;
-}
-#shing-tan3 {
-  grid-column: 16;
-  grid-row: 5;
-}
-#shing-tan4 {
-  grid-column: 1/16;
-  grid-row: 1;
-}
-#shing-tan5 {
-  grid-column: 2/4 ;
-  grid-row: 8/9;
-}
-#shing-tan6 {
-  grid-column: 1/8;
-  grid-row: 12/14;
-}
-#shing-tan7 {
-  grid-column: 17/19;
-  grid-row: 24;
-}
-#shing-tan8 {
-  grid-column: 24;
-  grid-row: 24;
-}
-#shing-tan9 {
-  grid-column: 3/11;
-  grid-row: 20;
-}
-#shing-tan10 {
-  grid-column: 11/13;
-  grid-row: 27;
-}
+    &3 {
+      grid-column: 16;
+      grid-row: 5;
+    }
 
-#shing-tan11 {
-  grid-column: 1/4 ;
-  grid-row: 33;
-}
-#shing-tan12 {
-  grid-column: 23/26;
-  grid-row: 15;
-}
-#shing-tan13 {
-  grid-column: 15;
-  grid-row: 35;
-}
-#shing-tan14 {
-  grid-column: 31;
-  grid-row: 7;
-}
-#shing-tan15 {
-  grid-column: 4 ;
-  grid-row: 36;
-}
+    &4 {
+      grid-column: 1/16;
+      grid-row: 1;
+    }
 
+    &5 {
+      grid-column: 2/4;
+      grid-row: 8/9;
+    }
 
-#shing-br1 {
-  grid-column: 3;
-  grid-row: 7;
-}
-#shing-br2 {
-  grid-column: 4;
-  grid-row: 15;
-}
-#shing-br3 {
-  grid-column: 5;
-  grid-row: 21;
-}
-#shing-br4 {
-  grid-column: 11;
-  grid-row: 29;
-}
-#shing-br5 {
-  grid-column: 13;
-  grid-row: 18;
-}
-#shing-br6 {
-  grid-column: 18;
-  grid-row: 2;
-}
-#shing-br7 {
-  grid-column: 21;
-  grid-row: 17;
-}
-#shing-br8 {
-  grid-column: 24;
-  grid-row: 14;
-}
-#shing-br9 {
-  grid-column: 19/21;
-  grid-row: 25;
-}
-#shing-br10 {
-  grid-column: 8;
-  grid-row: 3;
+    &6 {
+      grid-column: 1/8;
+      grid-row: 12/14;
+    }
+
+    &7 {
+      grid-column: 17/19;
+      grid-row: 24;
+    }
+
+    &8 {
+      grid-column: 24;
+      grid-row: 24;
+    }
+
+    &9 {
+      grid-column: 3/11;
+      grid-row: 20;
+    }
+
+    &10 {
+      grid-column: 11/13;
+      grid-row: 27;
+    }
+
+    &11 {
+      grid-column: 1/4;
+      grid-row: 33;
+    }
+
+    &12 {
+      grid-column: 23/26;
+      grid-row: 15;
+    }
+
+    &13 {
+      grid-column: 15;
+      grid-row: 35;
+    }
+
+    &14 {
+      grid-column: 31;
+      grid-row: 7;
+    }
+
+    &15 {
+      grid-column: 4;
+      grid-row: 36;
+    }
+  }
 }
 
-#shing-br11 {
-  grid-column: 18;
-  grid-row: 36;
-}
-#shing-br12 {
-  grid-column: 4;
-  grid-row: 35;
-}
-#shing-br13 {
-  grid-column: 20/23;
-  grid-row: 34;
-}
-#shing-br14 {
-  grid-column: 25/28;
-  grid-row: 29;
-}
-#shing-br15 {
-  grid-column: 25/-1;
-  grid-row: 36;
+#shing {
+  &-br {
+    &1 {
+      grid-column: 3;
+      grid-row: 7;
+    }
+
+    &2 {
+      grid-column: 4;
+      grid-row: 15;
+    }
+
+    &3 {
+      grid-column: 5;
+      grid-row: 21;
+    }
+
+    &4 {
+      grid-column: 11;
+      grid-row: 29;
+    }
+
+    &5 {
+      grid-column: 13;
+      grid-row: 18;
+    }
+
+    &6 {
+      grid-column: 18;
+      grid-row: 2;
+    }
+
+    &7 {
+      grid-column: 21;
+      grid-row: 17;
+    }
+
+    &8 {
+      grid-column: 24;
+      grid-row: 14;
+    }
+
+    &9 {
+      grid-column: 19/21;
+      grid-row: 25;
+    }
+
+    &10 {
+      grid-column: 8;
+      grid-row: 3;
+    }
+
+    &11 {
+      grid-column: 18;
+      grid-row: 36;
+    }
+
+    &12 {
+      grid-column: 4;
+      grid-row: 35;
+    }
+
+    &13 {
+      grid-column: 20/23;
+      grid-row: 34;
+    }
+
+    &14 {
+      grid-column: 25/28;
+      grid-row: 29;
+    }
+
+    &15 {
+      grid-column: 25/-1;
+      grid-row: 36;
+    }
+  }
 }
 
+#shing {
+  &-gr {
+    &1 {
+      grid-column: 17;
+      grid-row: 20;
+    }
 
-#shing-gr1 {
-  grid-column: 17;
-  grid-row: 20;
-}
-#shing-gr2 {
-  grid-column: 4;
-  grid-row: 10;
-}
-#shing-gr3 {
-  grid-column: 3;
-  grid-row: 23;
-}
-#shing-gr4 {
-  grid-column: 21;
-  grid-row: 14;
-}
-#shing-gr5 {
-  grid-column: 10;
-  grid-row: 11;
-}
-#shing-gr6 {
-  grid-column: 9;
-  grid-row: 28;
-}
-#shing-gr7 {
-  grid-column: 15;
-  grid-row: 14;
-}
-#shing-gr8 {
-  grid-column: 20;
-  grid-row: 19;
-}
-#shing-gr9 {
-  grid-column: 25;
-  grid-row: 25;
-}
-#shing-gr10 {
-  grid-column: 20;
-  grid-row: 28;
-}
-#shing-gr11 {
-  grid-column: 5;
-  grid-row: 28;
-}
-#shing-gr12 {
-  grid-column: 1;
-  grid-row: 35;
-}
-#shing-gr13 {
-  grid-column: 11;
-  grid-row: 34;
-}
-#shing-gr14 {
-  grid-column: 23/25;
-  grid-row: 35;
-}
-#shing-gr15 {
-  grid-column: 17;
-  grid-row: 37;
+    &2 {
+      grid-column: 4;
+      grid-row: 10;
+    }
+
+    &3 {
+      grid-column: 3;
+      grid-row: 23;
+    }
+
+    &4 {
+      grid-column: 21;
+      grid-row: 14;
+    }
+
+    &5 {
+      grid-column: 10;
+      grid-row: 11;
+    }
+
+    &6 {
+      grid-column: 9;
+      grid-row: 28;
+    }
+
+    &7 {
+      grid-column: 15;
+      grid-row: 14;
+    }
+
+    &8 {
+      grid-column: 20;
+      grid-row: 19;
+    }
+
+    &9 {
+      grid-column: 25;
+      grid-row: 25;
+    }
+
+    &10 {
+      grid-column: 20;
+      grid-row: 28;
+    }
+
+    &11 {
+      grid-column: 5;
+      grid-row: 28;
+    }
+
+    &12 {
+      grid-column: 1;
+      grid-row: 35;
+    }
+
+    &13 {
+      grid-column: 11;
+      grid-row: 34;
+    }
+
+    &14 {
+      grid-column: 23/25;
+      grid-row: 35;
+    }
+
+    &15 {
+      grid-column: 17;
+      grid-row: 37;
+    }
+  }
 }
 
-
-
-
-
-
-
-
+// ========SHINGLES END================
 
 .brick-gutters {
+  grid-column: 1;
+  grid-row: 4;
   display: grid;
   grid-template-columns: 6px auto 5px;
   grid-template-rows: 7px 7px;
 }
+.brick-gutter {
+  &-top-left {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  &-top-mid {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  &-top-right {
+    grid-column: 3;
+    grid-row: 1;
+  }
 
-.brick-gutter-top-left {
-  grid-row: 1;
-  grid-column: 1;
+  &-bot-left {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  &-bot-mid {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  &-bot-right {
+    grid-column: 3;
+    grid-row: 2;
+  }
+}
+.brick-facade {
+    grid-column: 1;
+    grid-row: 5;
+    display: grid;
+    grid-template-columns: 18px auto 15px;
+    grid-template-rows: 50px auto;
 }
 
-.brick-gutter-top-mid {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.brick-gutter-top-right {
-  grid-column: 3;
-  grid-row: 1;
-}
-
-.brick-gutter-bot-left {
-  grid-column: 1;
-  grid-row: 2;
-}
-
-.brick-gutter-bot-mid {
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.brick-gutter-bot-right {
-  grid-column: 3;
-  grid-row: 2;
-}
-
-.brick-attic-row {
-  display: grid;
-  grid-template-columns: 18px auto 15px;
-  grid-template-rows: 50px;
-}
-
-.brick-attic-left{
-  grid-column: 1;
-
-}
-
-.brick-attic-mid{
-  grid-column: 2;
-
-}
-
-.brick-attic-right{
-  grid-column: 3;
-
+// subgrid overlapping facade
+.brick-attic{
+  &-row {
+    grid-row: 1;
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 18px auto 15px;
+    grid-template-rows: 50px;
+  }
+  &-left {
+    grid-column: 1;
+  }
+  &-mid {
+    grid-column: 2;
+  }
+  &-right {
+    grid-column: 3;
+  }
 }

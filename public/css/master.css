@@ -14,7 +14,9 @@
 body {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: 1fr auto 1fr; }
+  grid-template-rows: 1fr auto 1fr;
+  width: 100vw;
+  height: 100vh; }
 
 .div {
   text-align: center;
@@ -250,7 +252,7 @@ body {
 
 .shing {
   filter: blur(2px);
-  opacity: .5; }
+  opacity: .7; }
 
 .shing.tan {
   background-color: #8b7665; }
@@ -308,7 +310,7 @@ body {
 .brick-house-col {
   display: grid;
   grid-column: 4;
-  grid-template-rows: 64px 33px 146px 14px 50px 444px; }
+  grid-template-rows: 64px 33px 146px 14px 494px; }
 
 .brick-house-col {
   position: relative; }
@@ -365,59 +367,45 @@ body {
 #shing-tan1 {
   grid-column: 9/17;
   grid-row: 8; }
-
 #shing-tan2 {
   grid-column: 18;
   grid-row: 4; }
-
 #shing-tan3 {
   grid-column: 16;
   grid-row: 5; }
-
 #shing-tan4 {
   grid-column: 1/16;
   grid-row: 1; }
-
 #shing-tan5 {
   grid-column: 2/4;
   grid-row: 8/9; }
-
 #shing-tan6 {
   grid-column: 1/8;
   grid-row: 12/14; }
-
 #shing-tan7 {
   grid-column: 17/19;
   grid-row: 24; }
-
 #shing-tan8 {
   grid-column: 24;
   grid-row: 24; }
-
 #shing-tan9 {
   grid-column: 3/11;
   grid-row: 20; }
-
 #shing-tan10 {
   grid-column: 11/13;
   grid-row: 27; }
-
 #shing-tan11 {
   grid-column: 1/4;
   grid-row: 33; }
-
 #shing-tan12 {
   grid-column: 23/26;
   grid-row: 15; }
-
 #shing-tan13 {
   grid-column: 15;
   grid-row: 35; }
-
 #shing-tan14 {
   grid-column: 31;
   grid-row: 7; }
-
 #shing-tan15 {
   grid-column: 4;
   grid-row: 36; }
@@ -425,59 +413,45 @@ body {
 #shing-br1 {
   grid-column: 3;
   grid-row: 7; }
-
 #shing-br2 {
   grid-column: 4;
   grid-row: 15; }
-
 #shing-br3 {
   grid-column: 5;
   grid-row: 21; }
-
 #shing-br4 {
   grid-column: 11;
   grid-row: 29; }
-
 #shing-br5 {
   grid-column: 13;
   grid-row: 18; }
-
 #shing-br6 {
   grid-column: 18;
   grid-row: 2; }
-
 #shing-br7 {
   grid-column: 21;
   grid-row: 17; }
-
 #shing-br8 {
   grid-column: 24;
   grid-row: 14; }
-
 #shing-br9 {
   grid-column: 19/21;
   grid-row: 25; }
-
 #shing-br10 {
   grid-column: 8;
   grid-row: 3; }
-
 #shing-br11 {
   grid-column: 18;
   grid-row: 36; }
-
 #shing-br12 {
   grid-column: 4;
   grid-row: 35; }
-
 #shing-br13 {
   grid-column: 20/23;
   grid-row: 34; }
-
 #shing-br14 {
   grid-column: 25/28;
   grid-row: 29; }
-
 #shing-br15 {
   grid-column: 25/-1;
   grid-row: 36; }
@@ -485,64 +459,52 @@ body {
 #shing-gr1 {
   grid-column: 17;
   grid-row: 20; }
-
 #shing-gr2 {
   grid-column: 4;
   grid-row: 10; }
-
 #shing-gr3 {
   grid-column: 3;
   grid-row: 23; }
-
 #shing-gr4 {
   grid-column: 21;
   grid-row: 14; }
-
 #shing-gr5 {
   grid-column: 10;
   grid-row: 11; }
-
 #shing-gr6 {
   grid-column: 9;
   grid-row: 28; }
-
 #shing-gr7 {
   grid-column: 15;
   grid-row: 14; }
-
 #shing-gr8 {
   grid-column: 20;
   grid-row: 19; }
-
 #shing-gr9 {
   grid-column: 25;
   grid-row: 25; }
-
 #shing-gr10 {
   grid-column: 20;
   grid-row: 28; }
-
 #shing-gr11 {
   grid-column: 5;
   grid-row: 28; }
-
 #shing-gr12 {
   grid-column: 1;
   grid-row: 35; }
-
 #shing-gr13 {
   grid-column: 11;
   grid-row: 34; }
-
 #shing-gr14 {
   grid-column: 23/25;
   grid-row: 35; }
-
 #shing-gr15 {
   grid-column: 17;
   grid-row: 37; }
 
 .brick-gutters {
+  grid-column: 1;
+  grid-row: 4;
   display: grid;
   grid-template-columns: 6px auto 5px;
   grid-template-rows: 7px 7px; }
@@ -550,38 +512,39 @@ body {
 .brick-gutter-top-left {
   grid-row: 1;
   grid-column: 1; }
-
 .brick-gutter-top-mid {
   grid-column: 2;
   grid-row: 1; }
-
 .brick-gutter-top-right {
   grid-column: 3;
   grid-row: 1; }
-
 .brick-gutter-bot-left {
   grid-column: 1;
   grid-row: 2; }
-
 .brick-gutter-bot-mid {
   grid-column: 2;
   grid-row: 2; }
-
 .brick-gutter-bot-right {
   grid-column: 3;
   grid-row: 2; }
 
+.brick-facade {
+  grid-column: 1;
+  grid-row: 5;
+  display: grid;
+  grid-template-columns: 18px auto 15px;
+  grid-template-rows: 50px auto; }
+
 .brick-attic-row {
+  grid-row: 1;
+  grid-column: 1/-1;
   display: grid;
   grid-template-columns: 18px auto 15px;
   grid-template-rows: 50px; }
-
 .brick-attic-left {
   grid-column: 1; }
-
 .brick-attic-mid {
   grid-column: 2; }
-
 .brick-attic-right {
   grid-column: 3; }
 
