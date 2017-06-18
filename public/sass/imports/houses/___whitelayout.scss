@@ -13,20 +13,125 @@
   grid-row: 1;
   grid-column: 1;
   display: grid;
-  grid-template-columns: 100px 62px;
-  grid-template-rows: 125px auto;
+  grid-template-columns: 111px 51px;
+  grid-template-rows: 105px 57px;
 }
 .white-roof{
   grid-column: 1;
   grid-row: 2;
   height: 145px;
   width: 145px;
-  // transform-origin: 50% 50%;
-  transform: rotate(28deg) translateX(-45px) translateY(18px);
+  transform: rotate(28deg) translateX(-37px) translateY(37px);
   -webkit-clip-path: polygon(0 0, 25% 40%, 100% 0);
   clip-path: polygon(0 0, 25% 40%, 100% 0);
-  // z-index: 12;
 }
+// FIXME: Not a rt. triangle!
+
+.white-shing-container {
+  grid-column: 1;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-gap: 1px;
+  border: 1px
+}
+// White Roof Shingles pos ==============
+
+#wh-shing {
+  &-1 {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+  &-2 {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+  &-3 {
+  grid-column: 3;
+  grid-row: 5;
+}
+
+  &-4 {
+  grid-column: 4;
+  grid-row: 6;
+}
+
+  &-5 {
+  grid-column: 5;
+  grid-row: 7;
+}
+
+  &-6 {
+  grid-column: 4;
+  grid-row: 7;
+}
+
+  &-7 {
+  grid-column: 3;
+  grid-row: 7;
+}
+
+  &-8 {
+  grid-column: 2;
+  grid-row: 7;
+}
+
+  &-9 {
+  grid-column: 1;
+  grid-row: 7;
+}
+
+  &-10 {
+  grid-column: 3;
+  grid-row: 6;
+}
+
+  &-11 {
+  grid-column: 2;
+  grid-row: 6;
+}
+
+  &-12 {
+  grid-column: 1;
+  grid-row: 6;
+}
+
+  &-13 {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+  &-14 {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+  &-15 {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+  &-16 {
+  grid-column: 3;
+  grid-row: 5;
+}
+
+  &-17 {
+  grid-column: 3;
+  grid-row: 5;
+}
+
+  &-18 {
+  grid-column: 3;
+  grid-row: 5;
+}
+}
+
+
+
 
 .white-gutter {
   grid-row: 2;
