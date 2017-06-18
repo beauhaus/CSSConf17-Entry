@@ -58,14 +58,36 @@ position: relative;
 .peach-rooftop{
   &-section{
     &-left {
-      background-color: yellow;
+      // background-color: yellow;
     }
     &-right {
-      background-color: green;
+
     }
   }
 }
 
+.peach-rooftop-top{
+  background-color: #b49073;
+}
+.peach-rooftop-mid{
+  background-color: #e4caab;
+  background: linear-gradient(#3e372e 0%, #e4caab 50%);
+}
+.peach-rooftop-bot{
+  background-color: #a57d5a;
+
+}
+
+.p-roofsec-right-top{
+  background-color: #b49073;
+}
+.p-roofsec-right-mid{
+  background: linear-gradient(#3e372e 0%, #e4caab 50%);
+  background-color: #e4caab;
+}
+.p-roofsec-right-bot{
+  background-color: #a57d5a;
+}
 
 
 .gable-rt-roof {
@@ -83,9 +105,27 @@ position: relative;
 .gable-rt-roof-frame {
   border-top: 6px solid #bc9b7c;
   border-right: 5px solid #bc8f65;
-  background-color: #997e6b;
+  z-index: 2;
 }
+.rt-gab-shing-container {
+  box-shadow: inset -1px 2px 3px 1px #5e3a29;
+  background: #796b62;
+  padding-right: 2px;
+  padding-top: 2px;
+  filter: blur(1px);
+}
+.peach-shing-gr {
+  background-color: #6c7762;
+  opacity: .7;
+}
+.peach-shing-br {
+  background-color: #977c6b;
+  opacity: .7;
+}
+.peach-shing-white {
+  background-color: #a6a089;
 
+}
 
 
 
