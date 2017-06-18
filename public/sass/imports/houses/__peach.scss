@@ -15,6 +15,7 @@
 .peach-sky {
   background: transparent;
 }
+
 .peach-chimney-left {
 position: relative;
 }
@@ -40,18 +41,64 @@ position: relative;
 .peach-chimney-base {
   background-color: #e5b689;
   border-bottom: 2px solid #b18157;
-  z-index: 10;
 }
-// FIXME: remove z-index soon
-
-.peach-rooftop {
-  background: linear-gradient(180deg, #675241 0%, #5a3f29 100%);
-
+.peach-chimbody{
+  // filter: blur(10px);
+  &-left {
+    // background-color: #e5bd8e;
+    background: linear-gradient(119deg, #d8ac75 0%, #d8ac75 70%,#bc8558 78%, #986b46 100%);
+  }
+  &-right {
+    background-color: #d8ac75;
+  }
 }
-// p-roof is going to be left chimney, sky and right roof so 3 cols
+
+
+
+.peach-rooftop{
+  &-section{
+    &-left {
+      background-color: yellow;
+    }
+    &-right {
+      background-color: green;
+    }
+  }
+}
+
+
+
+.gable-rt-roof {
+  background-color: #b0a995;
+  border-right: 2px solid #ad8862;
+  border-bottom: 2px solid #907a63;
+  box-shadow: inset -3px 1px 1px 1px rgba(91, 48, 23, 0.4);
+}
+.gable-rt-gutter {
+  background-color: #d1af90;
+  border-bottom: 1px solid #9d7857;
+  box-shadow: -3px 3px 3px 1px rgba(62, 62, 62, 0.7);
+  z-index: 3;
+}
+.gable-rt-roof-frame {
+  border-top: 6px solid #bc9b7c;
+  border-right: 5px solid #bc8f65;
+  background-color: #997e6b;
+}
+
+
+
+
+
 .peach-roof { //brdr-bot can fill in top of gutter-top so... 96 instead of 92
-  background-color: #c5c1b3;
+  // background-color: #c5c1b3;
 }
+
+
+// .roof-mansard {
+//
+// }
+
 .peach-gutter-top {
   background-color: #d2b18c;
   border-bottom: 1px solid #a7815c;
