@@ -82,3 +82,14 @@ I also used "clippy" http://bennettfeely.com/clippy/ to test the shape.
 
 ok... I'm going to bed. It doesn't look like much now... but Kaizen...Kaizen...Kaizen.
 I have to admit (and I'll probably delete this later) --At 3am, detailing the angles and opacities in a radial gradient... I wonder what the hell I'm doing with my life. :/
+#### Step 7.
+![step Seven](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step7.png?raw=true)
+Okay. I'm beginning to obsess. It's the tiny whisps of shadow that bring this to life. Had I taken a drawing class I would've discovered this years ago.
+Okay. Tonight we did lots of grid and some fooling with positioning. I STILL am not entirely certain I'm doing it right.
+Best discovery is the steps and the peach-house left chimney. linear-gradient percentages simulate the element receiving shadow. SO MUCH frikkin' fun! (can I swear on Git?).
+
+By the way, my SASS files are no where near as clean as they could be.
+
+I learned a bit of architecture today. The mansard roof --or "the French Roof". New Orleans... makes sense.
+
+Alright--enough of this craziness. I'm going to bed.
