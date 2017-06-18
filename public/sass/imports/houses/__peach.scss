@@ -151,11 +151,10 @@ position: relative;
   border-right: 2px solid rgba(119, 114, 108, 0.65);
 }
 .peach-gutter-top-deco{
-  background: blue;
-  color: white;
+  background: white;
+  color: maroon;
   font-size: 7px;
   font-family: sans-serif;
-  box-shadow: -2px 8px 6px 2px rgba(99, 80, 57, 0.65);
 }
 
 
@@ -167,10 +166,36 @@ position: relative;
   background-color: #ead2b0;
   border-bottom: 2px solid #a97347;
 }
+.peach-gutter-base-top {
+border-top: 1px solid #a17f5c;
+background-color: #dfbe9d;
+}
+.peach-gutter-base-bot {
+border-top: 2px solid #bea183;
+}
+
+
 .peach-facade {
-  background: linear-gradient(135deg, #ebc58e 0%, #cfa573 100%);
+  background: linear-gradient(215deg, #ecc38b 0%, #d6a76e 100%);
 }
 
 .peach-foundation {
+
+}
+.foundation-container {
+
+}
+
+.foundation-top {
+  border-right: 2px solid #6e3d23;
+  border-bottom: 2px solid #6e3d23;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
   background: linear-gradient(90deg, #a0462e 0%, #c46138 100%);
+}
+
+.foundation-bot {
+  border-right: 1px solid #6e3d23;
+  background: linear-gradient(90deg, #a0462e 0%, #c46138 100%);
+
 }

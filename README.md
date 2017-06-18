@@ -73,7 +73,7 @@ Subdivided entire thing into modular bits of code semantically mirroring what is
 This is a kind of madness.
 Rendered bricks on brick house with "IIIIIII" forever in a ::before tag and then I'm using jQuery to add a class to divs.
 < div >eloper status: confirmed. :(
-I used polygon clipping for the white-house roof at the top-right corner. In firefox, though, there's different behavior. z-indexing, by design, is implemented differently.
+I used polygon clipping and rotation for the white-house roof at the top-left corner. In firefox, though, there's different behavior. z-indexing, by design, is implemented differently.
 https://stackoverflow.com/questions/31646746/z-index-behaviour-is-different-in-chrome-to-firefox
 
 If this works in codepen, it'll be a miracle.
@@ -81,4 +81,4 @@ If this works in codepen, it'll be a miracle.
 I also used "clippy" http://bennettfeely.com/clippy/ to test the shape.
 
 ok... I'm going to bed. It doesn't look like much now... but Kaizen...Kaizen...Kaizen.
-I have to admit (and I'll probably delete this later) --At 3am, detailing the angles and opacities in a radial gradient... I wonder what the hell I'm doing with my life. lol
+I have to admit (and I'll probably delete this later) --At 3am, detailing the angles and opacities in a radial gradient... I wonder what the hell I'm doing with my life. :/
