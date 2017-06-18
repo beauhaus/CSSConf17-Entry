@@ -5,7 +5,9 @@ CSS shapes may need to come into play here as well.
 ### Here's the painting. It seems ideal for grid (line-based approach);
 [![step1](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/original.jpg?raw=true)](https://codepen.io/beau_dev/full/dRXpZX/)
 
+It was done by Louisiana native, Jim Blanchard.
 
+He's  a prominent architectural archival http://www.jimblanchardgallery.com/
 
 #### An outline in order to prepare definition of grids:
 [![step1](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/outline.png?raw=true)](https://codepen.io/beau_dev/full/dRXpZX/)
@@ -93,3 +95,12 @@ By the way, my SASS files are no where near as clean as they could be.
 I learned a bit of architecture today. The mansard roof --or "the French Roof". New Orleans... makes sense.
 
 Alright--enough of this craziness. I'm going to bed.
+
+### June 18th.
+It's been 7 days. Making progress.
+
+There's an oddity in safari and chrome using blur where, zoomed in fully-- An artifact
+appears that looks like the grey outline of a pill with an alpha val of .5.
+weird.
+Firefox is fine.
+![Pill Arifact](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/pill.png?raw=true)
