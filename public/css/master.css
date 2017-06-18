@@ -211,11 +211,22 @@ body {
 .peach-shing-white {
   background-color: #a6a089; }
 
-.peach-gutter-top {
-  background-color: #d2b18c;
-  border-bottom: 1px solid #a7815c; }
+.peach-gutter-top-lip {
+  background: linear-gradient(#947c68 0%, #d6b894 100%);
+  border-right: 2px solid rgba(119, 114, 108, 0.65); }
 
-.peach-gutter-bottom {
+.peach-gutter-top-mid {
+  background: #e0c49f;
+  border-right: 2px solid rgba(119, 114, 108, 0.65); }
+
+.peach-gutter-top-deco {
+  background: blue;
+  color: white;
+  font-size: 7px;
+  font-family: sans-serif;
+  box-shadow: -2px 8px 6px 2px rgba(99, 80, 57, 0.65); }
+
+.peach-gutter-base {
   background-color: #ead2b0;
   border-bottom: 2px solid #a97347; }
 
@@ -412,13 +423,40 @@ body {
   grid-row: 6;
   grid-column: 6/8; }
 
-.peach-gutter-top {
+.pg-top-container {
+  width: 410px;
+  height: 20px;
   grid-row: 3;
   grid-column: 1; }
 
-.peach-gutter-bottom {
+.peach-gutter-top {
+  display: grid;
+  grid-template-columns: 410px 5px 6px;
+  grid-template-rows: 7px 6px 7px;
+  width: 421px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  position: relative; }
+
+.peach-gutter-top-lip {
+  grid-column: 1/-1;
+  grid-row: 1;
+  border-bottom-right-radius: 4px; }
+
+.peach-gutter-top-mid {
+  grid-column: 1/3;
+  grid-row: 2;
+  border-bottom-right-radius: 4px; }
+
+.peach-gutter-top-deco {
+  grid-column: 1;
+  grid-row: 3; }
+
+.peach-gutter-base {
   grid-row: 4;
-  grid-column: 1; }
+  grid-column: 1;
+  display: grid; }
 
 .peach-facade {
   grid-row: 5;

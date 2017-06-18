@@ -130,9 +130,6 @@ position: relative;
 
 
 
-.peach-roof { //brdr-bot can fill in top of gutter-top so... 96 instead of 92
-  // background-color: #c5c1b3;
-}
 
 
 // .roof-mansard {
@@ -140,18 +137,40 @@ position: relative;
 // }
 
 .peach-gutter-top {
-  background-color: #d2b18c;
-  border-bottom: 1px solid #a7815c;
+
 }
-.peach-gutter-bottom {
-background-color: #ead2b0;
-border-bottom: 2px solid #a97347;
+
+
+
+.peach-gutter-top-lip{
+  background: linear-gradient(#947c68 0%, #d6b894 100%);
+  border-right: 2px solid rgba(119, 114, 108, 0.65);
+}
+.peach-gutter-top-mid{
+  background: #e0c49f;
+  border-right: 2px solid rgba(119, 114, 108, 0.65);
+}
+.peach-gutter-top-deco{
+  background: blue;
+  color: white;
+  font-size: 7px;
+  font-family: sans-serif;
+  box-shadow: -2px 8px 6px 2px rgba(99, 80, 57, 0.65);
+}
+
+
+
+
+
+
+.peach-gutter-base {
+  background-color: #ead2b0;
+  border-bottom: 2px solid #a97347;
 }
 .peach-facade {
-background: linear-gradient(135deg, #ebc58e 0%, #cfa573 100%);
+  background: linear-gradient(135deg, #ebc58e 0%, #cfa573 100%);
 }
 
 .peach-foundation {
-
-background: linear-gradient(90deg, #a0462e 0%, #c46138 100%);
+  background: linear-gradient(90deg, #a0462e 0%, #c46138 100%);
 }

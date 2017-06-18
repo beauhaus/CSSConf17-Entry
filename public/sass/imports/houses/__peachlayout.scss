@@ -254,14 +254,51 @@
   }
 }
 
-.peach-gutter-top {
+
+//p-g-top is wider than grid rows
+//so abspos?
+.pg-top-container {
+  width: 410px;
+  height: 20px;
   grid-row: 3;
   grid-column: 1;
 }
 
-.peach-gutter-bottom {
+.peach-gutter-top {
+  display: grid;
+  grid-template-columns: 410px 5px 6px;
+  grid-template-rows: 7px 6px 7px;
+  width: 421px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  position: relative;
+}
+
+.peach-gutter-top-lip{
+  grid-column: 1/-1;
+  grid-row: 1;
+  border-bottom-right-radius: 4px;
+
+}
+
+.peach-gutter-top-mid{
+  grid-column: 1/3;
+  grid-row: 2;
+  border-bottom-right-radius: 4px;
+}
+
+.peach-gutter-top-deco{
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.peach-gutter-base {
   grid-row: 4;
   grid-column: 1;
+  display: grid;
+  // grid-template-columns: ;
+  // grid-template-rows: ;
 }
 
 .peach-facade {
