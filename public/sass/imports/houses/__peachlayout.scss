@@ -252,7 +252,7 @@
 
 //p-g-top is wider than grid rows
 //so abspos?
-.pg-top-container {
+.peach-gutter-top-container {
   width: 410px;
   height: 20px;
   grid-row: 3;
@@ -339,7 +339,6 @@
 .pch-floor-2 {
   grid-column: 1;
   grid-row: 2;
-  background-color: #224a74;
   display: grid;
   grid-template-columns: 1fr 387px 1fr;
   grid-template-rows: 16px 140px;
@@ -348,7 +347,6 @@
 .pch-f2-windows-group {
   grid-column: 2;
   grid-row: 2;
-  background: rgba(137, 143, 149, 0.71);
   display: grid;
   grid-template-columns: 6px 103px 1fr 103px 1fr 103px 6px;
   grid-template-rows: 10px 88px auto;
@@ -389,13 +387,13 @@
   background-color: #darkgrey;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 13px 147px;
+  grid-template-rows: 16px 144px;
 }
 
 .pch-f1-upper {
   grid-columns: 1;
   grid-rows: 2;
-  background: #f0e2a7;
+  // background: #f0e2a7;
   display: grid;
   grid-template-columns: 10px 136px auto;
   grid-template-rows: 1;
@@ -411,25 +409,27 @@
 .pch-f1-lower {
   grid-column: 1;
   grid-row: 2;
-  background: #cc6eff;
-  opacity: .1;
-
+  // background: #cc6eff;
+  // opacity: .1;
+  display: grid;
+  grid-template-columns: 18px 118px 19px 1fr 30px 1fr 20px;
+  grid-template-rows: 1fr;
 }
 
 .pch-f1-door-left{
-  grid-column: auto;
-  grid-rows: auto;
-  background: #59beff;
+  grid-column: 2;
+  grid-rows: 1;
+  background: #64a4a6;
 }
 
 .pch-f1-window-ctr{
-  grid-column: auto;
-  grid-row: auto;
+  grid-column: 4;
+  grid-row: 1;
   background: ivory;
 }
 .pch-f1-window-right{
-  grid-column: auto;
-  grid-rows: auto;
+  grid-column: 6;
+  grid-rows: 1;
   background: fuchsia;
 }
 
