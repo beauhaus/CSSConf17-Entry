@@ -757,12 +757,75 @@ body {
 .pch-floor-2 {
   grid-column: 1;
   grid-row: 2;
-  background-color: #224a74; }
+  background-color: #224a74;
+  display: grid;
+  grid-template-columns: 1fr 387px 1fr;
+  grid-template-rows: 16px 140px; }
+
+.pch-f2-windows-group {
+  grid-column: 2;
+  grid-row: 2;
+  background: rgba(137, 143, 149, 0.71);
+  display: grid;
+  grid-template-columns: 6px 103px 1fr 103px 1fr 103px 6px;
+  grid-template-rows: 10px 88px auto; }
+
+.pch-f2-window-left {
+  grid-column: 2;
+  grid-row: 2/4;
+  background-color: white; }
+
+.pch-f2-window-ctr {
+  grid-column: 4;
+  grid-row: 2/4;
+  background-color: rgba(64, 52, 18, 0.81); }
+
+.pch-f2-window-right {
+  grid-column: 6;
+  grid-row: 2/4;
+  background-color: rgba(219, 82, 226, 0.86); }
 
 .pch-floor-1 {
   grid-column: 1;
-  grid-row: 3;
-  background-color: #451d23; }
+  grid-row: 4;
+  background-color: #darkgrey;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 13px 147px; }
+
+.pch-f1-upper {
+  grid-columns: 1;
+  grid-rows: 2;
+  background: #f0e2a7;
+  display: grid;
+  grid-template-columns: 10px 136px auto;
+  grid-template-rows: 1; }
+
+.pch-f1-awning {
+  grid-column: 2;
+  grid-row: 1;
+  background: #3d2c19; }
+
+.pch-f1-lower {
+  grid-column: 1;
+  grid-row: 2;
+  background: #cc6eff;
+  opacity: .1; }
+
+.pch-f1-door-left {
+  grid-column: auto;
+  grid-rows: auto;
+  background: #59beff; }
+
+.pch-f1-window-ctr {
+  grid-column: auto;
+  grid-row: auto;
+  background: ivory; }
+
+.pch-f1-window-right {
+  grid-column: auto;
+  grid-rows: auto;
+  background: fuchsia; }
 
 .foundation-container {
   grid-row: 6;
