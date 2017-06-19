@@ -84,13 +84,15 @@
 .wh-attic-ledge-left {
 
   filter: blur(1px);
-  background: linear-gradient(270deg, #d7b494 50%, rgba(#a28c75, 0.2) 100%);
+  // background: linear-gradient(270deg, #d7b494 50%, rgba(#a28c75, 0.2) 100%);
+  background:  #91745a;
   border-radius: 1px;
   box-shadow: -1px 0px 0px 0px #695a44;
 }
 .wh-attic-ledge-right {
   filter: blur(1px);
-  background: linear-gradient(270deg, #c8a98c 0%, rgba(134, 111, 90, 0.4) 100%);
+  // background: linear-gradient(270deg, #c8a98c 0%, rgba(134, 111, 90, 0.4) 100%);
+  background:  #91745a;
   border-radius: 1px;
   box-shadow: -1px 0px 0px 0px #695a44;
 }

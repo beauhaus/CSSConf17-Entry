@@ -34,7 +34,7 @@ body {
   width: 1400px;
   height: 800px;
   display: grid;
-  grid-template-columns: 194px 410px 124px 426px 246px;
+  grid-template-columns: 196px 408px 122px 426px 244px;
   /* = 1400 */
   grid-template-rows: 750px 18px 32px;
   /* = 800 */
@@ -102,13 +102,13 @@ body {
 
 .wh-attic-ledge-left {
   filter: blur(1px);
-  background: linear-gradient(270deg, #d7b494 50%, rgba(162, 140, 117, 0.2) 100%);
+  background: #91745a;
   border-radius: 1px;
   box-shadow: -1px 0px 0px 0px #695a44; }
 
 .wh-attic-ledge-right {
   filter: blur(1px);
-  background: linear-gradient(270deg, #c8a98c 0%, rgba(134, 111, 90, 0.4) 100%);
+  background: #91745a;
   border-radius: 1px;
   box-shadow: -1px 0px 0px 0px #695a44; }
 
@@ -186,7 +186,7 @@ body {
   grid-column: 1;
   z-index: 1;
   display: grid;
-  grid-template-columns: 194px;
+  grid-template-columns: 196px;
   grid-template-rows: 17px 5px 10px; }
 
 .wh-gutter-top {
@@ -231,7 +231,85 @@ body {
 
 .white-facade {
   grid-row: 5;
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 145px 158px 175px; }
+
+.wh-floor-3 {
+  grid-column: 1;
+  grid-row: 1;
+  opacity: .5;
+  display: grid;
+  grid-template-columns: 14px 68px 24px 68px 10px auto;
+  grid-template-rows: 18px 4px 8px 70px 33px 12px; }
+
+.wh-f3-deck-awning-top {
+  grid-row: 5;
   grid-column: 1; }
+
+.wh-f3-door-left {
+  grid-column: 2;
+  grid-row: 2/6;
+  background-color: grey; }
+
+.wh-f3-door-right {
+  grid-column: 4;
+  grid-row: 2/6;
+  background-color: grey; }
+
+.wh-f3-deck-base {
+  grid-column: 1/6;
+  grid-row: 6;
+  background-color: #80552e; }
+
+.wh-floor-2 {
+  grid-column: 1;
+  grid-row: 2;
+  background: pink;
+  opacity: .5;
+  display: grid;
+  grid-template-columns: 14px 68px 24px 68px 10px auto;
+  grid-template-rows: 18px 4px 8px 70px 33px 12px; }
+
+.wh-f2-door-left {
+  grid-column: 2;
+  grid-row: 2/6;
+  background-color: #65a868; }
+
+.wh-f2-door-right {
+  grid-column: 4;
+  grid-row: 2/6;
+  background-color: #ad7d00; }
+
+.wh-f2-deck-base {
+  grid-column: 1/6;
+  grid-row: 6;
+  background-color: #421f83; }
+
+.wh-floor-1 {
+  grid-column: 1;
+  grid-row: 3;
+  background: teal;
+  opacity: .5;
+  display: grid;
+  grid-template-columns: 14px 68px 24px 68px auto;
+  grid-template-rows: 34px 136px 5px; }
+
+.wh-f1-door-left {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: #83427f; }
+
+.wh-f1-door-right {
+  grid-column: 4;
+  grid-row: 2;
+  background-color: #baeebf; }
+
+.wh-step-row {
+  grid-column: 2/5;
+  grid-row: 3;
+  background-color: rgba(77, 43, 48, 0.77); }
 
 /* Peach house profile
   sky:114
@@ -651,8 +729,40 @@ body {
   display: grid; }
 
 .peach-facade {
-  grid-row: 5;
-  grid-column: 1; }
+  grid-column: 1;
+  grid-row: 5; }
+
+.pch-floor-3 {
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 28px 86px 47px 86px 47px 86px 28px;
+  grid-template-rows: 10px 129px; }
+
+.pch-f3-window-left {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: rgba(112, 195, 139, 0.85); }
+
+.pch-f3-window-ctr {
+  grid-column: 4;
+  grid-row: 2;
+  background-color: rgba(187, 189, 92, 0.81); }
+
+.pch-f3-window-right {
+  grid-column: 6;
+  grid-row: 2;
+  background-color: rgba(226, 135, 83, 0.86); }
+
+.pch-floor-2 {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: #224a74; }
+
+.pch-floor-1 {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: #451d23; }
 
 .foundation-container {
   grid-row: 6;

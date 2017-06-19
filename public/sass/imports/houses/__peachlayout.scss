@@ -55,12 +55,7 @@
 .peach-chimney-base {
   grid-row: 3;
 }
-//Roof-top profile:
-// chim-body-25,
-// transparent-36,
-// (95% of) roof-top-280,
-// r-top-rt-13px,(sky &) sq-roof-30px,
-// chimney-rt-25.
+
 
 .peach-roof {
   //brdr-bot can fill in top of gutter-top so... 96 instead of 92
@@ -303,9 +298,68 @@
 }
 
 .peach-facade {
-  grid-row: 5;
   grid-column: 1;
+  grid-row: 5;
 }
+// Peach 3rd floor======================
+
+.pch-floor-3 {
+  grid-column: 1;
+  grid-row: 1;
+  // background-color: #1d452a;
+  display: grid;
+  grid-template-columns: 28px 86px 47px 86px 47px 86px 28px;
+  grid-template-rows: 10px 129px;
+}
+
+.pch-f3-window-left {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: rgba(112, 195, 139, 0.85);
+}
+.pch-f3-window-ctr {
+  grid-column: 4;
+  grid-row: 2;
+  background-color: rgba(187, 189, 92, 0.81);
+}
+.pch-f3-window-right {
+  grid-column: 6;
+  grid-row: 2;
+  background-color: rgba(#e28753, 0.86);
+}
+
+
+
+
+
+// Peach 2nd floor======================
+
+
+
+.pch-floor-2 {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: #224a74;
+}
+
+
+
+
+
+
+
+
+
+
+// Peach 1st floor======================
+
+.pch-floor-1 {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: #451d23;
+}
+
+
 .foundation-container {
   grid-row: 6;
   grid-column: 1;
