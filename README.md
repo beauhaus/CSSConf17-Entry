@@ -104,3 +104,15 @@ appears that looks like the grey outline of a pill with an alpha val of .5.
 weird.
 Firefox is fine.
 ![Pill Arifact](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/pill.png?raw=true)
+
+
+#### Step 8.
+![step Eight](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step8.png?raw=true)
+It's a good update. I am really gathering some affection for grid. So simple...And I'm using a fraction of what it has to offer.
+I've gotten into and run into trouble with linear gradients on borders. If I continue to have this trouble. To hell with it. I'll go with 1px lines.
+
+I'm most pleased with the Chiaroscuro. --Here's hoping I don't have to use it too much. #perf.
+
+There are issues however with the positioning of bits of the top-right of white house. and left side of darkhouse overlapping.
+
+God, this artist must be slightly insane to paint these. They are all incredible. --This is a simple one.
