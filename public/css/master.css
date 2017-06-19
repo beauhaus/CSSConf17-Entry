@@ -55,28 +55,62 @@ body {
   z-index: -2; }
 
 .white-shing {
-  width: 17px;
-  height: 5px; }
+  filter: blur(3px); }
   .white-shing.mud {
     background-color: #9b806f; }
   .white-shing.sand {
     background-color: #ac917f; }
   .white-shing.moss {
-    background-color: #a2977b; }
+    background-color: #60727c; }
 
-.white-gutter {
-  border-top: 2px solid rgba(224, 198, 175, 0.5);
-  background-color: #ecd4bb;
-  border-bottom: 2px solid #b78d6e;
-  box-shadow: -5px 6px 4px 2px rgba(0, 0, 0, 0.35); }
+.wh-gutter-top {
+  background: linear-gradient(180deg, #ecd8c0 0%, #ead0b5 100%);
+  border-right: 1px solid rgba(144, 132, 119, 0.7);
+  border-top: 1px solid #cbbaa8; }
+
+.wh-gutter-mid {
+  background: linear-gradient(270deg, #e2c09f 0%, #eed3b6 100%);
+  border: 1px solid #d1b397;
+  border-right: 1px solid rgba(144, 132, 119, 0.7); }
+
+.wh-gutter-bot {
+  background-color: #ecd3b5;
+  border-right: 1px solid rgba(168, 144, 119, 0.8);
+  border-bottom: 3px solid rgba(180, 133, 94, 0.7);
+  border-bottom-right-radius: 1px;
+  box-shadow: -3px 8px 5px 1px rgba(69, 60, 50, 0.7); }
 
 .white-gutter-base {
-  background-color: #eecca9;
+  background-color: #ecc9a9;
   border-bottom: 2px solid #9c7153; }
 
 .white-attic {
   background-color: #ecd5ba;
   border-bottom: 2px solid #b38364; }
+
+.wh-attic-window-left {
+  background-color: #423525;
+  border-radius: 1px;
+  border: 1px solid #c49f82;
+  border-bottom-width: 0px; }
+
+.wh-attic-window-right {
+  background-color: #4d3d2e;
+  border-radius: 1px;
+  border: 1px solid #c49f82;
+  border-bottom-width: 0px; }
+
+.wh-attic-ledge-left {
+  filter: blur(1px);
+  background: linear-gradient(270deg, #d7b494 50%, rgba(162, 140, 117, 0.2) 100%);
+  border-radius: 1px;
+  box-shadow: -1px 0px 0px 0px #695a44; }
+
+.wh-attic-ledge-right {
+  filter: blur(1px);
+  background: linear-gradient(270deg, #c8a98c 0%, rgba(134, 111, 90, 0.4) 100%);
+  border-radius: 1px;
+  box-shadow: -1px 0px 0px 0px #695a44; }
 
 .white-facade {
   background: linear-gradient(180deg, #ead0b3 0%, #ceae90 100%); }
@@ -117,64 +151,56 @@ body {
   border: 1px; }
 
 #wh-shing-1 {
-  grid-column: 1;
-  grid-row: 3; }
+  grid-column: 1/5;
+  grid-row: 7; }
 #wh-shing-2 {
-  grid-column: 2;
-  grid-row: 4; }
+  grid-column: 1;
+  grid-row: 2/5; }
 #wh-shing-3 {
-  grid-column: 3;
-  grid-row: 5; }
+  grid-column: 1;
+  grid-row: 6; }
 #wh-shing-4 {
-  grid-column: 4;
+  grid-column: 2/5;
   grid-row: 6; }
 #wh-shing-5 {
   grid-column: 5;
   grid-row: 7; }
 #wh-shing-6 {
-  grid-column: 4;
+  grid-column: 3;
   grid-row: 7; }
 #wh-shing-7 {
-  grid-column: 3;
-  grid-row: 7; }
+  grid-column: 2;
+  grid-row: 6; }
 #wh-shing-8 {
   grid-column: 2;
-  grid-row: 7; }
-#wh-shing-9 {
-  grid-column: 1;
-  grid-row: 7; }
-#wh-shing-10 {
-  grid-column: 3;
-  grid-row: 6; }
-#wh-shing-11 {
-  grid-column: 2;
-  grid-row: 6; }
-#wh-shing-12 {
-  grid-column: 1;
-  grid-row: 6; }
-#wh-shing-13 {
-  grid-column: 2;
-  grid-row: 5; }
-#wh-shing-14 {
-  grid-column: 1;
-  grid-row: 5; }
-#wh-shing-15 {
-  grid-column: 1;
   grid-row: 4; }
-#wh-shing-16 {
-  grid-column: 3;
+#wh-shing-9 {
+  grid-column: 2;
   grid-row: 5; }
-#wh-shing-17 {
-  grid-column: 3;
-  grid-row: 5; }
-#wh-shing-18 {
+#wh-shing-10 {
   grid-column: 3;
   grid-row: 5; }
 
 .white-gutter {
   grid-row: 2;
   grid-column: 1;
-  z-index: 10; }
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 194px;
+  grid-template-rows: 17px 5px 10px; }
+
+.wh-gutter-top {
+  grid-row: 1;
+  grid-column: 1; }
+
+.wh-gutter-mid {
+  width: 194px;
+  grid-row: 2;
+  grid-column: 1; }
+
+.wh-gutter-bot {
+  grid-row: 3;
+  grid-column: 1; }
 
 .white-gutter-base {
   grid-row: 3;
@@ -182,7 +208,26 @@ body {
 
 .white-attic {
   grid-row: 4;
-  grid-column: 1; }
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 25px 2px 54px 2px 34px 2px 54px 2px auto;
+  grid-template-rows: 8px 29px 2px auto; }
+
+.wh-attic-window-left {
+  grid-column: 3;
+  grid-row: 2; }
+
+.wh-attic-window-right {
+  grid-column: 7;
+  grid-row: 2; }
+
+.wh-attic-ledge-left {
+  grid-column: 2/5;
+  grid-row: 3; }
+
+.wh-attic-ledge-right {
+  grid-column: 6/9;
+  grid-row: 3; }
 
 .white-facade {
   grid-row: 5;
@@ -323,7 +368,6 @@ body {
   background: linear-gradient(90deg, #a0462e 0%, #c46138 100%); }
 
 .peach-steps {
-  background: ivory;
   display: grid;
   grid-template-columns: 14px 7px 76px 14px 7px;
   grid-template-rows: 6px 7px 7px 6px; }
@@ -333,27 +377,38 @@ body {
   grid-column: 1/3;
   grid-row: 1/-1;
   border: 1px solid #b2906d;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
   box-shadow: -15px 5px 6px 0px rgba(0, 0, 0, 0.3); }
 
 .step1 {
   background-color: #ccab8c;
   grid-column: 3;
   grid-row: 1;
-  border-top: 1px solid #b59272;
-  background: linear-gradient(90deg, #ccab8c 70%, #754b2b 100%); }
+  background: linear-gradient(90deg, #ccab8c 70%, #754b2b 100%);
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-image: linear-gradient(to right, #c7a687 60%, #543216 100%) 1 0%; }
 
 .step2 {
   background-color: #ccab8c;
   grid-column: 3;
   grid-row: 2;
-  border-top: 1px solid #c1a484;
-  background: linear-gradient(90deg, #ccab8c 80%, #754b2b 100%); }
+  background: linear-gradient(90deg, #ccab8c 80%, #754b2b 100%);
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-image: linear-gradient(to right, #c7a687 70%, #623b1a 100%) 1 0%; }
 
 .step3 {
   grid-column: 3;
   grid-row: 3;
-  border-top: 1px solid #bd9c7b;
-  background: linear-gradient(90deg, #ccab8c 90%, #8c6343 100%); }
+  background: linear-gradient(90deg, #ccab8c 90%, #8c6343 100%);
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-image: linear-gradient(to right, #c7a687 80%, #623b1a 100%) 1 0%; }
 
 .step4 {
   background-color: #ccab8c;
@@ -367,6 +422,8 @@ body {
   background-color: #cbac90;
   grid-column: 4/7;
   grid-row: 1/-1;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
   border: 1px solid #b2906d; }
 
 /* Peach house profile
@@ -624,8 +681,7 @@ body {
 
 .peach-steps {
   grid-column: 2/3;
-  grid-row: 1/-1;
-  background: ivory; }
+  grid-row: 1/-1; }
 
 /* dark house profile:  386 + 86 + 142 + 132*/
 .dark-sky {

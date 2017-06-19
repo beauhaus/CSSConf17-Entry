@@ -15,39 +15,52 @@
   z-index: -2;
 }
 
-.white-shing-container {}
 
 .white-shing {
-  // filter: blur(3px);
-  width: 17px;
-  height: 5px;
+  filter: blur(3px);
+
 
   &.mud {
     background-color: #9b806f;
-    // background-color: brown;
   }
 
   &.sand {
     background-color: #ac917f;
-    // background-color: ivory;
   }
 
   &.moss {
-    background-color: #a2977b;
-    // background-color: olive;
+    background-color: #60727c;
   }
 }
 
 .white-gutter {
-  border-top: 2px solid rgba(224, 198, 175, 0.5);
-  background-color: #ecd4bb;
-  border-bottom: 2px solid #b78d6e;
-  box-shadow: -5px 6px 4px 2px rgba(0,0,0,0.35);
+
 }
-// FIXME: perhaps rmve or "1px" the border top (above);
+
+.wh-gutter-top {
+  background: linear-gradient(180deg, #ecd8c0 0%, #ead0b5 100%);
+  border-right: 1px solid rgba(#908477, 0.7);
+  border-top: 1px solid #cbbaa8;
+
+}
+.wh-gutter-mid {
+  // filter: blur(1px);
+  background: linear-gradient(270deg, #e2c09f 0%, #eed3b6 100%);
+  border: 1px solid #d1b397;
+  // border-image: linear-gradient(to right, #c4a88d 0%, #cda88d 100%) 2 0%;
+  border-right: 1px solid rgba(#908477, 0.7);
+
+}
+.wh-gutter-bot {
+  background-color: #ecd3b5;
+  border-right: 1px solid rgba(#a89077, 0.8);
+  border-bottom: 3px solid rgba(#b4855e, 0.7);
+  border-bottom-right-radius: 1px;
+  box-shadow: -3px 8px 5px 1px rgba(#453c32, 0.7);
+}
 
 .white-gutter-base {
-  background-color: #eecca9;
+  background-color: #ecc9a9;
   border-bottom: 2px solid #9c7153;
 }
 
@@ -55,6 +68,34 @@
   background-color: #ecd5ba;
   border-bottom: 2px solid #b38364;
 }
+
+.wh-attic-window-left {
+  background-color: #423525;
+  border-radius: 1px;
+  border: 1px solid #c49f82;
+  border-bottom-width: 0px;
+}
+.wh-attic-window-right {
+  background-color: #4d3d2e;
+  border-radius: 1px;
+  border: 1px solid #c49f82;
+  border-bottom-width: 0px;
+}
+.wh-attic-ledge-left {
+
+  filter: blur(1px);
+  background: linear-gradient(270deg, #d7b494 50%, rgba(#a28c75, 0.2) 100%);
+  border-radius: 1px;
+  box-shadow: -1px 0px 0px 0px #695a44;
+}
+.wh-attic-ledge-right {
+  filter: blur(1px);
+  background: linear-gradient(270deg, #c8a98c 0%, rgba(134, 111, 90, 0.4) 100%);
+  border-radius: 1px;
+  box-shadow: -1px 0px 0px 0px #695a44;
+}
+
+
 
 .white-facade {
   background: linear-gradient(180deg, #ead0b3 0%, #ceae90 100%);

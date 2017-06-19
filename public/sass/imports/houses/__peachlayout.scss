@@ -300,8 +300,6 @@
   grid-column: 1;
   display: grid;
 
-  // grid-template-columns: ;
-  // grid-template-rows: ;
 }
 
 .peach-facade {
@@ -338,6 +336,5 @@
 .peach-steps {
   grid-column: 2/3;
   grid-row: 1/-1;
-  background: ivory;
 
 }
