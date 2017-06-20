@@ -434,6 +434,12 @@ body {
 .peach-facade {
   background: linear-gradient(215deg, #ecc38b 0%, #d6a76e 100%); }
 
+.pch-floor-3 {
+  background: linear-gradient(190deg, #e8c794 0%, transparent 70%); }
+
+.pch-floor-1 {
+  background: linear-gradient(45deg, #d09e61 0%, transparent 20%); }
+
 .foundation-top {
   border-right: 2px solid #6e3d23;
   border-bottom: 2px solid #6e3d23;
@@ -855,22 +861,47 @@ body {
 /* dark house profile:  386 + 86 + 142 + 132*/
 .dark-sky {
   background-color: transparent;
-  border-bottom: 2px solid #4b5545; }
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-image: linear-gradient(to right, #635b44 45%, #3b3420 60%) 1 0%;
+  z-index: -1; }
 
 .dark-roof {
-  background: linear-gradient(130deg, #71685f 0%, #2a241e 100%);
-  border-top: 3px solid #5d513b;
-  border-bottom: 2px solid #76522d; }
+  background: linear-gradient(120deg, #675542 23%, #4e3d2a 35%, #413425 65%, #22180e 85%);
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-image: linear-gradient(to right, #807559 40%, #463e26 70%) 1 0%;
+  z-index: -1; }
+
+.dk-roof-top {
+  border-top: 1px solid #5b4229;
+  background: linear-gradient(120deg, #ab9778 35%, #584d41 45%, #614930 90%, #4d3c2c 90%, #3a2919 100%);
+  filter: blur(1px);
+  overflow: hidden;
+  z-index: -1; }
+
+.dk-roof-mid {
+  background: linear-gradient(0deg, transparent 0%, #534237 100%);
+  overflow: hidden;
+  opacity: .9; }
+
+.dk-roof-bot {
+  background: linear-gradient(120deg, #675542 23%, #4e3d2a 30%, #413425 65%, #22180e 85%);
+  opacity: .7; }
 
 .dark-facade {
   background: linear-gradient(140deg, #8d6a45 0%, #724421 100%);
-  border-top: 2px solid #805731;
-  border-bottom: 1px solid #8d6a45; }
+  border-bottom: 1px solid #8d6a45;
+  z-index: -1;
+  box-shadow: inset -16px -25px 40px 4px rgba(0, 0, 0, 0.4); }
 
 .dark-door {
   border-top: 2px solid #99734f;
   box-shadow: inset 0px 3px 10px -3px rgba(65, 26, 8, 0.89);
-  background: linear-gradient(45deg, #c5a987 0%, #96734f 100%); }
+  background: linear-gradient(45deg, #c5a987 0%, #96734f 100%);
+  z-index: 3; }
 
 .dark-house-col {
   grid-column: 3;
@@ -884,11 +915,55 @@ body {
 
 .dark-roof {
   grid-row: 2;
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 9px 5px 1fr; }
+
+.dk-roof-top {
+  grid-row: 1;
+  grid-column: 1; }
+
+.dk-roof-mid {
+  grid-row: 2;
+  grid-column: 1; }
+
+.dk-roof-bot {
+  grid-row: 3;
   grid-column: 1; }
 
 .dark-facade {
   grid-row: 3;
-  grid-column: 1; }
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15px 1fr; }
+
+.dk-gutters {
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 8px 7px; }
+
+.dk-gutter-top {
+  grid-column: 1;
+  grid-row: 1;
+  border-top: 1px solid #2a180c;
+  background: linear-gradient(90deg, #7d6042 50%, #493922 80%);
+  z-index: 3; }
+
+.dk-gutter-top {
+  grid-column: 1;
+  grid-row: 1;
+  border-top: 1px solid #2a180c;
+  background: linear-gradient(90deg, #7d6042 50%, #493922 80%); }
+
+.dk-gutter-bot {
+  grid-column: 1;
+  grid-row: 2;
+  background: linear-gradient(90deg, #7d6042 50%, #493922 80%);
+  border-bottom: 1px solid rgba(96, 67, 35, 0.8); }
 
 .dark-door {
   grid-row: 4;
@@ -969,7 +1044,7 @@ body {
 
 .brick-facade {
   background: linear-gradient(45deg, #933812 0%, #a85b29 100%);
-  box-shadow: -100px 130px 10px 2px rgba(0, 0, 0, 0.3); }
+  box-shadow: -60px 130px 15px 3px rgba(0, 0, 0, 0.2); }
 
 .brick-attic-left {
   background-color: #b56642; }

@@ -6,26 +6,56 @@
 }
 
 .dark-sky {
-  // background: linear-gradient(180deg, #b3b1a6 0%,  #adb0a2 40%, #659289 64%, #2e615b 100%);
   background-color: transparent;
-  border-bottom: 2px solid #4b5545;
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-image: linear-gradient(to right, #635b44 45%, #3b3420 60%) 1 0%;
+  z-index: -1;
+  // background: fuchsia;
 }
 
 .dark-roof {
-  background: linear-gradient(130deg, #71685f 0%, #2a241e 100%);
-  border-top: 3px solid #5d513b;
-  border-bottom: 2px solid #76522d;
+  // background: linear-gradient(130deg, #675542 0%, #675542 40%, #2a241e 100%);
+  background: linear-gradient(120deg, #675542  23%, #4e3d2a 35%, #413425 65%, #22180e 85%);
+
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-image: linear-gradient(to right, #807559 40%, #463e26 70%) 1 0%;
+  z-index: -1;
 }
+
+.dk-roof-top {
+  border-top: 1px solid #5b4229;
+  background: linear-gradient(120deg, #ab9778 35%, #584d41 45%, #614930 90%, #4d3c2c 90%, #3a2919 100%);
+  filter: blur(1px);
+  overflow: hidden;
+  z-index: -1;
+}
+.dk-roof-mid {
+  background: linear-gradient(0deg, transparent 0%, #534237 100%);
+  // filter: blur(1px);
+  overflow: hidden;
+  opacity: .9;
+}
+.dk-roof-bot {
+  background: linear-gradient(120deg, #675542  23%, #4e3d2a 30%, #413425 65%, #22180e 85%);
+  opacity: .7;
+}
+
 // FIXME:  above the border bot--do "gutters" for dark house
 
 .dark-facade {
   background: linear-gradient(140deg, #8d6a45 0%, #724421 100%);
-  border-top: 2px solid #805731;
   border-bottom: 1px solid #8d6a45;
+  z-index: -1;
+  box-shadow: inset -16px -25px 40px 4px rgba(#000000, 0.4);
 }
 .dark-door {
   border-top: 2px solid #99734f;
   box-shadow: inset 0px 3px 10px -3px rgba(65, 26, 8, 0.89);
   background: linear-gradient(45deg, #c5a987 0%, #96734f 100%);
+  z-index: 3;
 
 }
