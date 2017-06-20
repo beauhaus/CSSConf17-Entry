@@ -72,6 +72,23 @@
   grid-template-columns: repeat(22, 19px);
   grid-template-rows: repeat(38, 1fr);
 }
+
+
+
+#brick-roof-front-container {
+  grid-column: 1/33;
+  grid-row: 1/-1;
+  opacity: .8;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 12px 2px 10px 1fr 10px 2px 12px;
+  grid-template-rows: 5px 7px 55px 12px 52px 12px;
+}
+
+
+
+
+
 // ========SHINGLES START==============
 
 #shing {
@@ -372,7 +389,7 @@
    letter-spacing: 1em;
 }
 .brick-odd {
-  text-indent: 6px;
+  text-indent: 4px;
 }
 
 // subgrid overlapping facade
