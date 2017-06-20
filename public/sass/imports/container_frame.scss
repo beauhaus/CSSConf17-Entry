@@ -37,7 +37,8 @@ body {
   grid-row: 1;
   grid-column: 1;
   display: grid;
-  grid-template-columns: 196px 408px 122px 424px 248px; /* = 1400 */
+  grid-template-columns: 196px 408px 122px 424px 250px; /* = 1400 */
   grid-template-rows: 750px 18px 32px; /* = 800 */
   overflow: hidden;
+  // background: fuchsia;
 }

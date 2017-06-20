@@ -1,4 +1,7 @@
 /*===============BRICK HOUSE Profile================*/
+// width: 424px
+
+
 /*
 8 layers
 64px 33 146px 14px 8px 18px 24px 440px;
@@ -6,6 +9,7 @@
 .brick-house-col {
   display: grid;
   grid-column: 4;
+  grid-row: 1;
   grid-template-rows: 64px 33px 146px 14px 494px;
 }
 
@@ -15,37 +19,37 @@
 
 .brick-sky {
   grid-row: 1;
-  // position: relative; NOTE changed now
+  position: relative;
 }
 
 .brick-top-chimneys {
   grid-row: 2;
-  // position: relative;
   display: grid;
-  grid-template-columns: 28px auto 24px;
+  grid-template-columns: 28px 368px 28px; // = 424px
   grid-template-rows: 12px 21px;
+  position: relative;
 }
 
 .brick-top-chimney-capL {
   grid-column: 1;
   grid-row: 1;
   z-index: 10;
-  width: 34px;
-  // position: relative;
+  width: 33px;
   left: -3px;
   border-radius: 4px;
+  position: relative;
 }
 
 .brick-top-chimney-capR {
   grid-column: 3;
   grid-row: 1;
   border-radius: 5px;
-  width: 28px;
+  width: 33px;
   height: 14px;
   z-index: 10;
   left: -2px;
   border-radius: 4px;
-  // position: absolute;
+  position: relative;
 }
 
 .brick-top-chimney-bodyL {
@@ -65,7 +69,7 @@
   grid-row: 3;
   z-index: 10;
   display: grid;
-  grid-template-columns: repeat(26, 1fr);
+  grid-template-columns: repeat(22, 19px);
   grid-template-rows: repeat(38, 1fr);
 }
 // ========SHINGLES START==============
@@ -313,7 +317,7 @@
   grid-column: 1;
   grid-row: 4;
   display: grid;
-  grid-template-columns: 6px auto 5px;
+  grid-template-columns: 6px 413px 5px;
   grid-template-rows: 7px 7px;
 }
 .brick-gutter {

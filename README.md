@@ -131,3 +131,7 @@ God, this artist must be slightly insane to paint these. They are all incredible
 I'm considering doing doors and windows in SVG. I might mix it up. If you look at the original pic, you'll see wavy shadows of window pane frames on curtains. I've always wanted to try it.
 
 Anyway... We've made lots of progress. :)
+
+P.S.
+Wow. I had no idea how long mere maintenance of a project like this would take. I took 3.5 hours to find a positioning problem. --The solution was the "IIIII" bricks "hack" I'm using to create the texture in the brick building. Ugh.
+I'm exhausted.

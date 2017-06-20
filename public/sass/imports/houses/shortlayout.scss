@@ -4,7 +4,7 @@
 
 .short-house {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 250px;
   grid-template-rows: 434px 36px 120px 20px 28px 114px;
 }
 
@@ -12,9 +12,9 @@
   grid-row: 1;
 }
 
-.row-eps-b {
+.short-chimney-container {
   display: grid;
-  grid-template-columns: 81px 34px 131px;
+  grid-template-columns: 85px 34px 131px;
   grid-template-rows: 1fr;
 }
 
