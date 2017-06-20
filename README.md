@@ -104,7 +104,7 @@ Alright--enough of this craziness. I'm going to bed.
 ### June 18th.
 It's been 7 days. Making progress.
 
-There's an oddity in safari and chrome: 
+There's an oddity in safari and chrome:
 Using filter: blur(); where, (zoomed in) an artifact appears that looks like the grey outline of a pill with an alpha val of .5.
 Weird...
 Firefox is fine.
@@ -113,7 +113,7 @@ Firefox is fine.
 
 #### Step 8.
 ![step Eight](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step8.png?raw=true)
-It's a good update. I am really gathering some affection for CSS grid. Something is wrong with me. 
+It's a good update. I am really gathering some affection for CSS grid. Something is wrong with me.
 
 It's so simple...--But I'm using a fraction of what it has to offer. (#gridnerdpun)
 
@@ -135,3 +135,9 @@ Anyway... We've made lots of progress. :)
 P.S.
 Wow. I had no idea how long mere maintenance of a project like this would take. I took 3.5 hours to find a positioning problem. --The solution was the "IIIII" bricks "hack" I'm using to create the texture in the brick building. Ugh.
 I'm exhausted.
+
+#### Step 10.
+![step Ten](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step10.png?raw=true)
+
+Progresssss izzzz slow... But here we are, ten (10!!?!?) days later. ☹️
+--I'm not complaining... I'm pleased with the results. 
