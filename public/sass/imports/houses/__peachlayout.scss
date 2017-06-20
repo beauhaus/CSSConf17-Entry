@@ -1,12 +1,4 @@
-/* Peach house profile
-  sky:114
-  rooftop:14
-  roof:92
-  gutter:24
-  gutter:24
-  facade:458
-  foundation:2
-  */
+
 .peach-house-col {
   grid-column: 2;
   grid-row: 1;
@@ -26,7 +18,6 @@
 .peach-chimney-left {
   grid-row: 2;
   grid-column: 1;
-  background: red;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 12px 10px 10px;
@@ -35,30 +26,38 @@
 .peach-chimney-right {
   grid-row: 2;
   grid-column: 3;
-  background: blue;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 12px 10px 10px;
 }
 
+.peach-chimney-left {
+  position: relative;
+}
+
+.peach-chimney-right {
+  position: relative;
+}
+
 .peach-chimney-cap {
-  background-color: #e5bb8a;
-  border: 1px solid #b08962;
-  border-top: 2px solid b99e80;
+  grid-row: 1;
 }
 
 .peach-chimney-crown {
-  background-color: #e5b689;
-  border-bottom: 5px solid #a17145;
+  grid-row: 2;
+  width: 34px;
+  height: 10px;
+  position: absolute;
+  top:0;
+  left: -4px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .peach-chimney-base {
   grid-row: 3;
 }
 
-
 .peach-roof {
-  //brdr-bot can fill in top of gutter-top so... 96 instead of 92
   grid-row: 2;
   grid-column: 1;
   display: grid;
@@ -249,9 +248,6 @@
   }
 }
 
-
-//p-g-top is wider than grid rows
-//so abspos?
 .peach-gutter-top-container {
   width: 410px;
   height: 20px;
@@ -294,7 +290,6 @@
   grid-row: 4;
   grid-column: 1;
   display: grid;
-
 }
 
 .peach-facade {
@@ -306,7 +301,6 @@
 .pch-floor-3 {
   grid-column: 1;
   grid-row: 1;
-  // background-color: #1d452a;
   display: grid;
   grid-template-columns: 28px 86px 47px 86px 47px 86px 28px;
   grid-template-rows: 10px 129px;
@@ -315,17 +309,17 @@
 .pch-f3-window-left {
   grid-column: 2;
   grid-row: 2;
-  background-color: rgba(112, 195, 139, 0.85);
+  background-color: #186a56;
 }
 .pch-f3-window-ctr {
   grid-column: 4;
   grid-row: 2;
-  background-color: rgba(187, 189, 92, 0.81);
+  background-color: #186a56;
 }
 .pch-f3-window-right {
   grid-column: 6;
   grid-row: 2;
-  background-color: rgba(#e28753, 0.86);
+  background-color: #186a56;
 }
 
 
@@ -356,19 +350,19 @@
 .pch-f2-window-left {
   grid-column: 2;
   grid-row: 2/4;
-  background-color: white;
+  background-color: #186a56;
 }
 
 .pch-f2-window-ctr {
   grid-column: 4;
   grid-row: 2/4;
-  background-color: rgba(64, 52, 18, 0.81);
+  background-color: #186a56;
 }
 
 .pch-f2-window-right {
   grid-column: 6;
   grid-row: 2/4;
-  background-color: rgba(#db52e2, 0.86);
+  background-color: #186a56;
 }
 
 
@@ -393,7 +387,6 @@
 .pch-f1-upper {
   grid-columns: 1;
   grid-rows: 2;
-  // background: #f0e2a7;
   display: grid;
   grid-template-columns: 10px 136px auto;
   grid-template-rows: 1;
@@ -419,18 +412,18 @@
 .pch-f1-door-left{
   grid-column: 2;
   grid-rows: 1;
-  background: #64a4a6;
+  background: #4b301c;
 }
 
 .pch-f1-window-ctr{
   grid-column: 4;
   grid-row: 1;
-  background: ivory;
+  background: #186a56;
 }
 .pch-f1-window-right{
   grid-column: 6;
   grid-rows: 1;
-  background: fuchsia;
+  background: #186a56;
 }
 
 

@@ -1,41 +1,16 @@
-/* Peach house profile
-  sky:114
-  rooftop:14
-  roof:92
-  gutter:24
-  gutter:24
-  facade:458
-  foundation:2
-  */
-
-.peach {
-  background-color: #7391c3;
-}
 
 .peach-sky {
   background: transparent;
 }
-
-.peach-chimney-left {
-position: relative;
-}
-
-.peach-chimney-right {
-position: relative;
-}
-
 .peach-chimney-cap {
-  grid-row: 1;
+  background-color: #e5bb8a;
+  border: 1px solid #b08962;
+  border-top: 2px solid b99e80;
 }
 
 .peach-chimney-crown {
-  grid-row: 2;
-  width: 34px;
-  height: 10px;
-  position: absolute;
-  top:0;
-  left: -4px;
-  border-radius: 0px 0px 4px 4px;
+  background-color: #e5b689;
+  border-bottom: 5px solid #a17145;
 }
 
 .peach-chimney-base {
@@ -43,9 +18,7 @@ position: relative;
   border-bottom: 2px solid #b18157;
 }
 .peach-chimbody{
-  // filter: blur(10px);
   &-left {
-    // background-color: #e5bd8e;
     background: linear-gradient(119deg, #d8ac75 0%, #d8ac75 70%,#bc8558 78%, #986b46 100%);
   }
   &-right {
@@ -53,18 +26,6 @@ position: relative;
   }
 }
 
-
-
-.peach-rooftop{
-  &-section{
-    &-left {
-      // background-color: yellow;
-    }
-    &-right {
-
-    }
-  }
-}
 
 .peach-rooftop-top{
   background-color: #b49073;
@@ -112,10 +73,12 @@ position: relative;
 .rt-gab-shing-container {
   box-shadow: inset -1px 2px 3px 1px #5e3a29;
   background: #796b62;
-  padding-right: 2px;
-  padding-top: 2px;
+  padding-right: 3px;
+  padding-top: 3px;
   filter: blur(1px);
 }
+// FIXME: When blur... sky is visible through box shadow...
+
 .peach-shing-gr {
   background-color: #6c7762;
   opacity: .7;
@@ -131,16 +94,10 @@ position: relative;
 
 
 
-
-
-
 // .roof-mansard {
 //
 // }
 
-.peach-gutter-top {
-
-}
 
 
 

@@ -13,28 +13,26 @@
 */
 body {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: 1fr auto 1fr;
+  grid-template-columns: 1fr 1400px 1fr;
+  grid-template-rows: 1fr 800px 1fr;
   width: 100vw;
-  height: 100vh; }
-
-.div {
-  text-align: center;
-  overflow: hidden; }
+  height: 100vh;
+  background: #384a54; }
 
 .firmament-container {
   grid-row: 2;
   grid-column: 2;
-  width: 1400px;
-  height: 800px;
-  z-index: -1;
-  background: linear-gradient(135deg, #c2bfb4 0%, #3d756f 50%, #171f1e 100%); }
+  background: linear-gradient(135deg, #c2bfb4 0%, #3d756f 50%, #171f1e 100%);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  z-index: -1; }
 
 .entire-pic-container {
-  width: 1400px;
-  height: 800px;
+  grid-row: 1;
+  grid-column: 1;
   display: grid;
-  grid-template-columns: 196px 408px 122px 426px 244px;
+  grid-template-columns: 196px 408px 122px 424px 248px;
   /* = 1400 */
   grid-template-rows: 750px 18px 32px;
   /* = 800 */
@@ -42,9 +40,6 @@ body {
 
 /*White-house color notes
 */
-.white {
-  background: fuchsia; }
-
 .white-sky {
   background: transparent; }
 
@@ -92,25 +87,25 @@ body {
   background-color: #423525;
   border-radius: 1px;
   border: 1px solid #c49f82;
-  border-bottom-width: 0px; }
+  border-bottom-width: 0; }
 
 .wh-attic-window-right {
   background-color: #4d3d2e;
   border-radius: 1px;
   border: 1px solid #c49f82;
-  border-bottom-width: 0px; }
+  border-bottom-width: 0; }
 
 .wh-attic-ledge-left {
   filter: blur(1px);
   background: #91745a;
   border-radius: 1px;
-  box-shadow: -1px 0px 0px 0px #695a44; }
+  box-shadow: -1px 0 0 0 #695a44; }
 
 .wh-attic-ledge-right {
   filter: blur(1px);
   background: #91745a;
   border-radius: 1px;
-  box-shadow: -1px 0px 0px 0px #695a44; }
+  box-shadow: -1px 0 0 0 #695a44; }
 
 .white-facade {
   background: linear-gradient(180deg, #ead0b3 0%, #ceae90 100%); }
@@ -251,12 +246,12 @@ body {
 .wh-f3-door-left {
   grid-column: 2;
   grid-row: 2/6;
-  background-color: grey; }
+  background-color: #6e5c2b; }
 
 .wh-f3-door-right {
   grid-column: 4;
   grid-row: 2/6;
-  background-color: grey; }
+  background-color: #6e5c2b; }
 
 .wh-f3-deck-base {
   grid-column: 1/6;
@@ -274,12 +269,12 @@ body {
 .wh-f2-door-left {
   grid-column: 2;
   grid-row: 2/6;
-  background-color: #65a868; }
+  background-color: #6e5c2b; }
 
 .wh-f2-door-right {
   grid-column: 4;
   grid-row: 2/6;
-  background-color: #ad7d00; }
+  background-color: #6e5c2b; }
 
 .wh-f2-deck-base {
   grid-column: 1/6;
@@ -297,50 +292,29 @@ body {
 .wh-f1-door-left {
   grid-column: 2;
   grid-row: 2;
-  background-color: #83427f; }
+  background-color: #6e5c2b; }
 
 .wh-f1-door-right {
   grid-column: 4;
   grid-row: 2;
-  background-color: #baeebf; }
+  background-color: #6e5c2b; }
 
 .wh-step-row {
   grid-column: 2/5;
   grid-row: 3;
-  background-color: rgba(77, 43, 48, 0.77); }
-
-/* Peach house profile
-  sky:114
-  rooftop:14
-  roof:92
-  gutter:24
-  gutter:24
-  facade:458
-  foundation:2
-  */
-.peach {
-  background-color: #7391c3; }
+  background-color: grey; }
 
 .peach-sky {
   background: transparent; }
 
-.peach-chimney-left {
-  position: relative; }
-
-.peach-chimney-right {
-  position: relative; }
-
 .peach-chimney-cap {
-  grid-row: 1; }
+  background-color: #e5bb8a;
+  border: 1px solid #b08962;
+  border-top: 2px solid b99e80; }
 
 .peach-chimney-crown {
-  grid-row: 2;
-  width: 34px;
-  height: 10px;
-  position: absolute;
-  top: 0;
-  left: -4px;
-  border-radius: 0px 0px 4px 4px; }
+  background-color: #e5b689;
+  border-bottom: 5px solid #a17145; }
 
 .peach-chimney-base {
   background-color: #e5b689;
@@ -391,8 +365,8 @@ body {
 .rt-gab-shing-container {
   box-shadow: inset -1px 2px 3px 1px #5e3a29;
   background: #796b62;
-  padding-right: 2px;
-  padding-top: 2px;
+  padding-right: 3px;
+  padding-top: 3px;
   filter: blur(1px); }
 
 .peach-shing-gr {
@@ -508,15 +482,6 @@ body {
   border-top-right-radius: 3px;
   border: 1px solid #b2906d; }
 
-/* Peach house profile
-  sky:114
-  rooftop:14
-  roof:92
-  gutter:24
-  gutter:24
-  facade:458
-  foundation:2
-  */
 .peach-house-col {
   grid-column: 2;
   grid-row: 1;
@@ -534,7 +499,6 @@ body {
 .peach-chimney-left {
   grid-row: 2;
   grid-column: 1;
-  background: red;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 12px 10px 10px; }
@@ -542,19 +506,27 @@ body {
 .peach-chimney-right {
   grid-row: 2;
   grid-column: 3;
-  background: blue;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 12px 10px 10px; }
 
+.peach-chimney-left {
+  position: relative; }
+
+.peach-chimney-right {
+  position: relative; }
+
 .peach-chimney-cap {
-  background-color: #e5bb8a;
-  border: 1px solid #b08962;
-  border-top: 2px solid b99e80; }
+  grid-row: 1; }
 
 .peach-chimney-crown {
-  background-color: #e5b689;
-  border-bottom: 5px solid #a17145; }
+  grid-row: 2;
+  width: 34px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: -4px;
+  border-radius: 0px 0px 4px 4px; }
 
 .peach-chimney-base {
   grid-row: 3; }
@@ -746,17 +718,17 @@ body {
 .pch-f3-window-left {
   grid-column: 2;
   grid-row: 2;
-  background-color: rgba(112, 195, 139, 0.85); }
+  background-color: #186a56; }
 
 .pch-f3-window-ctr {
   grid-column: 4;
   grid-row: 2;
-  background-color: rgba(187, 189, 92, 0.81); }
+  background-color: #186a56; }
 
 .pch-f3-window-right {
   grid-column: 6;
   grid-row: 2;
-  background-color: rgba(226, 135, 83, 0.86); }
+  background-color: #186a56; }
 
 .pch-floor-2 {
   grid-column: 1;
@@ -775,17 +747,17 @@ body {
 .pch-f2-window-left {
   grid-column: 2;
   grid-row: 2/4;
-  background-color: white; }
+  background-color: #186a56; }
 
 .pch-f2-window-ctr {
   grid-column: 4;
   grid-row: 2/4;
-  background-color: rgba(64, 52, 18, 0.81); }
+  background-color: #186a56; }
 
 .pch-f2-window-right {
   grid-column: 6;
   grid-row: 2/4;
-  background-color: rgba(219, 82, 226, 0.86); }
+  background-color: #186a56; }
 
 .pch-floor-1 {
   grid-column: 1;
@@ -817,17 +789,17 @@ body {
 .pch-f1-door-left {
   grid-column: 2;
   grid-rows: 1;
-  background: #64a4a6; }
+  background: #4b301c; }
 
 .pch-f1-window-ctr {
   grid-column: 4;
   grid-row: 1;
-  background: ivory; }
+  background: #186a56; }
 
 .pch-f1-window-right {
   grid-column: 6;
   grid-rows: 1;
-  background: fuchsia; }
+  background: #186a56; }
 
 .foundation-container {
   grid-row: 6;
@@ -896,6 +868,15 @@ body {
   z-index: -1;
   box-shadow: inset -16px -25px 40px 4px rgba(0, 0, 0, 0.3); }
 
+.dk-gutter-top {
+  border-top: 1px solid #2a180c;
+  background: linear-gradient(90deg, #7d6042 50%, #493922 80%);
+  box-shadow: 1px 2px 1px 1px rgba(61, 39, 1, 0.8); }
+
+.dk-gutter-bot {
+  background: linear-gradient(90deg, #7d6042 50%, #493922 80%);
+  border-bottom: 1px solid rgba(96, 67, 35, 0.8); }
+
 .dark-door {
   border-top: 2px solid #99734f;
   box-shadow: inset 0px 3px 10px -3px rgba(65, 26, 8, 0.89);
@@ -904,6 +885,7 @@ body {
 
 .dark-house-col {
   grid-column: 3;
+  grid-row: 1;
   display: grid;
   grid-template-rows: 386px 86px 142px 136px;
   grid-template-columns: 1fr; }
@@ -948,16 +930,11 @@ body {
 .dk-gutter-top {
   grid-column: 1;
   grid-row: 1;
-  border-top: 1px solid #2a180c;
-  background: linear-gradient(90deg, #7d6042 50%, #493922 80%);
-  box-shadow: 1px 2px 1px 1px rgba(61, 39, 1, 0.8);
   z-index: 1; }
 
 .dk-gutter-bot {
   grid-column: 1;
-  grid-row: 2;
-  background: linear-gradient(90deg, #7d6042 50%, #493922 80%);
-  border-bottom: 1px solid rgba(96, 67, 35, 0.8); }
+  grid-row: 2; }
 
 .dark-window-container {
   grid-column: 1;
@@ -969,7 +946,7 @@ body {
 .dark-window {
   grid-column: 2;
   grid-row: 2;
-  background-color: black; }
+  background-color: #2b353b; }
 
 .dark-door {
   grid-row: 4;
@@ -1083,16 +1060,11 @@ body {
   grid-column: 4;
   grid-template-rows: 64px 33px 146px 14px 494px; }
 
-.brick-house-col {
-  position: relative; }
-
 .brick-sky {
-  grid-row: 1;
-  position: relative; }
+  grid-row: 1; }
 
 .brick-top-chimneys {
   grid-row: 2;
-  position: relative;
   display: grid;
   grid-template-columns: 28px auto 24px;
   grid-template-rows: 12px 21px; }
@@ -1102,7 +1074,6 @@ body {
   grid-row: 1;
   z-index: 10;
   width: 34px;
-  position: relative;
   left: -3px;
   border-radius: 4px; }
 
@@ -1114,8 +1085,7 @@ body {
   height: 14px;
   z-index: 10;
   left: -2px;
-  border-radius: 4px;
-  position: absolute; }
+  border-radius: 4px; }
 
 .brick-top-chimney-bodyL {
   grid-column: 1;

@@ -1,11 +1,11 @@
 /*White-house color notes
 */
 .white {
-  background: fuchsia;
+  // background: fuchsia;
 }
 
 .white-sky {
-  background: transparent; // to be transparented
+  background: transparent;
 }
 
 .white-roof {
@@ -15,10 +15,8 @@
   z-index: -2;
 }
 
-
 .white-shing {
   filter: blur(3px);
-
 
   &.mud {
     background-color: #9b806f;
@@ -33,24 +31,19 @@
   }
 }
 
-.white-gutter {
-
-}
 
 .wh-gutter-top {
   background: linear-gradient(180deg, #ecd8c0 0%, #ead0b5 100%);
   border-right: 1px solid rgba(#908477, 0.7);
   border-top: 1px solid #cbbaa8;
-
 }
+
 .wh-gutter-mid {
-  // filter: blur(1px);
   background: linear-gradient(270deg, #e2c09f 0%, #eed3b6 100%);
   border: 1px solid #d1b397;
-  // border-image: linear-gradient(to right, #c4a88d 0%, #cda88d 100%) 2 0%;
   border-right: 1px solid rgba(#908477, 0.7);
-
 }
+
 .wh-gutter-bot {
   background-color: #ecd3b5;
   border-right: 1px solid rgba(#a89077, 0.8);
@@ -73,31 +66,29 @@
   background-color: #423525;
   border-radius: 1px;
   border: 1px solid #c49f82;
-  border-bottom-width: 0px;
+  border-bottom-width: 0;
 }
+
 .wh-attic-window-right {
   background-color: #4d3d2e;
   border-radius: 1px;
   border: 1px solid #c49f82;
-  border-bottom-width: 0px;
+  border-bottom-width: 0;
 }
-.wh-attic-ledge-left {
 
+.wh-attic-ledge-left {
   filter: blur(1px);
-  // background: linear-gradient(270deg, #d7b494 50%, rgba(#a28c75, 0.2) 100%);
-  background:  #91745a;
+  background: #91745a;
   border-radius: 1px;
-  box-shadow: -1px 0px 0px 0px #695a44;
+  box-shadow: -1px 0 0 0 #695a44;
 }
+
 .wh-attic-ledge-right {
   filter: blur(1px);
-  // background: linear-gradient(270deg, #c8a98c 0%, rgba(134, 111, 90, 0.4) 100%);
-  background:  #91745a;
+  background: #91745a;
   border-radius: 1px;
-  box-shadow: -1px 0px 0px 0px #695a44;
+  box-shadow: -1px 0 0 0 #695a44;
 }
-
-
 
 .white-facade {
   background: linear-gradient(180deg, #ead0b3 0%, #ceae90 100%);

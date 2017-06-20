@@ -13,33 +13,31 @@
 
 body {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: 1fr auto 1fr;
+  grid-template-columns: 1fr 1400px 1fr;
+  grid-template-rows: 1fr 800px 1fr;
   width: 100vw;
   height: 100vh;
+  background: #384a54;
 }
 
 
-.div {
-  text-align: center;
-  overflow: hidden;
-}
-
-
+//NOTE: necessary(?)
 .firmament-container {
   grid-row: 2;
   grid-column: 2;
-  width: 1400px;
-  height: 800px;
-  z-index: -1;
   background: linear-gradient(135deg, #c2bfb4 0%, #3d756f 50%, #171f1e 100%);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  z-index: -1;
+  // background: fuchsia;
 }
 
 .entire-pic-container {
-  width: 1400px;
-  height: 800px;
+  grid-row: 1;
+  grid-column: 1;
   display: grid;
-  grid-template-columns: 196px 408px 122px 426px 244px; /* = 1400 */
+  grid-template-columns: 196px 408px 122px 424px 248px; /* = 1400 */
   grid-template-rows: 750px 18px 32px; /* = 800 */
   overflow: hidden;
 }
