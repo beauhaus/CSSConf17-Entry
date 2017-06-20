@@ -54,16 +54,11 @@
   grid-row:1;
   border-top: 1px solid #2a180c;
   background: linear-gradient(90deg, #7d6042 50%, #493922 80%);
-  // box-shadow: -2px 5px 2px 5px solid black;
-  z-index: 3;
-}
-.dk-gutter-top {
-  grid-column: 1;
-  grid-row:1;
-  border-top: 1px solid #2a180c;
-  background: linear-gradient(90deg, #7d6042 50%, #493922 80%);
+  box-shadow: 1px 2px 1px 1px rgba(61, 39, 1, 0.8);
+  z-index: 1;
 
 }
+
 .dk-gutter-bot {
   grid-column: 1;
   grid-row:2;
@@ -71,6 +66,21 @@
   border-bottom: 1px solid rgba(96, 67, 35, 0.8);
   // z-index: -2;
 }
+
+.dark-window-container {
+  grid-column: 1;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 11px 90px 1fr;
+  grid-template-rows: 12px 105px 1fr;
+}
+
+.dark-window {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: black;
+}
+
 
 .dark-door {
   grid-row:4;

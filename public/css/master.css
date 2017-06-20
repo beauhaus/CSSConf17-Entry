@@ -864,7 +864,7 @@ body {
   border-style: solid;
   border-width: 0px;
   border-bottom-width: 1px;
-  border-image: linear-gradient(to right, #635b44 45%, #3b3420 60%) 1 0%;
+  border-image: linear-gradient(to right, #635b44 40%, #3b3420 50%) 1 0%;
   z-index: -1; }
 
 .dark-roof {
@@ -872,7 +872,7 @@ body {
   border-style: solid;
   border-width: 0px;
   border-top-width: 1px;
-  border-image: linear-gradient(to right, #807559 40%, #463e26 70%) 1 0%;
+  border-image: linear-gradient(to right, #807559 30%, #463e26 60%) 1 0%;
   z-index: -1; }
 
 .dk-roof-top {
@@ -884,18 +884,17 @@ body {
 
 .dk-roof-mid {
   background: linear-gradient(0deg, transparent 0%, #534237 100%);
-  overflow: hidden;
-  opacity: .9; }
+  opacity: .7; }
 
 .dk-roof-bot {
   background: linear-gradient(120deg, #675542 23%, #4e3d2a 30%, #413425 65%, #22180e 85%);
   opacity: .7; }
 
 .dark-facade {
-  background: linear-gradient(140deg, #8d6a45 0%, #724421 100%);
+  background: linear-gradient(90deg, #8d6a45 68%, #79502d 80%);
   border-bottom: 1px solid #8d6a45;
   z-index: -1;
-  box-shadow: inset -16px -25px 40px 4px rgba(0, 0, 0, 0.4); }
+  box-shadow: inset -16px -25px 40px 4px rgba(0, 0, 0, 0.3); }
 
 .dark-door {
   border-top: 2px solid #99734f;
@@ -951,19 +950,26 @@ body {
   grid-row: 1;
   border-top: 1px solid #2a180c;
   background: linear-gradient(90deg, #7d6042 50%, #493922 80%);
-  z-index: 3; }
-
-.dk-gutter-top {
-  grid-column: 1;
-  grid-row: 1;
-  border-top: 1px solid #2a180c;
-  background: linear-gradient(90deg, #7d6042 50%, #493922 80%); }
+  box-shadow: 1px 2px 1px 1px rgba(61, 39, 1, 0.8);
+  z-index: 1; }
 
 .dk-gutter-bot {
   grid-column: 1;
   grid-row: 2;
   background: linear-gradient(90deg, #7d6042 50%, #493922 80%);
   border-bottom: 1px solid rgba(96, 67, 35, 0.8); }
+
+.dark-window-container {
+  grid-column: 1;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 11px 90px 1fr;
+  grid-template-rows: 12px 105px 1fr; }
+
+.dark-window {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: black; }
 
 .dark-door {
   grid-row: 4;
@@ -1044,7 +1050,7 @@ body {
 
 .brick-facade {
   background: linear-gradient(45deg, #933812 0%, #a85b29 100%);
-  box-shadow: -60px 130px 15px 3px rgba(0, 0, 0, 0.2); }
+  box-shadow: -60px 130px 15px 3px rgba(0, 0, 0, 0.1); }
 
 .brick-attic-left {
   background-color: #b56642; }
