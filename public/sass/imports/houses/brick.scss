@@ -106,7 +106,7 @@
   border: 1px solid #5e270c;
   border-bottom-width: 0;
   border-top-width: 0;
-  box-shadow: 16px 14px 8px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 7px 8px -5px rgba(0, 0, 0, 0.2);
 }
 
 #front-bottom-wall-left {
@@ -122,7 +122,7 @@
   position: relative;
   border-radius: 2px;
   background: linear-gradient(20deg, #dcb685 0%,  #d2b083 100%);
-  box-shadow: 10px 14px 8px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 8px 14px 8px -5px rgba(0, 0, 0, 0.4);
 }
 #front-base-left {
   grid-column: 1;
@@ -228,7 +228,7 @@
   position: absolute;
   height: 100px;
   width: 130px;
-/*   -webkit-clip-path: polygon(100% 15%, 86% 6%, 65% 19%, 65% 35%, 70% 37%, 75% 37%, 100% 61%); */
+// /*   -webkit-clip-path: polygon(100% 15%, 86% 6%, 65% 19%, 65% 35%, 70% 37%, 75% 37%, 100% 61%); */
 clip-path: polygon(100% 15%, 86% 6%, 65% 19%, 65% 35%, 70% 37%, 75% 37%, 100% 61%);
 }
 
@@ -241,7 +241,7 @@ clip-path: polygon(100% 15%, 86% 6%, 65% 19%, 65% 35%, 70% 37%, 75% 37%, 100% 61
   position: absolute;
   height: 72px;
   width: 18px;
-  // -webkit-clip-path: polygon(99% 0%, 100% 100%, 69% 100%, 1% 80%, 1% 0%, 45% 0%, 46% 16%);
+  -webkit-clip-path: polygon(99% 0%, 100% 100%, 69% 100%, 1% 80%, 1% 0%, 45% 0%, 46% 16%);
   clip-path: polygon(99% 0%, 100% 100%, 69% 100%, 1% 80%, 1% 0%, 45% 0%, 46% 16%);
 }
 
