@@ -181,6 +181,7 @@
   background: linear-gradient(0deg, #a16c4c 0%,  #c26543 20%);
   border: 1px solid #5e270c;
   border-bottom-width: 0;
+  border-bottom-left-radius: 0;
   border-top-width: 0;
   box-shadow: -13px -5px 1px -4px  rgba(#000000, .1);
   z-index: 20;
@@ -233,59 +234,110 @@
   background: rgba(#000000, 0.45)
 }
 .brick-gutters {
-  background: linear-gradient(90deg, #522f1c 0%,  #924f3c 100%);
+  background: linear-gradient(90deg, #522f1c 0%,  #a85b29 80%);
+
 }
 .brick-gutter-top {
   background-color: #bfa68b;
   border-bottom: 1px solid #a07e62;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
-
-}
+  }
 
 .brick-gutter-mid{
   background-color: #dac3a1;
   border-bottom-left-radius: 22px;
   border-bottom-right-radius: 14px;
   border-top-right-radius: 8px;
+  box-shadow: -1px 10px 10px 5px rgba(#000000, 0.4);
+  // z-index: 15px;
 }
 
 .brick-gutter-bot {
   background-color: #85674c;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 4px;
+  z-index: -1px;
 }
 
 
 .brick-facade {
   background: linear-gradient(45deg, #933812 0%, #a85b29 100%);
-  box-shadow: -60px 130px 15px 3px rgba(#000000, 0.1);
+  box-shadow: -60px 150px 15px 5px rgba(#000000, 0.1);
+  z-index: 0;
 }
 
+.brick-attic-top{
+  background: wheat;
+  border-top-right-radius: 4px;
 
-.brick-attic-left{
-  background-color: #b56642;
+  z-index: -1;
+
+}
+
+.br-attic-winframe-left {
+  grid-column: 2;
+  grid-row: 1;
+  background: black;
+}
+
+.br-attic-winframe-ctr {
+  grid-column: 4;
+  grid-row: 1;
+  background: black;
+}
+
+.br-attic-winframe-right {
+  grid-column: 6;
+  grid-row: 1;
+  background: black;
+}
+
+.br-attic {
+  box-shadow: -2px 1px 2px 0px rgba(#000000, 0.7);
 }
 
 .brick-attic-mid{
-  background-color: #c2a382;
-  border-radius: 0px 0px 4px 4px;
+  background-color: #b59677;
+  border-bottom: 1px solid #83654c;
+  border-radius: 2px;
 }
+
+.brick-attic-bot1{
+  background-color: #d5bba0;
+  border-bottom: 1px solid #83654c;
+
+}
+.brick-attic-bot2{
+  background-color: #d5bba0;
+  border-bottom: 1px solid #83654c;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+
+}
+.brick-attic-bot3{
+  background-color: #dbc0a2;
+  border-bottom: 1px solid #83654c;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+
+}
+
 
 
 .brick-container {
   overflow: hidden;
-  color: ivory;
-  font-family: sans-serif;
+  // color: ivory;
+  // font-family: sans-serif;
 }
 .brick {
   opacity: .1;
   filter: blur(1px);
   border-top: 1px solid white;
     &-odd::before {
-      content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII";
+      content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII";
     }
     &-even::before {
-      content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII";
+      content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII";
     }
 }

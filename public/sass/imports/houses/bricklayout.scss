@@ -7,10 +7,12 @@
 64px 33 146px 14px 8px 18px 24px 440px;
  */
 .brick-house-col {
-  display: grid;
   grid-column: 4;
   grid-row: 1;
-  grid-template-rows: 64px 33px 146px 18px 494px;
+  display: grid;
+  // grid-template-rows: 64px 33px 146px 62px 494px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 64px 33px 146px 62px 1fr;
 }
 
 .brick-house-col {
@@ -89,7 +91,8 @@
 
 
 
-
+// FIXME: GREAT IDEA: Increase the blur as you go up
+// with these shingles!!! !important!
 
 // ========SHINGLES START==============
 
@@ -353,39 +356,66 @@
   }
 }
 
-// ========SHINGLES END================
+// ========SHINGLES END=========================
 
-.brick-gutters {
+.brick-facade {
+  grid-row: 4/6;
   grid-column: 1;
-  grid-row: 4;
   display: grid;
-  grid-template-columns: 2px 4px 16px auto 13px 5px;
-  grid-template-rows: 7px 7px 4px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 62px 1fr;
+}
+
+.brk-gutter-attic-container {
+  grid-column: 1/-1;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 2px 4px 2px 2px 2px 3px 1px 1px 7px auto 2px 2px 2px 5px 6px 5px;
+  grid-template-rows: 7px 7px 4px 18px 3px 1fr 1fr 1fr;
+  z-index: 10;
+  // background: yellow;
+
 }
 .brick-gutter {
   &-top {
     grid-row: 1;
-    grid-column: 2/-1;
+    grid-column: 1/-1;
   }
   &-mid {
-    grid-column: 3/6;
+    grid-column: 4/16;
     grid-row: 2;
   }
-
   &-bot {
-    grid-column: 4/5;
+    grid-column: 6/15;
     grid-row: 3;
   }
 }
 
-
-.brick-facade {
-    grid-column: 1;
-    grid-row: 5;
-    display: grid;
-    grid-template-columns: 18px auto 15px;
-    grid-template-rows: 50px auto;
+.brick-attic-top {
+  grid-row: 4;
+  grid-column: 7/14;
+  display: grid;
+  grid-template-columns: 40px 46px 92px 47px 84px 49px 35px;
+  grid-template-rows: 1hr;
 }
+.brick-attic-mid {
+  grid-row: 5;
+  grid-column: 6/15;
+}
+.brick-attic-bot1 {
+  grid-row: 6;
+  grid-column: 7/14;
+}
+.brick-attic-bot2 {
+  grid-row: 7;
+  grid-column: 8/13;
+}
+.brick-attic-bot3 {
+  grid-row: 8;
+  grid-column: 9/12;
+  // background: green;
+}
+
 
 .brick-container {
   grid-column: 1/-1;
@@ -403,25 +433,4 @@
 }
 .brick-odd {
   text-indent: 3px;
-}
-
-// subgrid overlapping facade
-.brick-attic{
-  &-row {
-    grid-row: 1;
-    grid-column: 1/-1;
-    display: grid;
-    grid-template-columns: 18px auto 15px;
-    grid-template-rows: 50px;
-    z-index: 10;
-  }
-  &-left {
-    grid-column: 1;
-  }
-  &-mid {
-    grid-column: 2;
-  }
-  &-right {
-    grid-column: 3;
-  }
 }

@@ -804,7 +804,8 @@ body {
 .foundation-container {
   grid-row: 6;
   grid-column: 1;
-  position: relative; }
+  position: relative;
+  z-index: 10; }
 
 .peach-foundation {
   width: 414px;
@@ -1108,6 +1109,7 @@ body {
   background: linear-gradient(0deg, #a16c4c 0%, #c26543 20%);
   border: 1px solid #5e270c;
   border-bottom-width: 0;
+  border-bottom-left-radius: 0;
   border-top-width: 0;
   box-shadow: -13px -5px 1px -4px rgba(0, 0, 0, 0.1);
   z-index: 20; }
@@ -1155,7 +1157,7 @@ body {
   background: rgba(0, 0, 0, 0.45); }
 
 .brick-gutters {
-  background: linear-gradient(90deg, #522f1c 0%, #924f3c 100%); }
+  background: linear-gradient(90deg, #522f1c 0%, #a85b29 80%); }
 
 .brick-gutter-top {
   background-color: #bfa68b;
@@ -1167,37 +1169,75 @@ body {
   background-color: #dac3a1;
   border-bottom-left-radius: 22px;
   border-bottom-right-radius: 14px;
-  border-top-right-radius: 8px; }
+  border-top-right-radius: 8px;
+  box-shadow: -1px 10px 10px 5px rgba(0, 0, 0, 0.4); }
 
 .brick-gutter-bot {
   background-color: #85674c;
   border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 4px; }
+  border-bottom-right-radius: 4px;
+  z-index: -1px; }
 
 .brick-facade {
   background: linear-gradient(45deg, #933812 0%, #a85b29 100%);
-  box-shadow: -60px 130px 15px 3px rgba(0, 0, 0, 0.1); }
+  box-shadow: -60px 150px 15px 5px rgba(0, 0, 0, 0.1);
+  z-index: 0; }
 
-.brick-attic-left {
-  background-color: #b56642; }
+.brick-attic-top {
+  background: wheat;
+  border-top-right-radius: 4px;
+  z-index: -1; }
+
+.br-attic-winframe-left {
+  grid-column: 2;
+  grid-row: 1;
+  background: black; }
+
+.br-attic-winframe-ctr {
+  grid-column: 4;
+  grid-row: 1;
+  background: black; }
+
+.br-attic-winframe-right {
+  grid-column: 6;
+  grid-row: 1;
+  background: black; }
+
+.br-attic {
+  box-shadow: -2px 1px 2px 0px rgba(0, 0, 0, 0.7); }
 
 .brick-attic-mid {
-  background-color: #c2a382;
-  border-radius: 0px 0px 4px 4px; }
+  background-color: #b59677;
+  border-bottom: 1px solid #83654c;
+  border-radius: 2px; }
+
+.brick-attic-bot1 {
+  background-color: #d5bba0;
+  border-bottom: 1px solid #83654c; }
+
+.brick-attic-bot2 {
+  background-color: #d5bba0;
+  border-bottom: 1px solid #83654c;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px; }
+
+.brick-attic-bot3 {
+  background-color: #dbc0a2;
+  border-bottom: 1px solid #83654c;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px; }
 
 .brick-container {
-  overflow: hidden;
-  color: ivory;
-  font-family: sans-serif; }
+  overflow: hidden; }
 
 .brick {
   opacity: .1;
   filter: blur(1px);
   border-top: 1px solid white; }
   .brick-odd::before {
-    content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"; }
+    content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"; }
   .brick-even::before {
-    content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"; }
+    content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"; }
 
 /*===============BRICK HOUSE Profile================*/
 /*
@@ -1205,10 +1245,11 @@ body {
 64px 33 146px 14px 8px 18px 24px 440px;
  */
 .brick-house-col {
-  display: grid;
   grid-column: 4;
   grid-row: 1;
-  grid-template-rows: 64px 33px 146px 18px 494px; }
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 64px 33px 146px 62px 1fr; }
 
 .brick-sky {
   grid-row: 1;
@@ -1422,29 +1463,53 @@ body {
   grid-column: 17;
   grid-row: 37; }
 
-.brick-gutters {
+.brick-facade {
+  grid-row: 4/6;
   grid-column: 1;
-  grid-row: 4;
   display: grid;
-  grid-template-columns: 2px 4px 16px auto 13px 5px;
-  grid-template-rows: 7px 7px 4px; }
+  grid-template-columns: 1fr;
+  grid-template-rows: 62px 1fr; }
+
+.brk-gutter-attic-container {
+  grid-column: 1/-1;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 2px 4px 2px 2px 2px 3px 1px 1px 7px auto 2px 2px 2px 5px 6px 5px;
+  grid-template-rows: 7px 7px 4px 18px 3px 1fr 1fr 1fr;
+  z-index: 10; }
 
 .brick-gutter-top {
   grid-row: 1;
-  grid-column: 2/-1; }
+  grid-column: 1/-1; }
 .brick-gutter-mid {
-  grid-column: 3/6;
+  grid-column: 4/16;
   grid-row: 2; }
 .brick-gutter-bot {
-  grid-column: 4/5;
+  grid-column: 6/15;
   grid-row: 3; }
 
-.brick-facade {
-  grid-column: 1;
-  grid-row: 5;
+.brick-attic-top {
+  grid-row: 4;
+  grid-column: 7/14;
   display: grid;
-  grid-template-columns: 18px auto 15px;
-  grid-template-rows: 50px auto; }
+  grid-template-columns: 40px 46px 92px 47px 84px 49px 35px;
+  grid-template-rows: 1hr; }
+
+.brick-attic-mid {
+  grid-row: 5;
+  grid-column: 6/15; }
+
+.brick-attic-bot1 {
+  grid-row: 6;
+  grid-column: 7/14; }
+
+.brick-attic-bot2 {
+  grid-row: 7;
+  grid-column: 8/13; }
+
+.brick-attic-bot3 {
+  grid-row: 8;
+  grid-column: 9/12; }
 
 .brick-container {
   grid-column: 1/-1;
@@ -1460,20 +1525,6 @@ body {
 
 .brick-odd {
   text-indent: 3px; }
-
-.brick-attic-row {
-  grid-row: 1;
-  grid-column: 1/-1;
-  display: grid;
-  grid-template-columns: 18px auto 15px;
-  grid-template-rows: 50px;
-  z-index: 10; }
-.brick-attic-left {
-  grid-column: 1; }
-.brick-attic-mid {
-  grid-column: 2; }
-.brick-attic-right {
-  grid-column: 3; }
 
 .short-sky {
   background-color: transparent; }
