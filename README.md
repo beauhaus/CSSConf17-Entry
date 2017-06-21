@@ -140,4 +140,14 @@ I'm exhausted.
 ![step Ten](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step10.png?raw=true)
 
 Progresssss izzzz slow... But here we are, ten (10!!?!?) days later. ☹️
---I'm not complaining... I'm pleased with the results. 
+--I'm not complaining... I'm pleased with the results.
+
+#### Step 11.
+![step eleven](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step11.png?raw=true)
+
+Ugh... Okay that's it I'm going to bed. SVG clip-path to render shadows on the roof.
+
+and lots of grid stuff.
+
+Lots of color adjustments.
+God, I hope this is worth it. I wanna put it down and get on with my life.
