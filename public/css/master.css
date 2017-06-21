@@ -994,6 +994,7 @@ body {
   background-color: #395440; }
 
 #brick-roof-front-container {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, transparent 10%, transparent 100%);
   opacity: 0;
   top: 0;
   left: 0;
@@ -1153,29 +1154,25 @@ body {
   filter: blur(3px);
   background: rgba(0, 0, 0, 0.45); }
 
-.brick-gutter-top-left {
+.brick-gutters {
+  background: linear-gradient(90deg, #522f1c 0%, #924f3c 100%); }
+
+.brick-gutter-top {
   background-color: #bfa68b;
-  border-bottom: 1px solid #a07e62; }
+  border-bottom: 1px solid #a07e62;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px; }
 
-.brick-gutter-top-mid {
-  background-color: #bfa68b;
-  border-bottom: 1px solid #a07e62; }
+.brick-gutter-mid {
+  background-color: #dac3a1;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 14px;
+  border-top-right-radius: 8px; }
 
-.brick-gutter-top-right {
-  background-color: #bfa68b;
-  border-bottom: 1px solid #a07e62; }
-
-.brick-gutter-bot-left {
-  background-color: #4c2818;
-  border: 3px solid #dac3a1;
-  border-bottom: 3px solid transparent;
-  border-left: 3px solid transparent; }
-
-.brick-gutter-bot-mid {
-  background-color: #dac3a1; }
-
-.brick-gutter-bot-right {
-  background-color: #745746; }
+.brick-gutter-bot {
+  background-color: #85674c;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 4px; }
 
 .brick-facade {
   background: linear-gradient(45deg, #933812 0%, #a85b29 100%);
@@ -1211,7 +1208,7 @@ body {
   display: grid;
   grid-column: 4;
   grid-row: 1;
-  grid-template-rows: 64px 33px 146px 14px 494px; }
+  grid-template-rows: 64px 33px 146px 18px 494px; }
 
 .brick-sky {
   grid-row: 1;
@@ -1429,27 +1426,18 @@ body {
   grid-column: 1;
   grid-row: 4;
   display: grid;
-  grid-template-columns: 6px 413px 5px;
-  grid-template-rows: 7px 7px; }
+  grid-template-columns: 2px 4px 16px auto 13px 5px;
+  grid-template-rows: 7px 7px 4px; }
 
-.brick-gutter-top-left {
+.brick-gutter-top {
   grid-row: 1;
-  grid-column: 1; }
-.brick-gutter-top-mid {
-  grid-column: 2;
-  grid-row: 1; }
-.brick-gutter-top-right {
-  grid-column: 3;
-  grid-row: 1; }
-.brick-gutter-bot-left {
-  grid-column: 1;
+  grid-column: 2/-1; }
+.brick-gutter-mid {
+  grid-column: 3/6;
   grid-row: 2; }
-.brick-gutter-bot-mid {
-  grid-column: 2;
-  grid-row: 2; }
-.brick-gutter-bot-right {
-  grid-column: 3;
-  grid-row: 2; }
+.brick-gutter-bot {
+  grid-column: 4/5;
+  grid-row: 3; }
 
 .brick-facade {
   grid-column: 1;

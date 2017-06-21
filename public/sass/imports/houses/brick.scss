@@ -60,6 +60,7 @@
 
 #brick-roof-front-container {
   // background: #4d5869;
+  background: linear-gradient(0deg,rgba(0, 0, 0, 0.1) 0% , transparent 10%, transparent 100%);
   opacity: 0;
   top: 0;
   left: 0;
@@ -231,37 +232,30 @@
   filter: blur(3px);
   background: rgba(#000000, 0.45)
 }
-
-.brick-gutter-top-left {
+.brick-gutters {
+  background: linear-gradient(90deg, #522f1c 0%,  #924f3c 100%);
+}
+.brick-gutter-top {
   background-color: #bfa68b;
   border-bottom: 1px solid #a07e62;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+
 }
 
-.brick-gutter-top-mid {
-  background-color: #bfa68b;
-  border-bottom: 1px solid #a07e62;
-}
-
-.brick-gutter-top-right {
-  background-color: #bfa68b;
-  border-bottom: 1px solid #a07e62;
-}
-
-.brick-gutter-bot-left {
-  background-color: #4c2818;
-  border: 3px solid #dac3a1;
-  border-bottom: 3px solid transparent;
-  border-left: 3px solid transparent;
-}
-
-
-.brick-gutter-bot-mid {
+.brick-gutter-mid{
   background-color: #dac3a1;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 14px;
+  border-top-right-radius: 8px;
 }
 
-.brick-gutter-bot-right {
-  background-color: #745746;
+.brick-gutter-bot {
+  background-color: #85674c;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 4px;
 }
+
 
 .brick-facade {
   background: linear-gradient(45deg, #933812 0%, #a85b29 100%);
