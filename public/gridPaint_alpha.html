@@ -208,12 +208,12 @@
             <div class="dk-gutter-top"></div>
             <div class="dk-gutter-bot"></div>
           </div>
-        <div class="dark-window-container">
-          <div class="dark-window"></div>
-        </div>
+          <div class="dark-window-container">
+            <div class="dark-window"></div>
+          </div>
 
-      </div>
-      <div class="col dark-door">door</div>
+        </div>
+        <div class="col dark-door">door</div>
       </div>
 
 
@@ -229,12 +229,50 @@
           <div class="col brick-top-chimney-bodyL"></div>
         </div>
 
+
+
+
+
+
+
+
+        <!-- ============================================================================ -->
+
+        <!-- <svg width="600px" height="300px">
+            <filter id="filter">
+                <feGaussianBlur stdDeviation="10"></feGaussianBlur>
+            </filter>
+            <clipPath id="clip-path">
+                <rect width="200" height="100" x="0" y="0" />
+            </clipPath>
+          <g filter="url(#filter)">
+            <g clip-path="url(#clip-path)">
+                <image xlink:href="http://image.png" width="100%" height="100%" />
+            </g>
+          </g>
+        </svg> -->
+        <!-- ============================================================================ -->
+
+
+
+
         <!-- roof -->
         <div class="row brick-roof">
-        <div id="brick-roof-shad-container">
-          <div id="brick-roof-shad1"></div>
-          <div id="brick-roof-shad2"></div>
-        </div>
+          <div id="brick-roof-shad-container">
+            <div id="brick-roof-shad"></div>
+            <svg width="0" height="0">
+              <filter id="filter">
+                  <feGaussianBlur stdDeviation="10"></feGaussianBlur>
+              </filter>
+              <g filter="url(#filter)">
+                <clipPath id="clipPolygon" filter="url(#filter)">
+                  <polygon points= " 65 17, 57 14, 52 13, 28 26 28 37 33 42 39 42 54 54 54 111, 55 114, 77 129, 88 129, 87 56, 75 89, 83 68, 78 68, 78 1 68 5 "></polygon>
+                </clipPath>
+              </g>
+            </svg>
+
+
+          </div>
           <div class="shing tan" id="shing-tan1"></div>
           <div class="shing tan" id="shing-tan2"></div>
           <div class="shing tan" id="shing-tan3"></div>
@@ -288,7 +326,7 @@
             <div id="front-base-left"></div>
 
             <div id="front-top-wall-right"></div>
-            <div id-"roof-shadow"></div>
+            <div id- "roof-shadow"></div>
             <div id="front-chimney-right-cap"></div>
             <div id="front-chimney-right"></div>
             <div id="front-bottom-wall-right"></div>

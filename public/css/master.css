@@ -1009,7 +1009,8 @@ body {
   height: 14px;
   top: -9px;
   left: 0;
-  position: absolute; }
+  position: absolute;
+  box-shadow: 2px 10px 2px 2px rgba(0, 0, 0, 0.5); }
 
 #front-chimney-left-cap {
   grid-column: 1/4;
@@ -1072,7 +1073,7 @@ body {
   top: -9px;
   right: 0;
   position: absolute;
-  box-shadow: -12px 6px 4px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: -12px 9px 1px 1px rgba(0, 0, 0, 0.4);
   z-index: 5; }
 
 #front-chimney-right-cap {
@@ -1088,7 +1089,7 @@ body {
   border-bottom: 3px solid #954426;
   border-right: 1px solid #943f20;
   border-left: 1px solid #943f20;
-  box-shadow: -13px 3px 6px -1px rgba(0, 0, 0, 0.6);
+  box-shadow: -13px 3px 2px -1px rgba(0, 0, 0, 0.1);
   z-index: 5; }
 
 .shadow-brk-roof {
@@ -1107,7 +1108,7 @@ body {
   border: 1px solid #5e270c;
   border-bottom-width: 0;
   border-top-width: 0;
-  box-shadow: -13px -5px 5px -4px rgba(0, 0, 0, 0.6);
+  box-shadow: -13px -5px 1px -4px rgba(0, 0, 0, 0.1);
   z-index: 20; }
 
 #front-bottom-wall-right {
@@ -1131,36 +1132,26 @@ body {
   background-color: #b55a32; }
 
 #brick-roof-shad-container {
-  grid-column: 16;
-  grid-row: 14;
+  grid-column: 18;
+  grid-row: 5;
   position: absolute;
   top: 0px;
   left: 0px;
   height: 3px;
   width: 14px;
-  filter: blur(2px);
-  z-index: 15; }
+  z-index: 15;
+  /*Firefox*/
+  clip-path: url("#clipPolygon"); }
 
-#brick-roof-shad1 {
+#brick-roof-shad {
   z-index: 10;
-  top: -24px;
-  right: -94px;
-  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
   position: absolute;
-  height: 100px;
-  width: 130px;
-  clip-path: polygon(100% 15%, 86% 6%, 65% 19%, 65% 35%, 70% 37%, 75% 37%, 100% 61%); }
-
-#brick-roof-shad2 {
-  z-index: 10;
-  top: 31px;
-  right: -112px;
-  background: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  height: 72px;
-  width: 18px;
-  -webkit-clip-path: polygon(99% 0%, 100% 100%, 69% 100%, 1% 80%, 1% 0%, 45% 0%, 46% 16%);
-  clip-path: polygon(99% 0%, 100% 100%, 69% 100%, 1% 80%, 1% 0%, 45% 0%, 46% 16%); }
+  height: 130px;
+  width: 90px;
+  filter: blur(3px);
+  background: rgba(0, 0, 0, 0.45); }
 
 .brick-gutter-top-left {
   background-color: #bfa68b;
