@@ -981,6 +981,7 @@ body {
   box-shadow: 0px -1px 1px 0px #a5694f; }
 
 .shing {
+  filter: blur(2px);
   opacity: .7; }
 
 .shing.tan {
@@ -993,7 +994,6 @@ body {
   background-color: #395440; }
 
 #brick-roof-front-container {
-  background: #4d5869;
   opacity: 0;
   top: 0;
   left: 0;
@@ -1015,24 +1015,37 @@ body {
   grid-column: 1/4;
   grid-row: 2;
   width: 28px;
+  height: 8px;
   top: 0;
-  left: -2px;
+  left: -3px;
   position: relative;
   border-radius: 2px;
   background-color: #cf7b57;
-  border-bottom: 3px solid #943f20; }
+  border-bottom: 3px solid #943f20;
+  border-right: 1px solid #943f20;
+  border-left: 1px solid #943f20; }
 
 #front-chimney-left {
   grid-column: 1/4;
   grid-row: 3/5;
+  width: 24px;
+  top: 0;
+  left: -1px;
+  position: relative;
+  border-radius: 2px;
   background-color: #c26543;
+  background: linear-gradient(0deg, #a16c4c 0%, #c26543 20%);
+  border: 1px solid #5e270c;
+  border-bottom-width: 0;
+  border-top-width: 0;
   box-shadow: 16px 14px 8px -5px rgba(0, 0, 0, 0.1); }
 
 #front-bottom-wall-left {
   grid-column: 1/3;
   grid-row: 4/6;
-  border: 2px solid #6e523c;
+  border: 2px solid #4d2714;
   border-top-width: 0;
+  border-right-width: 1px;
   border-bottom-width: 1px;
   width: 16px;
   top: 0;
@@ -1058,33 +1071,96 @@ body {
   height: 14px;
   top: -9px;
   right: 0;
-  position: absolute; }
+  position: absolute;
+  box-shadow: -12px 6px 4px 0px rgba(0, 0, 0, 0.6);
+  z-index: 5; }
 
 #front-chimney-right-cap {
   grid-column: 5/-1;
   grid-row: 2;
-  width: 28px;
+  width: 27px;
+  height: 8px;
   top: 0;
-  left: -2px;
+  left: -1px;
   position: relative;
   border-radius: 2px;
   background-color: #c46e53;
-  border-bottom: 3px solid #954426; }
+  border-bottom: 3px solid #954426;
+  border-right: 1px solid #943f20;
+  border-left: 1px solid #943f20;
+  box-shadow: -13px 3px 6px -1px rgba(0, 0, 0, 0.6);
+  z-index: 5; }
+
+.shadow-brk-roof {
+  opacity: .5;
+  background: black; }
 
 #front-chimney-right {
   grid-column: 5/-1;
   grid-row: 3/5;
-  background-color: #c26543; }
+  width: 24px;
+  top: 0;
+  right: -1px;
+  position: relative;
+  border-radius: 2px;
+  background: linear-gradient(0deg, #a16c4c 0%, #c26543 20%);
+  border: 1px solid #5e270c;
+  border-bottom-width: 0;
+  border-top-width: 0;
+  box-shadow: -13px -5px 5px -4px rgba(0, 0, 0, 0.6);
+  z-index: 20; }
 
 #front-bottom-wall-right {
   grid-column: 6/-1;
   grid-row: 4/6;
-  background-color: #ccb865; }
+  width: 16px;
+  top: 0;
+  right: 0;
+  position: relative;
+  background: linear-gradient(0deg, #c09874 0%, #cfb091 30%, #cfb091 70%, #b79673 100%);
+  border-top-width: 0;
+  border: 1px solid #4d2714;
+  border-top-width: 0;
+  border-bottom-width: 1px;
+  border-radius: 2px;
+  z-index: 20; }
 
 #front-base-right {
   grid-column: 7;
   grid-row: 6/7;
   background-color: #b55a32; }
+
+#brick-roof-shad-container {
+  grid-column: 16;
+  grid-row: 14;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 3px;
+  width: 14px;
+  filter: blur(2px);
+  z-index: 15; }
+
+#brick-roof-shad1 {
+  z-index: 10;
+  top: -24px;
+  right: -94px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 100px;
+  width: 130px;
+  /*   -webkit-clip-path: polygon(100% 15%, 86% 6%, 65% 19%, 65% 35%, 70% 37%, 75% 37%, 100% 61%); */
+  clip-path: polygon(100% 15%, 86% 6%, 65% 19%, 65% 35%, 70% 37%, 75% 37%, 100% 61%); }
+
+#brick-roof-shad2 {
+  z-index: 10;
+  top: 31px;
+  right: -112px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 72px;
+  width: 18px;
+  clip-path: polygon(99% 0%, 100% 100%, 69% 100%, 1% 80%, 1% 0%, 45% 0%, 46% 16%); }
 
 .brick-gutter-top-left {
   background-color: #bfa68b;
@@ -1192,8 +1268,9 @@ body {
   grid-row: 3;
   z-index: 10;
   display: grid;
-  grid-template-columns: repeat(22, 19px);
-  grid-template-rows: repeat(38, 1fr); }
+  grid-template-columns: repeat(20, 19px);
+  grid-template-rows: repeat(48, 1fr);
+  position: relative; }
 
 #brick-roof-front-container {
   grid-column: 1/33;
@@ -1249,6 +1326,21 @@ body {
 #shing-tan15 {
   grid-column: 4;
   grid-row: 36; }
+
+#brk-roof-shad-top1 {
+  grid-column: 20/22;
+  grid-row: 9/14; }
+#brk-roof-shad-top2 {
+  grid-column: 18;
+  grid-row: 14;
+  background: pink; }
+#brk-roof-shad-top3 {
+  grid-column: 19;
+  grid-row: 15;
+  background: green; }
+#brk-roof-shad-top4 {
+  grid-column: 20;
+  grid-row: 10/14; }
 
 #shing-br1 {
   grid-column: 3;
