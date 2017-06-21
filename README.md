@@ -144,10 +144,13 @@ Progresssss izzzz slow... But here we are, ten (10!!?!?) days later. ☹️
 
 #### Step 11.
 ![step eleven](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step11.png?raw=true)
+SVG clip-path done. Finally, it took hours to figure out--drawing by hand in the browser. #OldSchool -- 'cuz that's just how I roll, yo...
 
 Ugh... Okay that's it I'm going to bed. SVG clip-path to render shadows on the roof.
 
-and lots of grid stuff.
+Lots of color adjustments...and lots of grid stuff done today. I've got 9 days 'till the (false) deadline. :)
 
-Lots of color adjustments.
+To be honest, I think the clip-path looks a bit too slick. I couldn't manage (yet) to figure out how to apply filter to a css image.
+
+If it gets desperate, I'll do it in illustrator and examine the code.
 God, I hope this is worth it. I wanna put it down and get on with my life.
