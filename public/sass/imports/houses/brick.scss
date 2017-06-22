@@ -36,6 +36,7 @@
   border-bottom: 2px solid #45372c;
   box-shadow: 0px -1px 1px 0px #a5694f;
 }
+
 .shingles-grid {
 }
 // https://css-tricks.com/useful-nth-child-recipies/
@@ -59,49 +60,25 @@
 }
 
 #brick-roof-front-container {
-  // background: #4d5869;
   background: linear-gradient(0deg,rgba(0, 0, 0, 0.1) 0% , transparent 10%, transparent 100%);
-  opacity: 0;
-  top: 0;
-  left: 0;
-  position: relative;
 }
 
 #front-top-wall-left {
-  grid-column: 1/3;
-  grid-row: 1;
   background: linear-gradient(60deg, #bf8a60 35%,  #c69b71 100%);
   border: 1px solid #835f45;
   border-bottom-width: 0px;
-  width: 12px;
-  height: 14px;
-  top: -9px;
-  left: 0;
-  position: absolute;
   box-shadow: 2px 10px 2px 2px rgba(#000000, 0.5)
 }
 
 #front-chimney-left-cap {
-  grid-column: 1/4;
-  grid-row: 2;
-  width: 28px;
-  height: 8px;
-  top: 0;
-  left: -3px;
-  position: relative;
   border-radius: 2px;
   background-color: #cf7b57;
   border-bottom: 3px solid #943f20;
   border-right: 1px solid #943f20;
   border-left: 1px solid #943f20;
 }
+
 #front-chimney-left {//body
-  grid-column: 1/4;
-  grid-row: 3/5;
-  width: 24px;
-  top: 0;
-  left: -1px;
-  position: relative;
   border-radius: 2px;
   background-color: #c26543;
   background: linear-gradient(0deg, #a16c4c 0%,  #c26543 20%);
@@ -112,71 +89,43 @@
 }
 
 #front-bottom-wall-left {
-  grid-column: 1/3;
-  grid-row: 4/6;
   border: 2px solid #4d2714;
   border-top-width: 0;
   border-right-width: 1px;
   border-bottom-width: 1px;
-  width: 16px;
-  top: 0;
-  left: -2px;
-  position: relative;
   border-radius: 2px;
   background: linear-gradient(20deg, #dcb685 0%,  #d2b083 100%);
   box-shadow: 8px 14px 8px -5px rgba(0, 0, 0, 0.4);
 }
+
 #front-base-left {
-  grid-column: 1;
-  grid-row: 6/7;
   background-color: #b55a32;
   box-shadow: inset 0px 5px 2px -3px rgba(0, 0, 0, 0.6);
 }
 
-
 #front-top-wall-right {
-  grid-column: 6/-1;
-  grid-row: 1;
   background: linear-gradient(20deg, #bf8a60 0%,  #a27d59 100%);
   border: 1px solid #835f45;
   border-bottom-width: 0px;
-  width: 12px;
-  height: 14px;
-  top: -9px;
-  right: 0;
-  position: absolute;
   box-shadow: -12px 9px 1px 1px  rgba(#000000, 0.4);
-  z-index: 5;
 }
 
 #front-chimney-right-cap {
-  grid-column: 5/-1;
-  grid-row: 2;
-  width: 27px;
-  height: 8px;
-  top: 0;
-  left: -1px;
-  position: relative;
   border-radius: 2px;
   background-color: #c46e53;
   border-bottom: 3px solid #954426;
   border-right: 1px solid #943f20;
   border-left: 1px solid #943f20;
   box-shadow: -13px 3px 2px -1px  rgba(#000000, 0.1);
-  z-index: 5;
 }
+
 .shadow-brk-roof {
   opacity: .5;
   // filter: blur(4px);
   background: black;
 }
+
 #front-chimney-right {//body
-  grid-column: 5/-1;
-  grid-row: 3/5;
-  width: 24px;
-  top: 0;
-  right: -1px;
-  position: relative;
   border-radius: 2px;
   background: linear-gradient(0deg, #a16c4c 0%,  #c26543 20%);
   border: 1px solid #5e270c;
@@ -184,59 +133,30 @@
   border-bottom-left-radius: 0;
   border-top-width: 0;
   box-shadow: -13px -5px 1px -4px  rgba(#000000, .1);
-  z-index: 20;
 }
+
 #front-bottom-wall-right {
-  grid-column: 6/-1;
-  grid-row: 4/6;
-  width: 16px;
-  top: 0;
-  right: 0;
-  position: relative;
   background: linear-gradient(0deg, #c09874 0%, #cfb091 30%,#cfb091 70%, #b79673 100%);
   border-top-width: 0;
   border: 1px solid #4d2714;
   border-top-width: 0;
   border-bottom-width: 1px;
   border-radius: 2px;
-  z-index: 20;
-  // box-shadow: -8px -2px 0px -1px  rgba(#000000, 0.3);
-
 }
+
 #front-base-right {
-  grid-column: 7;
-  grid-row: 6/7;
   background-color: #b55a32;
 }
 
-#brick-roof-shad-container {
-   grid-column: 18;
-   grid-row: 5;
-   position: absolute;
-   top: 0px;
-   left: 0px;
-   height: 3px;
-   width: 14px;
-   z-index: 15;
-
-/*Firefox*/
-  clip-path: url("#clipPolygon");
-}
-
 #brick-roof-shad { //SVG
-  z-index: 10;
-  top: 0;
-  left: 0;
-  position: absolute;
-  height: 130px;
-  width: 90px;
   filter: blur(3px);
   background: rgba(#000000, 0.45)
 }
+
 .brick-gutters {
   background: linear-gradient(90deg, #522f1c 0%,  #a85b29 80%);
-
 }
+
 .brick-gutter-top {
   background-color: #bfa68b;
   border-bottom: 1px solid #a07e62;
@@ -250,7 +170,6 @@
   border-bottom-right-radius: 14px;
   border-top-right-radius: 8px;
   box-shadow: -1px 10px 10px 5px rgba(#000000, 0.4);
-  // z-index: 15px;
 }
 
 .brick-gutter-bot {
@@ -260,42 +179,32 @@
   z-index: -1px;
 }
 
-
 .brick-facade {
   background: linear-gradient(45deg, #933812 0%, #a85b29 100%);
   box-shadow: -60px 150px 15px 5px rgba(#000000, 0.1);
-  z-index: 0;
-}
-
-.brick-attic-top{
-  background: wheat;
-  border-top-right-radius: 4px;
-
-  z-index: -1;
-
-}
-
-.br-attic-winframe-left {
-  grid-column: 2;
-  grid-row: 1;
-  background: black;
-}
-
-.br-attic-winframe-ctr {
-  grid-column: 4;
-  grid-row: 1;
-  background: black;
-}
-
-.br-attic-winframe-right {
-  grid-column: 6;
-  grid-row: 1;
-  background: black;
 }
 
 .br-attic {
   box-shadow: -2px 1px 2px 0px rgba(#000000, 0.7);
 }
+
+.brick-attic-top{
+  background: wheat;
+  border-top-right-radius: 4px;
+}
+
+.br-attic-winframe-left {
+  background: black;
+}
+
+.br-attic-winframe-ctr {
+  background: black;
+}
+
+.br-attic-winframe-right {
+  background: black;
+}
+
 
 .brick-attic-mid{
   background-color: #b59677;
@@ -306,21 +215,20 @@
 .brick-attic-bot1{
   background-color: #d5bba0;
   border-bottom: 1px solid #83654c;
-
 }
+
 .brick-attic-bot2{
   background-color: #d5bba0;
   border-bottom: 1px solid #83654c;
   border-bottom-left-radius: 1px;
   border-bottom-right-radius: 1px;
-
 }
+
 .brick-attic-bot3{
   background-color: #dbc0a2;
   border-bottom: 1px solid #83654c;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
-
 }
 
 
@@ -330,6 +238,7 @@
   // color: ivory;
   // font-family: sans-serif;
 }
+
 .brick {
   opacity: .1;
   filter: blur(1px);
