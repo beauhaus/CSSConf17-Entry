@@ -478,9 +478,12 @@
   grid-column: 1;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 62px 1fr;
+  grid-template-rows: 62px 21px 288px 136px;
+  // 62: attic (21px: buffer) 306: top2 floors 137px: 1stfloor
   z-index: 0;
 }
+
+
 
 .brk-gutter-attic-container {
   grid-column: 1/-1;
@@ -534,7 +537,7 @@
 
 .brick-attic-mid {
   grid-row: 5;
-  grid-column: 6/15;
+  grid-column: 5/15;
 }
 
 .brick-attic-bot1 {
@@ -564,10 +567,14 @@
    margin: 0;
    font-size: 8px;
    font-weight: 400;
-   line-height: 75%;
+   line-height: 76%;
    letter-spacing: 1em;
+  //  margin-bottom: -1px;
+  //  margin-top: 1px;
 }
 
-.brick-odd {
-  text-indent: 3px;
+.brick .odd {
+  // padding-top: .1%;
+  text-indent: 8px;
+  // color: black;
 }

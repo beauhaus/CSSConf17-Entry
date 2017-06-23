@@ -1137,17 +1137,331 @@ body {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px; }
 
+.brk-top-floors-container {
+  grid-row: 3;
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 16px 394px 16px;
+  grid-template-rows: 128px 24px 136px; }
+
+.brk-floor3 {
+  grid-row: 1;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 10px 102px 39px 102px 28px 102px 10px;
+  grid-template-rows: 86px 32px 10px; }
+
+.brk-floor3-window-left {
+  grid-column: 2;
+  grid-row: 1/3;
+  background-color: rgba(40, 159, 70, 0.79); }
+
+.brk-floor3-window-ctr {
+  grid-column: 4;
+  grid-row: 1/3;
+  background-color: rgba(40, 159, 70, 0.79); }
+
+.brk-floor3-window-right {
+  grid-column: 6;
+  grid-row: 1/3;
+  background-color: rgba(40, 159, 70, 0.79); }
+
+.brk-floor3-deck-rail {
+  grid-column: 1/-1;
+  grid-row: 2;
+  background-color: rgba(137, 140, 138, 0.84); }
+
+.brk-floor3-deck {
+  grid-column: 1/-1;
+  grid-row: 3;
+  background-color: rgba(220, 230, 139, 0.79); }
+
+.brk-floor2 {
+  grid-row: 3;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 8px 100px 40px 104px 28px 104px 10px;
+  grid-template-rows: 94px 32px 10px; }
+
+.brk-floor2-window-left {
+  grid-column: 2;
+  grid-row: 1/3;
+  background-color: rgba(79, 105, 61, 0.79); }
+
+.brk-floor2-window-ctr {
+  grid-column: 4;
+  grid-row: 1/3;
+  background-color: rgba(79, 105, 61, 0.79); }
+
+.brk-floor2-window-right {
+  grid-column: 6;
+  grid-row: 1/3;
+  background-color: rgba(79, 105, 61, 0.79); }
+
+.brk-floor2-deck-rail {
+  grid-column: 1/-1;
+  grid-row: 2;
+  background-color: rgba(137, 140, 138, 0.84); }
+
+.brk-floor2-deck {
+  grid-column: 1/-1;
+  grid-row: 3;
+  background-color: rgba(220, 230, 139, 0.79); }
+
+.brk-first-floor-container {
+  grid-row: 4;
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 10px 10px 394px 10px;
+  grid-template-rows: 10px 1fr; }
+
+.brk-front-awning {
+  grid-column: 1/-1;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 2px 4px auto 4px 2px;
+  grid-template-rows: 3px 3px 4px; }
+
+.brk-front-awning-top {
+  grid-column: 1/-1;
+  grid-row: 1;
+  background-color: #ac8568; }
+
+.brk-front-awning-mid {
+  grid-column: 1/5;
+  grid-row: 2;
+  background-color: #ac8568;
+  border-top: 1px solid #977456;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px; }
+
+.brk-front-awning-bot {
+  grid-column: 1/4;
+  grid-row: 3;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #c6a387;
+  border-bottom: 0px solid transparent; }
+
+.brk-entrances-container {
+  grid-column: 3;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 252px 10px 130px;
+  grid-template-rows: 126px; }
+
+.brk-triple-door-container {
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 2px 4px 4px 232px 2px 4px 2px;
+  grid-template-rows: 4px 4px 34px 84px 0px; }
+
+.brk-trip-door-awning-top {
+  grid-column: 1/-1;
+  grid-row: 1;
+  background: linear-gradient(0deg, #806349 0%, #2e1705 100%);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px; }
+
+.brk-trip-door-awning-bot {
+  grid-column: 3/6;
+  grid-row: 2;
+  border-bottom-right-radius: 5px;
+  border-left: 4px solid transparent;
+  border-top: 4px solid #2f1d0f;
+  border-bottom: 0px solid #2f1d0f; }
+
+.brk-trip-door-top {
+  grid-column: 4;
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: 1fr 62px 1fr 62px 1fr 62px 1fr;
+  grid-template-rows: 5px 20px 3px 3px 3px;
+  background: linear-gradient(180deg, #866343 0%, #a27f5f 100%); }
+
+.vent {
+  grid-row: 2;
+  background: #1e1106;
+  border-radius: 1px;
+  background: linear-gradient(0deg, #2a190b 80%, #a27f5f 100%); }
+
+.brk-trip-vent-left {
+  grid-column: 2; }
+
+.brk-trip-vent-ctr {
+  grid-column: 4; }
+
+.brk-trip-vent-right {
+  grid-column: 6; }
+
+.brk-trip-door-frame-trim {
+  grid-column: 1/-1;
+  grid-row: 4;
+  background: #7b5c3d;
+  border-top: 1px solid #906132;
+  border-bottom: 1px solid #5d3e22; }
+
+.brk-trip-door-bot {
+  grid-column: 4;
+  grid-row: 4;
+  display: grid;
+  grid-template-columns: 1fr 62px 1fr 62px 1fr 62px 1fr;
+  grid-template-rows: 80px 4px;
+  background: linear-gradient(0deg, #b49475 55%, #a27f5f 65%); }
+
+.trip-door-bottom-map {
+  box-shadow: inset -4px 4px 3px 0px rgba(0, 0, 0, 0.4);
+  padding: 10%;
+  padding-top: 8%;
+  /*firefox */
+  padding-bottom: 0%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 18px 18px 4px;
+  grid-gap: 10px;
+  position: relative; }
+
+.front-step {
+  grid-column: 1/-1;
+  grid-row: 2;
+  background: #9f836c; }
+
+.trip-door-knob-container {
+  grid-row: 1/-1;
+  grid-column: 1/-1;
+  top: 42px;
+  left: 24px;
+  width: 2px;
+  height: 2px;
+  position: absolute; }
+
+.brk-trip-door-step-container {
+  grid-column: 1/-1;
+  grid-row: 2;
+  bottom: -22px;
+  left: 0;
+  background: fuchsia;
+  height: 4px;
+  position: relative; }
+
+.knob {
+  color: #deb17d;
+  font-size: 4px;
+  text-shadow: -1px 1px 1px #000; }
+
+.trip-door-panel-top {
+  background-color: #150c02;
+  grid-row: 1/3;
+  border-radius: 1px; }
+
+.trip-door-panel-bot {
+  background-color: #7c3d16;
+  height: 14px;
+  grid-row: 3;
+  box-shadow: inset 0px 0px 3px 0px black; }
+
+.brk-trip-door-left {
+  grid-column: 2;
+  background: linear-gradient(135deg, #3a1d0d 10%, #7a3a16 70%); }
+
+.brk-trip-door-ctr {
+  grid-column: 4;
+  background: linear-gradient(135deg, #54280b 10%, #7a391d 80%); }
+
+.brk-trip-door-right {
+  grid-column: 6;
+  background: linear-gradient(135deg, #583017 10%, #894925 90%); }
+
+.brk-right-door-container {
+  grid-column: 3;
+  grid-row: 1;
+  display: grid;
+  grid-template-rows: 1fr 114px;
+  grid-template-columns: 1fr 102px 1fr;
+  z-index: 5; }
+
+.brk-right-inner-door {
+  grid-column: 2;
+  grid-row: 2;
+  display: grid;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 22px 6px 86px;
+  box-shadow: inset -2px 2px 1px 0px rgba(33, 33, 33, 0.8); }
+
+.brk-inner-door-grill {
+  grid-column: 1/-1;
+  grid-row: 1;
+  display: grid;
+  background-color: #21201e;
+  display: grid;
+  grid-template-columns: repeat(13, auto);
+  grid-template-rows: 1fr;
+  grid-gap: 2px;
+  z-index: -1; }
+
+.bar {
+  background: #21201e;
+  border: 2px solid #4d4739;
+  border-top-width: 0;
+  border-bottom-width: 0; }
+
+.brk-inner-door-frame-top {
+  grid-column: 1/-1;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #wheat;
+  z-index: -1; }
+
+.brk-right-door-sill-top {
+  background: #7a6749; }
+
+.brk-right-door-sill-bot {
+  background: #b19b83;
+  overflow: hidden;
+  z-index: -1;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.6); }
+
+.brk-inner-door-panel-container {
+  overflow: hidden;
+  padding: 8% 6%;
+  width: 102px;
+  height: 86px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 16px 8px 8px 16px;
+  grid-gap: 7px;
+  background-color: #4b4016;
+  z-index: -2; }
+
+.brk-right-front-door-panel {
+  background-color: #5b4e1a;
+  box-shadow: inset -2px 2px 1px 0px rgba(0, 0, 0, 0.55); }
+
+.brk-right-front-door-panel-tall {
+  background-color: #574a14;
+  grid-row: 2/4;
+  box-shadow: inset -2px 2px 1px 0px rgba(0, 0, 0, 0.55); }
+
 .brick-container {
-  overflow: hidden; }
+  overflow: hidden;
+  font-family: sans-serif;
+  z-index: -1;
+  opacity: .08; }
 
 .brick {
-  opacity: .1;
+  color: ivory;
   filter: blur(1px);
   border-top: 1px solid white; }
-  .brick-odd::before {
-    content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"; }
-  .brick-even::before {
-    content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"; }
+  .brick.odd {
+    text-indent: 8px; }
+  .brick.odd::before {
+    content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"; }
+  .brick.even::before {
+    content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"; }
 
 /*===============BRICK HOUSE Profile================*/
 /*
@@ -1483,7 +1797,7 @@ body {
   grid-column: 1;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 62px 1fr;
+  grid-template-rows: 62px 21px 288px 136px;
   z-index: 0; }
 
 .brk-gutter-attic-container {
@@ -1526,7 +1840,7 @@ body {
 
 .brick-attic-mid {
   grid-row: 5;
-  grid-column: 6/15; }
+  grid-column: 5/15; }
 
 .brick-attic-bot1 {
   grid-row: 6;
@@ -1549,11 +1863,11 @@ body {
   margin: 0;
   font-size: 8px;
   font-weight: 400;
-  line-height: 75%;
+  line-height: 76%;
   letter-spacing: 1em; }
 
-.brick-odd {
-  text-indent: 3px; }
+.brick .odd {
+  text-indent: 8px; }
 
 .short-sky {
   background-color: transparent; }

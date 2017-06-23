@@ -154,3 +154,14 @@ To be honest, I think the clip-path looks a bit too slick. I couldn't manage (ye
 
 If it gets desperate, I'll do it in illustrator and examine the code.
 God, I hope this is worth it. I wanna put it down and get on with my life.
+
+#### Step 12.
+![step Twelve](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step12.png?raw=true)
+Time consuming. It's nice, but I don't think i'm going to submit this.
+
+#### Step 13.
+![step Thirteen](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step13.png?raw=true)
+Ugh... Don't ask.
+Total pain in the ass.
+
+So much fun, tho.
