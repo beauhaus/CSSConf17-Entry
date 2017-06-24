@@ -446,13 +446,13 @@
   grid-column: 7;
   grid-row: 6/7;
 }
-
+// FIXME: Change the "anchor" for this svg to the front-right wall
 #brick-roof-shad-container {
    grid-column: 18;
    grid-row: 5;
    position: absolute;
    top: 0px;
-   left: 0px;
+   left: 2px;
    height: 3px;
    width: 14px;
    z-index: 15;

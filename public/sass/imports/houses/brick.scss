@@ -629,6 +629,7 @@
 
 .brick {
   color: ivory;
+  white-space: pre-wrap;
   filter: blur(1px); //NOTE: blur is costly. just do opacity
   border-top: 1px solid white;
   &.odd {
