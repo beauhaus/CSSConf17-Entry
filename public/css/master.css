@@ -345,6 +345,127 @@ body {
 .p-roofsec-right-bot {
   background-color: #a57d5a; }
 
+.front-gables-container {
+  grid-row: 2;
+  grid-column: 1/-1;
+  z-index: 20;
+  display: grid;
+  grid-template-columns: 66px 70px 25px 70px 25px 70px auto;
+  grid-template-rows: 1fr; }
+
+.front-gable-left {
+  grid-row: 1;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 3px 3px 4px 1fr 4px 3px 3px;
+  grid-template-rows: 24px 4px 3px 63px 2px auto; }
+
+.front-gable-roof {
+  grid-row: 1;
+  grid-column: 1/-1;
+  border: 24px solid darkgrey;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-top-width: 0px; }
+
+.gable-roof-bottom {
+  background: black;
+  grid-row: 2;
+  grid-column: 2/7; }
+
+.gable-roof-foundation {
+  background: white;
+  grid-row: 3;
+  grid-column: 3/6; }
+
+.gable-facade {
+  background-color: #e7d2b5;
+  grid-row: 4;
+  grid-column: 4; }
+
+.gable-sill {
+  grid-row: 5;
+  grid-column: 3/6;
+  background-color: #dcbb9c;
+  box-shadow: -1px 1px 2px 1px black; }
+
+.front-gable-ctr {
+  grid-row: 1;
+  grid-column: 4;
+  display: grid;
+  grid-template-columns: 3px 3px 4px 1fr 4px 3px 3px;
+  grid-template-rows: 24px 4px 3px 63px 2px auto; }
+
+.front-gable-right {
+  grid-row: 1;
+  grid-column: 6;
+  display: grid;
+  grid-template-columns: 3px 3px 4px 1fr 4px 3px 3px;
+  grid-template-rows: 24px 4px 3px 63px 2px auto; }
+
+.mansard-roof-container {
+  background: linear-gradient(0deg, #81695c 10%, #aa8e7d 40%);
+  grid-row: 2;
+  grid-column: 1/-1;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 36px 30px 35px; }
+
+.peach-ctr-shingles-top {
+  grid-row: 1;
+  grid-column: auto;
+  display: grid;
+  opacity: .5;
+  filter: blur(1px);
+  grid-template-columns: 64px repeat(35, 1fr) 62px;
+  grid-template-rows: repeat(4, 5px);
+  grid-gap: 2px; }
+  .peach-ctr-shingles-top .pch-blue-shing {
+    background-color: #646659; }
+  .peach-ctr-shingles-top .pch-pink-shing {
+    background-color: #c4a799; }
+  .peach-ctr-shingles-top .pch-tan-shing {
+    background-color: #8e8175; }
+
+.test {
+  background: #966c4d !important; }
+
+.peach-ctr-shingles-mid {
+  grid-row: 2;
+  grid-column: auto;
+  display: grid;
+  grid-template-columns: 41px repeat(40, 1fr) 35px;
+  grid-template-rows: repeat(5, 5px);
+  grid-gap: 2px; }
+  .peach-ctr-shingles-mid .pch-tan-shing {
+    background-color: #c8b2a5;
+    opacity: .4; }
+  .peach-ctr-shingles-mid .pch-pink-shing {
+    background-color: #a99179;
+    opacity: .4; }
+  .peach-ctr-shingles-mid .pch-blue-shing {
+    background-color: #646659;
+    opacity: .4; }
+
+.peach-ctr-shingles-bot {
+  grid-row: 3;
+  grid-column: auto;
+  display: grid;
+  grid-template-columns: repeat(56, 1fr);
+  grid-template-rows: repeat(5, 3px) 2px;
+  grid-gap: 2px; }
+
+.pch-blue-shing {
+  background-color: #646659; }
+
+.pch-pink-shing {
+  background-color: #a99179; }
+
+.pch-tan-shing {
+  background-color: #8e8175; }
+
 .gable-rt-roof {
   background-color: #b0a995;
   border-right: 2px solid #ad8862;
@@ -526,7 +647,7 @@ body {
   position: absolute;
   top: 0;
   left: -4px;
-  border-radius: 0px 0px 4px 4px; }
+  border-radius: 0 0 4px 4px; }
 
 .peach-chimney-base {
   grid-row: 3; }
@@ -550,13 +671,13 @@ body {
   grid-row: 1;
   display: grid;
   grid-template-columns: 4px 5px 271px;
-  grid-template-rows: 2px 8px 4px; }
+  grid-template-rows: 2px 7px 4px; }
 .peach-rooftop-section-right {
   grid-column: 4;
   grid-row: 1;
   display: grid;
   grid-template-columns: 5px 5px 4px;
-  grid-template-rows: 2px 8px 4px; }
+  grid-template-rows: 2px 7px 4px; }
 
 .peach-rooftop-top {
   grid-column: 1/-1;
@@ -572,6 +693,450 @@ body {
   grid-row: 3;
   border-bottom-left-radius: 8px; }
 
+/*============MANSARD ROOF Shingles START===============*/
+#pch-shing1 {
+  grid-row: 6;
+  grid-column: 2/4; }
+
+#pch-shing2 {
+  grid-row: 6;
+  grid-column: 4/6; }
+
+#pch-shing3 {
+  grid-row: 6;
+  grid-column: 6/8; }
+
+#pch-shing4 {
+  grid-row: 6;
+  grid-column: 8/10; }
+
+#pch-shing5 {
+  grid-row: 5;
+  grid-column: 3/5; }
+
+#pch-shing6 {
+  grid-row: 5;
+  grid-column: 5/7; }
+
+#pch-shing7 {
+  grid-row: 5;
+  grid-column: 7/9;
+  background: #a28c7f; }
+
+#pch-shing8 {
+  grid-row: 5;
+  grid-column: 9/11; }
+
+#pch-shing9 {
+  grid-row: 4;
+  grid-column: 2/4; }
+
+#pch-shing10 {
+  grid-row: 4;
+  grid-column: 4/6;
+  background: #a28c7f; }
+
+#pch-shing11 {
+  grid-row: 4;
+  grid-column: 6/8; }
+
+#pch-shing12 {
+  grid-row: 4;
+  grid-column: 8/10; }
+
+#pch-shing13 {
+  grid-row: 3;
+  grid-column: 3/5; }
+
+#pch-shing14 {
+  grid-row: 3;
+  grid-column: 5/7; }
+
+#pch-shing15 {
+  grid-row: 3;
+  grid-column: 7/9; }
+
+#pch-shing16 {
+  grid-row: 3;
+  grid-column: 9/11; }
+
+#pch-shing17 {
+  grid-row: 2;
+  grid-column: 4/6; }
+
+#pch-shing18 {
+  grid-row: 2;
+  grid-column: 6/8; }
+
+#pch-shing19 {
+  grid-row: 1;
+  grid-column: 7/9; }
+
+#pch-shing20 {
+  grid-row: 1;
+  grid-column: 5/7; }
+
+#pch-shing21 {
+  grid-row: 4;
+  grid-column: 21/23; }
+
+#pch-shing22 {
+  grid-row: 5;
+  grid-column: 20/24; }
+
+#pch-shing23 {
+  grid-row: 3;
+  grid-column: 17/21; }
+
+#pch-shing24 {
+  grid-row: 2;
+  grid-column: 18/20; }
+
+#pch-shing25 {
+  grid-row: 4;
+  grid-column: 19/21; }
+
+#pch-shing26 {
+  grid-row: 5;
+  grid-column: 18/20; }
+
+#pch-shing27 {
+  grid-row: 6;
+  grid-column: 17/23; }
+
+#pch-shing28 {
+  grid-row: 5;
+  grid-column: 20/22; }
+
+#pch-shing29 {
+  grid-row: 6;
+  grid-column: 19/21; }
+
+#pch-shing30 {
+  grid-row: 5;
+  grid-column: 32/34; }
+
+#pch-shing31 {
+  grid-row: 6;
+  grid-column: 31/33; }
+
+#pch-shing32 {
+  grid-row: 5;
+  grid-column: 36/38; }
+
+#pch-shing33 {
+  grid-row: 4;
+  grid-column: 33/35; }
+
+#pch-shing34 {
+  grid-row: 6;
+  grid-column: 35/37; }
+
+#pch-shing35 {
+  grid-row: 4;
+  grid-column: 35/37; }
+
+#pch-shing36 {
+  grid-row: 3;
+  grid-column: 37/39; }
+
+#pch-shing37 {
+  grid-row: 3;
+  grid-column: 34/36; }
+
+#pch-shing38 {
+  grid-row: 2;
+  grid-column: 36/38; }
+
+#pch-shing39 {
+  grid-row: 1;
+  grid-column: 33/39; }
+
+#pch-shing40 {
+  grid-row: 1;
+  grid-column: 48/50; }
+
+#pch-shing41 {
+  grid-row: 2;
+  grid-column: 51/53; }
+
+#pch-shing42 {
+  grid-row: 3;
+  grid-column: 50/54; }
+
+#pch-shing43 {
+  grid-row: 4;
+  grid-column: 53/55; }
+
+#pch-shing44 {
+  grid-row: 5;
+  grid-column: 54/56; }
+
+#pch-shing45 {
+  grid-row: 6;
+  grid-column: 55/57; }
+
+#pch-shing46 {
+  grid-row: 6;
+  grid-column: 53/55; }
+
+#pch-shing47 {
+  grid-row: 6;
+  grid-column: 47/53; }
+
+#pch-shing48 {
+  grid-row: 5;
+  grid-column: 46/52; }
+
+#pch-shing49 {
+  grid-row: 6;
+  grid-column: 49/51; }
+
+#pch-shing50 {
+  grid-row: 4;
+  grid-column: 48/50; }
+
+#pch-shing51 {
+  grid-row: 2;
+  grid-column: 47/49; }
+
+#pch-shing52 {
+  grid-row: 4;
+  grid-column: 48/50; }
+
+#pch-shing53 {
+  grid-row: 4;
+  grid-column: 44/46; }
+
+#pch-shing54 {
+  grid-row: 4;
+  grid-column: 44/48; }
+
+#pch-shing55 {
+  grid-row: 5;
+  grid-column: 47/49; }
+
+#pch-shing56 {
+  grid-row: 1;
+  grid-column: 37/39; }
+
+#pch-shing57 {
+  grid-row: 2;
+  grid-column: 36/38; }
+
+#pch-shing58 {
+  grid-row: 3;
+  grid-column: 37/39; }
+
+#pch-shing59 {
+  grid-row: 4;
+  grid-column: 38/40; }
+
+#pch-shing60 {
+  grid-row: 4;
+  grid-column: 34/36; }
+
+#pch-shing61 {
+  grid-row: 5;
+  grid-column: 35/37; }
+
+#pch-shing62 {
+  grid-row: 4;
+  grid-column: 40/42; }
+
+#pch-shing63 {
+  grid-row: 3;
+  grid-column: 39/41; }
+
+#pch-shing64 {
+  grid-row: 2;
+  grid-column: 38/40; }
+
+#pch-shing65 {
+  grid-row: 1;
+  grid-column: 37/39; }
+
+#pch-shing66 {
+  grid-row: 1;
+  grid-column: 25/27; }
+
+#pch-shing67 {
+  grid-row: 2;
+  grid-column: 26/28; }
+
+#pch-shing68 {
+  grid-row: 3;
+  grid-column: 24/26; }
+
+#pch-shing69 {
+  grid-row: 4;
+  grid-column: 23/25; }
+
+#pch-shing70 {
+  grid-row: 5;
+  grid-column: 28/30; }
+
+#pch-shing71 {
+  grid-row: 5;
+  grid-column: 3/5; }
+
+#pch-shing72 {
+  grid-row: 4;
+  grid-column: 2/4; }
+
+#pch-shing73 {
+  grid-row: 3;
+  grid-column: 3/5; }
+
+#pch-shing74 {
+  grid-row: 2;
+  grid-column: 2/4; }
+
+#pch-shing75 {
+  grid-row: 1;
+  grid-column: 3/6; }
+
+#pch-shing76 {
+  grid-row: 1;
+  grid-column: 11/13; }
+
+#pch-shing77 {
+  grid-row: 2;
+  grid-column: 16/18; }
+
+#pch-shing78 {
+  grid-row: 3;
+  grid-column: 14/16; }
+
+#pch-shing79 {
+  grid-row: 4;
+  grid-column: 12/14; }
+
+#pch-shing80 {
+  grid-row: 2;
+  grid-column: 12/14; }
+
+#pch-shing81 {
+  grid-row: 1;
+  grid-column: 11/13; }
+
+#pch-shing82 {
+  grid-row: 4;
+  grid-column: 14/16; }
+
+#pch-shing83 {
+  grid-row: 3;
+  grid-column: 13/17; }
+
+#pch-shing84 {
+  grid-row: 3;
+  grid-column: 35/37; }
+
+#pch-shing85 {
+  grid-row: 1;
+  grid-column: 13/15; }
+
+#pch-shing86 {
+  grid-row: 2;
+  grid-column: 22/24; }
+
+#pch-shing87 {
+  grid-row: 1;
+  grid-column: 23/25; }
+
+#pch-shing88 {
+  grid-row: 1;
+  grid-column: 35/37; }
+
+#pch-shing89 {
+  grid-row: 4;
+  grid-column: 25/27; }
+
+#pch-shing90 {
+  grid-row: 5;
+  grid-column: 37/39; }
+
+#pch-shing91 {
+  grid-row: 1;
+  grid-column: 3/11; }
+
+#pch-shing92 {
+  grid-row: 2;
+  grid-column: 16/24; }
+
+#pch-shing93 {
+  grid-row: 1;
+  grid-column: 17/23; }
+
+#pch-shing94 {
+  grid-row: 1;
+  grid-column: 24/27; }
+
+#pch-shing95 {
+  grid-row: 1;
+  grid-column: 27/29; }
+
+#pch-shing96 {
+  grid-row: 1;
+  grid-column: 31/33; }
+
+#pch-shing97 {
+  grid-row: 1;
+  grid-column: 33/35; }
+
+#pch-shing98 {
+  grid-row: 2;
+  grid-column: 32/34; }
+
+#pch-shing99 {
+  grid-row: 2;
+  grid-column: 34/36; }
+
+#pch-shing100 {
+  grid-row: 3;
+  grid-column: 33/35; }
+
+#pch-shing101 {
+  grid-row: 2;
+  grid-column: 10/12; }
+
+#pch-shing102 {
+  grid-row: 2;
+  grid-column: 12/14; }
+
+#pch-shing103 {
+  grid-row: 2;
+  grid-column: 10/12; }
+
+#pch-shing104 {
+  grid-row: 3;
+  grid-column: 9/11; }
+
+#pch-shing105 {
+  grid-row: 4;
+  grid-column: 12/14; }
+
+#pch-shing106 {
+  grid-row: 1;
+  grid-column: 13/15; }
+
+#pch-shing107 {
+  grid-row: 3;
+  grid-column: 21/23; }
+
+#pch-shing108 {
+  grid-row: 3;
+  grid-column: 23/25; }
+
+#pch-shing109 {
+  grid-row: 2;
+  grid-column: 24/26; }
+
+#pch-shing110 {
+  grid-row: 4;
+  grid-column: 24/26; }
+
+/*============MANSARD ROOF END===============*/
 .p-roofsec-right-top {
   grid-column: 1/-1;
   grid-row: 1; }
@@ -1079,7 +1644,7 @@ rows: 386 + 86 + 142 + 132*/
 .dk-capital-bot {
   grid-row: 2;
   grid-column: 2/5;
-  background-color: rgba(210, 183, 143, 0.82);
+  background-color: rgba(210, 183, 143, 0.7);
   border-bottom: 1px solid #ae8b65;
   border-bottom-left-radius: 1px;
   border-bottom-right-radius: 1px; }
