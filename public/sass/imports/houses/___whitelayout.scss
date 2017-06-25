@@ -155,7 +155,7 @@
 .wh-floor-3 {
   grid-column: 1;
   grid-row: 1;
-  opacity: .5;
+  // opacity: .5;
   display: grid;
   grid-template-columns: 14px 68px 24px 68px 10px auto;
   // the auto is for the deck-railing container;
@@ -170,22 +170,30 @@
   grid-column: 1;
 }
 
+// original painting windows are offset
 .wh-f3-door-left {
   grid-column: 2;
   grid-row: 2/6;
-  background-color: #6e5c2b;
+  display: grid;
+  grid-template-columns: 3px 6px 48px 6px 4px;
+  grid-template-rows: 4px 6px 1fr;
 }
 
 .wh-f3-door-right {
   grid-column: 4;
   grid-row: 2/6;
-  background-color: #6e5c2b;
+  display: grid;
+  grid-template-columns: 3px 6px 48px 6px 4px;
+  grid-template-rows: 4px 6px 1fr;
 }
 
 .wh-f3-deck-base {
   grid-column: 1/6;
   grid-row: 6;
-  background-color: #80552e;
+  // background-color: #80552e;
+  display: grid;
+  grid-template-columns: 1fr 3px;
+  grid-template-rows: 2px 3px 7px;
 }
 
 
@@ -194,36 +202,38 @@
 .wh-floor-2 {
   grid-column: 1;
   grid-row: 2;
-  opacity: .5;
   display: grid;
   grid-template-columns: 14px 68px 24px 68px 10px auto;
   // the auto is for the deck-railing container;
-  grid-template-rows: 18px 4px 8px 70px 33px 12px;
+  grid-template-rows: 16px 4px 8px 88px 33px 12px;
 }
 
-
-
-// .wh-f2-deck-awning-top {
-//   grid-row: 5;
-//   grid-column: 1;
-// }
 
 .wh-f2-door-left {
   grid-column: 2;
   grid-row: 2/6;
-  background-color: #6e5c2b;
+  // background-color: #6e5c2b;
+  display: grid;
+  grid-template-columns: 3px 6px 48px 6px 4px;
+  grid-template-rows: 4px 6px 1fr;
 }
 
 .wh-f2-door-right {
   grid-column: 4;
   grid-row: 2/6;
-  background-color: #6e5c2b;
+  // background-color: #6e5c2b;
+  display: grid;
+  grid-template-columns: 3px 6px 48px 6px 4px;
+  grid-template-rows: 4px 6px 1fr;
 }
 
 .wh-f2-deck-base {
   grid-column: 1/6;
   grid-row: 6;
-  background-color: #421f83;
+  // background-color: #421f83;
+  display: grid;
+  grid-template-columns: 1fr 3px;
+  grid-template-rows: 2px 3px 7px;
 }
 
 

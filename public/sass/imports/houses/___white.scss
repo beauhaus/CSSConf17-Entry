@@ -57,25 +57,6 @@
   border-bottom: 2px solid #9c7153;
 }
 
-.white-attic {
-  background-color: #ecd5ba;
-  border-bottom: 2px solid #b38364;
-}
-
-.wh-attic-window-left {
-  background-color: #423525;
-  border-radius: 1px;
-  border: 1px solid #c49f82;
-  border-bottom-width: 0;
-}
-
-.wh-attic-window-right {
-  background-color: #4d3d2e;
-  border-radius: 1px;
-  border: 1px solid #c49f82;
-  border-bottom-width: 0;
-}
-
 .wh-attic-ledge-left {
   filter: blur(1px);
   background: #91745a;
@@ -92,4 +73,108 @@
 
 .white-facade {
   background: linear-gradient(180deg, #ead0b3 0%, #ceae90 100%);
+}
+
+
+.white-attic {
+  background-color: #ecd5ba;
+  border-bottom: 2px solid #b38364;
+}
+
+.wh-attic-window-left {
+  background-color: #423525;
+  border-radius: 1px;
+  border: 1px solid #c49f82;
+  border-bottom-width: 0;
+
+}
+
+
+
+/*==========3rd Floor Start=========== */
+.wh-window-trim-top {
+  grid-row: 1;
+  grid-column: 1/-1;
+  background-color: #e7c3a1;
+  border-bottom: 2px solid #ba8c6a;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  box-shadow: -4px 2px 1px 0px rgba(0, 0, 0, 0.5);
+  z-index: 5;
+}
+
+.wh-window-trim-base {
+  background: linear-gradient(90deg, #e3c39d 0%, #eeccb0 100%);
+  border-bottom: 2px solid #eeccb0;
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 1px;
+  border-right: 1px solid #d6b894;
+  grid-row: 2;
+  grid-column: 2/5;
+  box-shadow: -4px 1px 1px 0px rgba(0, 0, 0, 0.5);
+  z-index: 4;
+}
+
+.wh-window-door {
+  grid-row: 3;
+  grid-column: 3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.wh-door-frame {
+  grid-column: 1;
+  grid-row: 1;
+  background: linear-gradient(45deg, #63562c 0%, #89743b 100%);
+  border: 4px solid #635935;
+  border-top: 2px solid #706133;
+  border-left: 2px solid #706133;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 4px;
+  box-shadow: inset -1px 2px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.wh-door-panel {
+  background: linear-gradient(45deg, #685b27 0%, #7b6a36 100%);
+  box-shadow: inset -2px 2px 4px 1px rgba(0, 0, 0, 0.4);
+}
+
+.wh-deck-top {
+  grid-column: 1/2;
+  grid-row: 1;
+  background: linear-gradient(0deg, #d1a179 0%, #d6ab80 100%);
+}
+
+.wh-deck-mid {
+  grid-column: 1/3;
+  grid-row: 2;
+  background: linear-gradient(0deg, #b88d63 0%, #daab7f 100%);
+}
+
+.wh-deck-bot {
+  grid-column: 1/2;
+  grid-row: 3;
+  background: #e5ceae;
+  border-right: 1px solid #dab990;
+  border-bottom: 1px solid #573b25;
+}
+
+.wh-attic-window-right {
+  background-color: #4d3d2e;
+  border-radius: 1px;
+  border: 1px solid #c49f82;
+  border-bottom-width: 0;
+}
+
+/* SECOND FLOOR DOORS */
+
+.wh-f2-frame {
+  background: linear-gradient(45deg, #63512c 0%, #886e3b 100%);
+}
+.wh-f2-panel {
+  background: linear-gradient(45deg, #695427 0%, #7a6736 100%);
+
 }
