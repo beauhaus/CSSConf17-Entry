@@ -367,28 +367,84 @@ body {
   border-right-color: transparent;
   border-left-color: transparent;
   border-top-color: transparent;
-  border-top-width: 0px; }
+  border-top-width: 0; }
 
 .gable-roof-bottom {
-  background: black;
+  background: #debc99;
   grid-row: 2;
   grid-column: 2/7; }
 
 .gable-roof-foundation {
-  background: white;
+  background: #a7815c;
   grid-row: 3;
   grid-column: 3/6; }
 
 .gable-facade {
-  background-color: #e7d2b5;
+  background: linear-gradient(0deg, #241d14 50%, #ebc594 51%);
   grid-row: 4;
-  grid-column: 4; }
+  grid-column: 4;
+  display: grid;
+  grid-template-columns: 1fr 35px 1fr;
+  grid-template-rows: 1fr 54px 1fr; }
+
+.gable-inner {
+  box-shadow: inset -4px 6px 3px 1px rgba(33, 33, 33, 0.8);
+  grid-row: 2;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  grid-template-rows: 1fr 1px 1fr 2px 1fr 1px 1fr 2px; }
+
+.gable-window-outer {
+  grid-row: 1/-1;
+  grid-column: 1/-1;
+  background: transparent;
+  border: 8px solid #e7d2b5;
+  border-top: 4px solid #e7d2b5;
+  border-bottom: 1px solid #e7d2b5;
+  border-bottom: 4px solid #e7d2b5;
+  display: grid;
+  grid-template-columns: 1fr 34px 1fr;
+  grid-template-rows: 1fr 54px;
+  box-shadow: inset -2px 2px 2px 1px rgba(33, 33, 33, 0.8); }
+
+.gable-window-frame {
+  grid-row: 2;
+  grid-column: 2;
+  background-color: transparent;
+  border: 2px solid #885c47;
+  border-top-color: #5d3d2d;
+  border-right-color: #5d3d2d;
+  border-bottom: 4px solid #b37a5d; }
+
+.gable-muntin-axis {
+  grid-row: 1/-1;
+  grid-column: 2;
+  background: #815032;
+  box-shadow: -4px 4px 1px 0px rgba(0, 0, 0, 0.5); }
+
+.gable-muntin-top {
+  grid-row: 2;
+  grid-column: 1/-1;
+  background: #815032;
+  box-shadow: -4px 4px 1px 0px rgba(0, 0, 0, 0.5); }
+
+.gable-muntin-mid {
+  grid-row: 4;
+  grid-column: 1/-1;
+  background: #815032; }
+
+.gable-muntin-bot {
+  grid-row: 6;
+  grid-column: 1/-1;
+  background: #815032; }
 
 .gable-sill {
   grid-row: 5;
   grid-column: 3/6;
-  background-color: #dcbb9c;
-  box-shadow: -1px 1px 2px 1px black; }
+  background-color: #bfa185;
+  border-radius: 1px;
+  box-shadow: -1px 1px 2px 1px rgba(33, 33, 33, 0.3); }
 
 .front-gable-ctr {
   grid-row: 1;
@@ -417,7 +473,7 @@ body {
   grid-row: 1;
   grid-column: auto;
   display: grid;
-  opacity: .5;
+  opacity: 0.5;
   filter: blur(1px);
   grid-template-columns: 64px repeat(35, 1fr) 62px;
   grid-template-rows: repeat(4, 5px);
@@ -441,13 +497,13 @@ body {
   grid-gap: 2px; }
   .peach-ctr-shingles-mid .pch-tan-shing {
     background-color: #c8b2a5;
-    opacity: .4; }
+    opacity: 0.4; }
   .peach-ctr-shingles-mid .pch-pink-shing {
     background-color: #a99179;
-    opacity: .4; }
+    opacity: 0.4; }
   .peach-ctr-shingles-mid .pch-blue-shing {
     background-color: #646659;
-    opacity: .4; }
+    opacity: 0.4; }
 
 .peach-ctr-shingles-bot {
   grid-row: 3;
@@ -492,11 +548,11 @@ body {
 
 .peach-shing-gr {
   background-color: #6c7762;
-  opacity: .7; }
+  opacity: 0.7; }
 
 .peach-shing-br {
   background-color: #977c6b;
-  opacity: .7; }
+  opacity: 0.7; }
 
 .peach-shing-white {
   background-color: #a6a089; }
@@ -564,9 +620,9 @@ body {
   grid-row: 1;
   background: linear-gradient(90deg, #ccab8c 70%, #754b2b 100%);
   border-style: solid;
-  border-width: 0px;
+  border-width: 0;
   border-top-width: 1px;
-  border-image: linear-gradient(to right, #c7a687 60%, #543216 100%) 1 0%; }
+  border-image: linear-gradient(to right, #c7a687 60%, #543216 100%) 1 0; }
 
 .step2 {
   background-color: #ccab8c;
@@ -574,18 +630,18 @@ body {
   grid-row: 2;
   background: linear-gradient(90deg, #ccab8c 80%, #754b2b 100%);
   border-style: solid;
-  border-width: 0px;
+  border-width: 0;
   border-top-width: 1px;
-  border-image: linear-gradient(to right, #c7a687 70%, #623b1a 100%) 1 0%; }
+  border-image: linear-gradient(to right, #c7a687 70%, #623b1a 100%) 1 0; }
 
 .step3 {
   grid-column: 3;
   grid-row: 3;
   background: linear-gradient(90deg, #ccab8c 90%, #8c6343 100%);
   border-style: solid;
-  border-width: 0px;
+  border-width: 0;
   border-top-width: 1px;
-  border-image: linear-gradient(to right, #c7a687 80%, #623b1a 100%) 1 0%; }
+  border-image: linear-gradient(to right, #c7a687 80%, #623b1a 100%) 1 0; }
 
 .step4 {
   background-color: #ccab8c;
