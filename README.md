@@ -172,3 +172,11 @@ Slow, careful improvements.
 This is becoming addictive. Worked on dark-house gate and window.
 Lots of linear-gradient help with the dk-house front gate.
 Still unfinished.
+
+#### Step 20.
+![step Twenty](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step20.png?raw=true)
+I think I'm really losing it. I used to wonder why I didn't see much drawing with CSS on the net. Now, I understand why... It's because people have lives to live.
+
+It looks great, but... still so much to do.
+
+Tomorrow, the gutters.

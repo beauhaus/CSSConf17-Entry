@@ -239,32 +239,39 @@
 
 
 
-
-
-
 // WH FIRST FLOOR======================
 
 .wh-floor-1 {
   grid-column: 1;
   grid-row: 3;
   // background: teal;
-  opacity: .5;
   display: grid;
-  grid-template-columns:  14px 68px 24px 68px auto;
+  grid-template-columns:  13px 68px 23px 68px auto;
   grid-template-rows: 34px 136px 5px;
 }
+
 .wh-f1-door-left{
   grid-column: 2;
   grid-row: 2;
-  background-color: #6e5c2b;
+  // background-color: red;
+  display: grid;
+  grid-template-columns: 1fr 48px  1fr;
+  grid-template-rows: 1fr;
 }
+
 .wh-f1-door-right{
   grid-column: 4;
   grid-row: 2;
-  background-color: #6e5c2b;
+  display: grid;
+  grid-template-columns: 1fr 48px  1fr;
+  grid-template-rows: 1fr;
 }
+
 .wh-step-row {
   grid-column: 2/5;
   grid-row: 3;
-  background-color: grey;
+  // background-color: yellow;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 56px 36px 56px 1fr;
 }

@@ -118,8 +118,8 @@
 /*============MANSARD ROOF Shingles START===============*/
 
 #pch-shing1 {
-  grid-row: 6;
-  grid-column: 2/4;
+  grid-row: 4;
+  grid-column: 31/33;
 }
 
 #pch-shing2 {
@@ -139,8 +139,8 @@
 }
 
 #pch-shing5 {
-  grid-row: 5;
-  grid-column: 3/5;
+  grid-row: 3;
+  grid-column: 32/34;
   // background: brown;
 }
 
@@ -161,13 +161,13 @@
 }
 
 #pch-shing9 {
-  grid-row: 4;
-  grid-column: 2/4;
+  grid-row: 3;
+  grid-column: 22/24;
 }
 
 #pch-shing10 {
-  grid-row: 4;
-  grid-column: 4/6;
+  grid-row: 2;
+  grid-column: 8/10;
   background: #a28c7f;
 }
 
@@ -183,7 +183,7 @@
 
 #pch-shing13 {
   grid-row: 3;
-  grid-column: 3/5;
+  grid-column: 47/49;
 }
 
 #pch-shing14 {
@@ -228,7 +228,7 @@
 }
 
 #pch-shing22 {
-  grid-row: 5;
+  grid-row: 1;
   grid-column: 20/24;
 }
 
@@ -280,7 +280,7 @@
 
 #pch-shing32 {
   grid-row: 5;
-  grid-column: 36/38;
+  grid-column: 34/36;
 }
 
 #pch-shing33 {
@@ -301,12 +301,12 @@
 
 #pch-shing36 {
   grid-row: 3;
-  grid-column: 37/39;
+  grid-column: 34/36;
 }
 
 #pch-shing37 {
-  grid-row: 3;
-  grid-column: 34/36;
+  grid-row: 6;
+  grid-column: 33/35;
 }
 
 #pch-shing38 {
@@ -326,27 +326,27 @@
 
 #pch-shing41 {
   grid-row: 2;
-  grid-column: 51/53;
+  grid-column: 49/51;
 }
 
 #pch-shing42 {
   grid-row: 3;
-  grid-column: 50/54;
+  grid-column: 49/51;
 }
 
 #pch-shing43 {
   grid-row: 4;
-  grid-column: 53/55;
+  grid-column: 48/50;
 }
 
 #pch-shing44 {
   grid-row: 5;
-  grid-column: 54/56;
+  grid-column: 51/53;
 }
 
 #pch-shing45 {
   grid-row: 6;
-  grid-column: 55/57;
+  grid-column: 45/47;
 }
 
 #pch-shing46 {
@@ -356,12 +356,12 @@
 
 #pch-shing47 {
   grid-row: 6;
-  grid-column: 47/53;
+  grid-column: 47/49;
 }
 
 #pch-shing48 {
   grid-row: 5;
-  grid-column: 46/52;
+  grid-column: 45/47;
 }
 
 #pch-shing49 {
@@ -371,7 +371,7 @@
 
 #pch-shing50 {
   grid-row: 4;
-  grid-column: 48/50;
+  grid-column: 50/52;
 }
 
 #pch-shing51 {
@@ -381,7 +381,7 @@
 
 #pch-shing52 {
   grid-row: 4;
-  grid-column: 48/50;
+  grid-column: 46/48;
 }
 
 #pch-shing53 {
@@ -390,13 +390,13 @@
 }
 
 #pch-shing54 {
-  grid-row: 4;
-  grid-column: 44/48;
+  grid-row: 5;
+  grid-column: 48/50;
 }
 
 #pch-shing55 {
-  grid-row: 5;
-  grid-column: 47/49;
+  grid-row: 3;
+  grid-column: 45/47;
 }
 // mid-roof-start
 #pch-shing56 {
@@ -421,7 +421,7 @@
 
 #pch-shing60 {
   grid-row: 4;
-  grid-column: 34/36;
+  grid-column: 36/38;
 }
 
 #pch-shing61 {
@@ -490,8 +490,8 @@
 }
 
 #pch-shing74 {
-  grid-row: 2;
-  grid-column: 2/4;
+  grid-row: 3;
+  grid-column: 37/39;
 }
 
 #pch-shing75 {
@@ -550,8 +550,8 @@
 }
 
 #pch-shing86 {
-  grid-row: 2;
-  grid-column: 22/24;
+  grid-row: 4;
+  grid-column: 36/38;
 }
 
 #pch-shing87 {
@@ -591,7 +591,7 @@
 
 #pch-shing94{
   grid-row: 1;
-  grid-column: 24/27;
+  grid-column: 25/27;
 }
 
 #pch-shing95{
@@ -635,8 +635,8 @@
 }
 
 #pch-shing103{
-  grid-row:2;
-  grid-column:10/12;
+  grid-row:3;
+  grid-column:35/37;
 }
 
 #pch-shing104{
@@ -830,7 +830,7 @@
 .peach-gutter-top {
   display: grid;
   grid-template-columns: 414px 7px 8px;
-  grid-template-rows: 7px 6px 7px;
+  grid-template-rows: 10px 10px;
   width: 425px;
   height: 20px;
   left: -2px;
@@ -844,18 +844,20 @@
   border-bottom-right-radius: 4px;
 }
 
-.peach-gutter-top-mid {
-  grid-column: 1/3;
-  grid-row: 2;
-  border-bottom-right-radius: 4px;
-}
 
-.peach-gutter-top-deco {
+.peach-gutter-deco-row {
   grid-column: 1/2;
-  grid-row: 3;
+  // border-top: 2px solid #947c68;
+  background: linear-gradient(180deg, #a2876c 48%, #b08960 49%, #b08960 59%, #bfa182 60%);
+  grid-row: 2;
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 4px;
+  display: grid;
+  padding-left: 1%;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: 1fr;
 }
+
 
 .peach-gutter-base {
   grid-row: 4;
@@ -873,26 +875,37 @@
   grid-column: 1;
   grid-row: 1;
   display: grid;
-  grid-template-columns: 28px 86px 47px 86px 47px 86px 28px;
+  grid-template-columns: 25px 88px 47px 88px 47px 88px 25px;
   grid-template-rows: 10px 129px;
 }
+
 
 .pch-f3-window-left {
   grid-column: 2;
   grid-row: 2;
-  background-color: #186a56;
+  // background-color: #186a56;
+  display: grid;
+  grid-template-columns: 2px 4px 2px 6px 57px 6px 4px 4px 3px;
+  grid-template-rows: 4px 6px 1fr 10px;
 }
+// 11 for the deck!
 
 .pch-f3-window-ctr {
   grid-column: 4;
   grid-row: 2;
-  background-color: #186a56;
+  // background-color: #186a56;
+  display: grid;
+  grid-template-columns: 2px 4px 2px 6px 57px 6px 4px 4px 3px;
+  grid-template-rows: 4px 6px 1fr 10px;
 }
 
 .pch-f3-window-right {
   grid-column: 6;
   grid-row: 2;
-  background-color: #186a56;
+  // background-color: #186a56;
+  display: grid;
+  grid-template-columns: 2px 4px 2px 6px 57px 6px 4px 4px 3px;
+  grid-template-rows: 4px 6px 1fr 10px;
 }
 // Peach 2nd floor======================
 // width==> 408px
