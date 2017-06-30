@@ -157,13 +157,18 @@
   grid-row: 1;
   // opacity: .5;
   display: grid;
-  grid-template-columns: 14px 68px 24px 68px 10px auto;
+  grid-template-columns: 14px 68px 24px 68px 8px 2px auto;
   // the auto is for the deck-railing container;
   grid-template-rows: 18px 4px 8px 70px 33px 12px;
 }
 
 
-
+.wh-rail { //svg railing fence
+  grid-column: 1/6;
+  grid-row: 5;
+  opacity: .3;
+  background: black;
+}
 
 .wh-f3-deck-awning-top {
   grid-row: 5;
@@ -188,11 +193,11 @@
 }
 
 .wh-f3-deck-base {
-  grid-column: 1/6;
+  grid-column: 1/7;
   grid-row: 6;
   // background-color: #80552e;
   display: grid;
-  grid-template-columns: 1fr 3px;
+  grid-template-columns: 1fr 2px;
   grid-template-rows: 2px 3px 7px;
 }
 
@@ -203,7 +208,7 @@
   grid-column: 1;
   grid-row: 2;
   display: grid;
-  grid-template-columns: 14px 68px 24px 68px 10px auto;
+  grid-template-columns: 14px 68px 24px 68px 8px 2px auto;
   // the auto is for the deck-railing container;
   grid-template-rows: 16px 4px 8px 88px 33px 12px;
 }
@@ -228,11 +233,11 @@
 }
 
 .wh-f2-deck-base {
-  grid-column: 1/6;
+  grid-column: 1/7;
   grid-row: 6;
   // background-color: #421f83;
   display: grid;
-  grid-template-columns: 1fr 3px;
+  grid-template-columns: 1fr 2px;
   grid-template-rows: 2px 3px 7px;
 }
 
