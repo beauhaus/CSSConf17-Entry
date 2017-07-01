@@ -167,7 +167,7 @@ Total pain in the ass.
 So much fun, tho.
 
 #### Step 14.
-![step Fifteen](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step14.png?raw=true)
+![step Fourteen](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step14.png?raw=true)
 Slow, careful improvements.
 This is becoming addictive. Worked on dark-house gate and window.
 Lots of linear-gradient help with the dk-house front gate.
