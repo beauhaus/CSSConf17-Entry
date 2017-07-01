@@ -62,6 +62,7 @@
   display: grid;
   grid-template-columns: 25px 36px 280px 13px 30px 26px;
   grid-template-rows: 12px 98px;
+  position: relative;
 }
 
 .peach-chimbody {
@@ -84,6 +85,7 @@
       display: grid;
       grid-template-columns: 4px 5px 271px;
       grid-template-rows: 2px 7px 4px;
+      z-index: 60;
     }
 
     &-right {
@@ -92,6 +94,7 @@
       display: grid;
       grid-template-columns: 5px 5px 4px;
       grid-template-rows: 2px 7px 4px;
+      z-index: 60;
     }
   }
 }
@@ -823,6 +826,7 @@
   grid-row: 3;
   grid-column: 1;
   position: relative;
+  z-index: 60;
 }
 
 .peach-gutter-top {

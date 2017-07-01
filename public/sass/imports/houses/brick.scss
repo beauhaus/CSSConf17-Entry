@@ -564,8 +564,11 @@ box-shadow: -4px 4px 3px 1px rgba(0, 0, 0, 0.4);
   //394 X 10px
   grid-column: 1/-1;
   grid-row: 3;
-  background-color: rgba(#dce68b, 0.79);
   z-index: 30;
+  display: grid;
+  grid-template-columns: 2px 1fr 2px;
+  grid-template-rows: 4px 6px;
+  z-index: 20;
 }
 
 .brk-first-floor-container {

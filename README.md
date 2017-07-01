@@ -180,3 +180,15 @@ I think I'm really losing it. I used to wonder why I didn't see much drawing wit
 It looks great, but... still so much to do.
 
 Tomorrow, the gutters.
+
+#### Step 22.
+![step Twenty-two](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step22.png?raw=true)
+Ok. It seems like it might have potential, but I don't think I'll be done with this for another few weeks. I've got animation to do & I just don't have enough time. Oh, well...
+
+I must decide whether to individually color each shutter and panel at the expense of the DOM and browser...or just go for it & see what I can do to improve it by refactoring my SASS.
+
+I've been putting off the hardest parts... The rails... I have to go over how to do repeated patterns in illustrator. Ugh... I kind of dread it. I don't want to screw things up.
+
+Doing the mansard roof trim on either side was a big PITA. Was unsure about where to anchor the pieces and use positioning.
+ok... Lots to do.
+curtains, Doors, etc. Let's get to it.
