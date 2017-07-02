@@ -359,11 +359,24 @@ body {
   grid-template-columns: 14px 68px 24px 68px 8px 2px auto;
   grid-template-rows: 18px 4px 8px 70px 33px 12px; }
 
+.wh-rails-a {
+  fill: none;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+  stroke-width: 1; }
+
 .wh-rail {
   grid-column: 1/6;
   grid-row: 5;
-  opacity: .3;
-  background: black; }
+  position: relative; }
+
+#wh-rail-vector {
+  grid-column: 1/6;
+  grid-row: 5;
+  fill: none;
+  stroke: #000000;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10; }
 
 .wh-f3-deck-awning-top {
   grid-row: 5;
@@ -417,6 +430,10 @@ body {
   display: grid;
   grid-template-columns: 1fr 2px;
   grid-template-rows: 2px 3px 7px; }
+
+#wh-f2-rail {
+  grid-column: 1/6;
+  grid-row: 5; }
 
 .wh-floor-1 {
   grid-column: 1;
@@ -841,8 +858,14 @@ body {
 .pch-f3-rail {
   grid-row: 4;
   grid-column: 2/9;
-  background: black;
-  opacity: 0.3; }
+  position: relative; }
+
+#pch-f3-rail-vector {
+  grid-column: 4;
+  grid-row: 2/9;
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10; }
 
 .pch-closed-door {
   grid-row: 3/5;
@@ -905,7 +928,8 @@ body {
 .pch-f3-deck-top {
   grid-row: 1;
   grid-column: 1/-1;
-  background: linear-gradient(90deg, #ad7345 0%, #c2976f 70%, #ad7345 100%); }
+  background: linear-gradient(90deg, #ad7345 0%, #c2976f 70%, #ad7345 100%);
+  z-index: 12; }
 
 .pch-f3-deck-bot {
   grid-row: 2;
@@ -1852,8 +1876,15 @@ body {
 .pch-f2-rail {
   grid-column: 1/-1;
   grid-row: 3;
-  background: black;
-  opacity: .3; }
+  position: relative; }
+
+#pch-f2-vector {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1.5;
+  left: 0;
+  bottom: 3px;
+  position: relative; }
 
 .pch-f2-window-right {
   grid-column: 6;

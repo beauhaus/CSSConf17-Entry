@@ -1129,8 +1129,16 @@
 .pch-f2-rail { //svg
   grid-column: 1/-1;
   grid-row: 3;
-  background: black;
-  opacity: .3;
+  position: relative;
+}
+
+#pch-f2-vector {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1.5;
+  left: 0;
+  bottom: 3px;
+  position: relative;
 }
 
 .pch-f2-window-right {

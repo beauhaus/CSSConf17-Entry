@@ -502,8 +502,15 @@
   //svg
   grid-row: 4;
   grid-column: 2/9;
-  background: black;
-  opacity: 0.3;
+  position: relative;
+}
+
+#pch-f3-rail-vector{
+  grid-column: 4;
+  grid-row: 2/9;
+  fill:none;
+  stroke:#000;
+  stroke-miterlimit:10;
 }
 
 .pch-closed-door {
@@ -579,6 +586,7 @@
   grid-row: 1;
   grid-column: 1/-1;
   background: linear-gradient(90deg, #ad7345 0%, #c2976f 70%, #ad7345 100%);
+  z-index: 12;
 }
 
 .pch-f3-deck-bot {

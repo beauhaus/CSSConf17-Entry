@@ -163,11 +163,22 @@
 }
 
 
+.wh-rails-a{fill:none;stroke:#000000;stroke-miterlimit:10; stroke-width:1}
+
+
 .wh-rail { //svg railing fence
   grid-column: 1/6;
   grid-row: 5;
-  opacity: .3;
-  background: black;
+  position: relative;
+}
+
+#wh-rail-vector{
+  grid-column: 1/6;
+  grid-row: 5;
+  fill:none;
+  stroke:#000000;
+  stroke-width:0.5;
+  stroke-miterlimit:10;
 }
 
 .wh-f3-deck-awning-top {
@@ -241,7 +252,10 @@
   grid-template-rows: 2px 3px 7px;
 }
 
-
+#wh-f2-rail{
+  grid-column: 1/6;
+  grid-row: 5;
+}
 
 
 // WH FIRST FLOOR======================
