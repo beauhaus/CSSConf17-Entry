@@ -185,3 +185,23 @@ I've been putting off the hardest parts... The rails... I have to go over how to
 Doing the mansard roof trim on either side was a big PITA. Was unsure about where to anchor the pieces and use positioning.
 ok... Lots to do.
 curtains, Doors, etc. Let's get to it.
+
+#### Step 23.
+![step Twenty-three](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step23.png?raw=true)
+
+I'm in the home stretch. It's a proof-of-concept.
+
+The SVG was way easier than I thought it would be.
+
+I added a slight ghost of an outline of bricks for the peach house. I've discovered that using text and a million divs for the brick outlines for the brick house with the pseudo-class ::before was a stupid idea. Really inefficient and a hack. SVG will ease some of the burden on the browser.
+
+I have lots of shadows to do and have realized that the shadow above the brick house (as an SVG clipping mask) was also a silly way to approach the problem.
+Solution: Simply place an opacity .5(?) svg on top of teh roof! --why didn't I think of that?
+
+Anyway... I will do that for the many, many remaining long shadows that I have to place on each house.
+
+I have "polluted" the html with a great deal of SVG.
+
+But that is an issue to solve for another day.
+
+However, to be frank... it all looks a bit too "crisp" and clean for my taste. There is no sense of atmosphere. --No gauzy, particulate leaves blowing or blur... It needs something!
