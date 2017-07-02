@@ -836,7 +836,7 @@ body {
 
 .pch-closed-window-trim-top {
   grid-row: 1;
-  grid-column: 1/8;
+  grid-column: 4/10;
   background-color: #e7c3a1;
   border-bottom: 2px solid #ba8c6a;
   border-bottom-right-radius: 4px;
@@ -853,23 +853,26 @@ body {
   box-shadow: -2px 1px 1px 0 rgba(0, 0, 0, 0.3);
   z-index: 4;
   grid-row: 2;
-  grid-column: 3/7; }
+  grid-column: 5/8; }
 
 .pch-f3-rail {
   grid-row: 4;
-  grid-column: 2/9;
+  grid-column: 2/-2;
   position: relative; }
 
 #pch-f3-rail-vector {
   grid-column: 4;
-  grid-row: 2/9;
+  grid-row: 2/-1;
   fill: none;
   stroke: #000;
   stroke-miterlimit: 10; }
 
+.f2-bannister {
+  stroke-width: 2px; }
+
 .pch-closed-door {
   grid-row: 3/5;
-  grid-column: 5/6;
+  grid-column: 6;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -1032,7 +1035,8 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 12px 10px 10px;
-  position: relative; }
+  position: relative;
+  z-index: 20; }
 
 .peach-chimney-right {
   grid-row: 2;
@@ -1041,7 +1045,8 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 12px 10px 10px;
   right: 2px;
-  position: relative; }
+  position: relative;
+  z-index: 20; }
 
 .peach-chimney-cap {
   grid-row: 1; }
@@ -1693,34 +1698,47 @@ body {
   grid-row: 5;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 139px 162px 154px; }
+  grid-template-rows: 139px 162px 154px;
+  position: relative; }
+
+#pch-brick-pattern {
+  fill: none;
+  stroke: maroon;
+  stroke-width: 0.25px;
+  opacity: .2;
+  stroke-miterlimit: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; }
 
 .pch-floor-3 {
   grid-column: 1;
   grid-row: 1;
   display: grid;
   grid-template-columns: 25px 88px 47px 88px 47px 88px 25px;
-  grid-template-rows: 10px 129px; }
+  grid-template-rows: 10px 129px;
+  z-index: 5; }
 
 .pch-f3-window-left {
   grid-column: 2;
   grid-row: 2;
   display: grid;
-  grid-template-columns: 2px 4px 2px 6px 57px 6px 4px 4px 3px;
+  grid-template-columns: 2px 4px 2px 6px 2px 1fr 4px 4px 2px 5px 3px;
   grid-template-rows: 4px 6px 78px 31px 10px; }
 
 .pch-f3-window-ctr {
   grid-column: 4;
   grid-row: 2;
   display: grid;
-  grid-template-columns: 2px 4px 2px 6px 57px 6px 4px 4px 3px;
+  grid-template-columns: 2px 4px 2px 6px 2px 1fr 4px 4px 2px 5px 3px;
   grid-template-rows: 4px 6px 78px 31px 10px; }
 
 .pch-f3-window-right {
   grid-column: 6;
   grid-row: 2;
   display: grid;
-  grid-template-columns: 2px 4px 2px 6px 57px 6px 4px 4px 3px;
+  grid-template-columns: 2px 4px 2px 6px 2px 1fr 4px 4px 2px 5px 3px;
   grid-template-rows: 4px 6px 78px 31px 10px; }
 
 .pch-floor-2 {
@@ -1728,7 +1746,8 @@ body {
   grid-row: 2;
   display: grid;
   grid-template-columns: 1fr 387px 1fr;
-  grid-template-rows: 16px 146px; }
+  grid-template-rows: 16px 146px;
+  z-index: 5; }
 
 .pch-f2-windows-group {
   grid-column: 2;
@@ -1923,7 +1942,8 @@ body {
   background-color: #darkgrey;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 16px 115px 23px; }
+  grid-template-rows: 16px 115px 23px;
+  z-index: 5; }
 
 .pch-f1-upper {
   grid-columns: 1;
@@ -2578,21 +2598,21 @@ rows: 386 + 86 + 142 + 132*/
 
 .brick-top-chimney-bodyL {
   background: #a75537;
-  box-shadow: inset 0px 0px 2px 1px #73402d; }
+  box-shadow: inset 0 0 2px 1px #73402d; }
 
 .brick-top-chimney-bodyR {
   background: #a75537;
-  box-shadow: inset 0px 0px 2px 1px #73402d; }
+  box-shadow: inset 0 0 2px 1px #73402d; }
 
 .brick-roof {
   background: linear-gradient(345deg, #5d5646 0%, #897565 100%);
   border-top: 3px solid #9e563d;
   border-bottom: 2px solid #45372c;
-  box-shadow: 0px -1px 1px 0px #a5694f; }
+  box-shadow: 0 -1px 1px 0 #a5694f; }
 
 .shing {
   filter: blur(2px);
-  opacity: .7; }
+  opacity: 0.7; }
 
 .shing.tan {
   background-color: #8b7665; }
@@ -2609,7 +2629,7 @@ rows: 386 + 86 + 142 + 132*/
 #front-top-wall-left {
   background: linear-gradient(60deg, #bf8a60 35%, #c69b71 100%);
   border: 1px solid #835f45;
-  border-bottom-width: 0px;
+  border-bottom-width: 0;
   box-shadow: 2px 10px 2px 2px rgba(0, 0, 0, 0.5); }
 
 #front-chimney-left-cap {
@@ -2639,12 +2659,12 @@ rows: 386 + 86 + 142 + 132*/
 
 #front-base-left {
   background-color: #b55a32;
-  box-shadow: inset 0px 5px 2px -3px rgba(0, 0, 0, 0.6); }
+  box-shadow: inset 0 5px 2px -3px rgba(0, 0, 0, 0.6); }
 
 #front-top-wall-right {
   background: linear-gradient(20deg, #bf8a60 0%, #a27d59 100%);
   border: 1px solid #835f45;
-  border-bottom-width: 0px;
+  border-bottom-width: 0;
   box-shadow: -12px 9px 1px 1px rgba(0, 0, 0, 0.4); }
 
 #front-chimney-right-cap {
@@ -2656,7 +2676,7 @@ rows: 386 + 86 + 142 + 132*/
   box-shadow: -13px 3px 2px -1px rgba(0, 0, 0, 0.1); }
 
 .shadow-brk-roof {
-  opacity: .5;
+  opacity: 0.5;
   background: black; }
 
 #front-chimney-right {
@@ -2710,7 +2730,7 @@ rows: 386 + 86 + 142 + 132*/
   box-shadow: -60px 150px 15px 5px rgba(0, 0, 0, 0.1); }
 
 .br-attic {
-  box-shadow: -2px 1px 2px 0px rgba(0, 0, 0, 0.7); }
+  box-shadow: -2px 1px 2px 0 rgba(0, 0, 0, 0.7); }
 
 .brk-attic-top {
   background: wheat; }
@@ -2799,7 +2819,7 @@ rows: 386 + 86 + 142 + 132*/
   border-bottom: 2px solid #a37a5c;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
-  box-shadow: -4px 1px 1px 0px rgba(0, 0, 0, 0.3); }
+  box-shadow: -4px 1px 1px 0 rgba(0, 0, 0, 0.3); }
 
 .brk-f3-awning-base-container {
   grid-column: 3/6;
@@ -2809,12 +2829,12 @@ rows: 386 + 86 + 142 + 132*/
   border-bottom-right-radius: 1px;
   border-bottom-left-radius: 1px;
   border-right: 1px solid #a18c7a;
-  box-shadow: -2px 3px 1px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: -2px 3px 1px 0 rgba(0, 0, 0, 0.3);
   z-index: 4; }
 
 .brk-f3-shutter-pane {
   background: linear-gradient(35deg, #665d39 0%, #6f6836 50%, #6b5722 100%);
-  box-shadow: inset -1px 2px 2px 0px rgba(0, 0, 0, 0.6); }
+  box-shadow: inset -1px 2px 2px 0 rgba(0, 0, 0, 0.6); }
 
 .brk-f3-shutter-board {
   display: grid;
@@ -2827,7 +2847,7 @@ rows: 386 + 86 + 142 + 132*/
     grid-row: 4;
     background: linear-gradient(120deg, #6b5722 0%, #666c3d 100%);
     z-index: 12;
-    box-shadow: -2px 2px 4px 0px rgba(0, 0, 0, 0.6); }
+    box-shadow: -2px 2px 4px 0 rgba(0, 0, 0, 0.6); }
   .brk-f3-shutter-board.win-l-side-right {
     grid-column: 5/-1;
     grid-row: 4;
@@ -2922,7 +2942,7 @@ rows: 386 + 86 + 142 + 132*/
 .brk-munt {
   box-shadow: -4px 4px 1px 1px rgba(0, 0, 0, 0.3);
   background: #a79467;
-  opacity: .9; }
+  opacity: 0.9; }
 
 .brk-floor3-window-ctr {
   grid-column: 4;
@@ -2938,11 +2958,43 @@ rows: 386 + 86 + 142 + 132*/
   grid-template-columns: 15px 5px 6px 53px 6px 5px 15px;
   grid-template-rows: 5px 5px 2px 105px; }
 
-.brk-floor3-deck-rail {
+.brk-deck-rail {
   grid-column: 1/-1;
   grid-row: 2;
-  background-color: rgba(137, 140, 138, 0.84);
-  z-index: 20; }
+  z-index: 20;
+  position: relative; }
+
+#brk-rail-vector {
+  grid-column: 1/-1;
+  grid-row: 2;
+  position: relative;
+  top: -9px;
+  left: 0;
+  z-index: 22; }
+
+.st0 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 1.5;
+  stroke-miterlimit: 10; }
+
+.st1 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-miterlimit: 10; }
+
+.st2 {
+  fill: none;
+  stroke: #000000;
+  stroke-miterlimit: 10; }
+
+.st3 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 2;
+  stroke-miterlimit: 10; }
 
 .brk-floor3-deck {
   grid-column: 1/-1;
@@ -3042,7 +3094,7 @@ rows: 386 + 86 + 142 + 132*/
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-top: 4px solid #c6a387;
-  border-bottom: 0px solid transparent; }
+  border-bottom: 0 solid transparent; }
 
 .brk-entrances-container {
   grid-column: 3;
@@ -3056,7 +3108,7 @@ rows: 386 + 86 + 142 + 132*/
   grid-row: 1;
   display: grid;
   grid-template-columns: 2px 4px 4px 232px 2px 4px 2px;
-  grid-template-rows: 4px 4px 34px 84px 0px; }
+  grid-template-rows: 4px 4px 34px 84px 0; }
 
 .brk-trip-door-awning-top {
   grid-column: 1/-1;
@@ -3071,7 +3123,7 @@ rows: 386 + 86 + 142 + 132*/
   border-bottom-right-radius: 5px;
   border-left: 4px solid transparent;
   border-top: 4px solid #2f1d0f;
-  border-bottom: 0px solid #2f1d0f; }
+  border-bottom: 0 solid #2f1d0f; }
 
 .brk-trip-door-top {
   grid-column: 4;
@@ -3112,11 +3164,10 @@ rows: 386 + 86 + 142 + 132*/
   background: linear-gradient(0deg, #b49475 55%, #a27f5f 65%); }
 
 .trip-door-bottom-map {
-  box-shadow: inset -4px 4px 3px 0px rgba(0, 0, 0, 0.4);
-  padding: 10%;
-  padding-top: 8%;
+  box-shadow: inset -4px 4px 3px 0 rgba(0, 0, 0, 0.4);
+  padding: 8% 10% 10%;
   /*firefox */
-  padding-bottom: 0%;
+  padding-bottom: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 18px 18px 4px;
@@ -3160,7 +3211,7 @@ rows: 386 + 86 + 142 + 132*/
   background-color: #7c3d16;
   height: 14px;
   grid-row: 3;
-  box-shadow: inset 0px 0px 3px 0px black; }
+  box-shadow: inset 0 0 3px 0 black; }
 
 .brk-trip-door-left {
   grid-column: 2;
@@ -3189,7 +3240,7 @@ rows: 386 + 86 + 142 + 132*/
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 22px 6px 86px;
-  box-shadow: inset -2px 2px 1px 0px rgba(33, 33, 33, 0.8); }
+  box-shadow: inset -2px 2px 1px 0 rgba(33, 33, 33, 0.8); }
 
 .brk-inner-door-grill {
   grid-column: 1/-1;
@@ -3224,7 +3275,7 @@ rows: 386 + 86 + 142 + 132*/
   background: #b19b83;
   overflow: hidden;
   z-index: -1;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.6); }
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.6); }
 
 .brk-inner-door-panel-container {
   overflow: hidden;
@@ -3240,18 +3291,18 @@ rows: 386 + 86 + 142 + 132*/
 
 .brk-right-front-door-panel {
   background-color: #5b4e1a;
-  box-shadow: inset -2px 2px 1px 0px rgba(0, 0, 0, 0.55); }
+  box-shadow: inset -2px 2px 1px 0 rgba(0, 0, 0, 0.55); }
 
 .brk-right-front-door-panel-tall {
   background-color: #574a14;
   grid-row: 2/4;
-  box-shadow: inset -2px 2px 1px 0px rgba(0, 0, 0, 0.55); }
+  box-shadow: inset -2px 2px 1px 0 rgba(0, 0, 0, 0.55); }
 
 .brick-container {
   overflow: hidden;
   font-family: sans-serif;
   z-index: -1;
-  opacity: .09; }
+  opacity: 0.09; }
 
 .brick {
   color: white;

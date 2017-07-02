@@ -25,6 +25,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 12px 10px 10px;
   position: relative;
+  z-index: 20;
 }
 
 .peach-chimney-right {
@@ -35,6 +36,7 @@
   grid-template-rows: 12px 10px 10px;
   right: 2px;
   position: relative;
+  z-index: 20;
 }
 
 
@@ -882,6 +884,20 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 139px 162px 154px;
+  position: relative;
+}
+
+#pch-brick-pattern {
+  fill:none;
+  stroke: maroon;
+  stroke-width: 0.25px;
+  opacity: .2;
+
+  stroke-miterlimit:10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 // Peach 3rd floor======================
@@ -892,6 +908,7 @@
   display: grid;
   grid-template-columns: 25px 88px 47px 88px 47px 88px 25px;
   grid-template-rows: 10px 129px;
+  z-index: 5;
 }
 
 
@@ -900,7 +917,7 @@
   grid-row: 2;
   // background-color: #186a56;
   display: grid;
-  grid-template-columns: 2px 4px 2px 6px 57px 6px 4px 4px 3px;
+  grid-template-columns: 2px 4px 2px 6px 2px 1fr 4px 4px 2px 5px 3px;
   grid-template-rows: 4px 6px 78px 31px 10px;
 }
 // 10 for the deck!
@@ -910,7 +927,7 @@
   grid-row: 2;
   // background-color: #186a56;
   display: grid;
-  grid-template-columns: 2px 4px 2px 6px 57px 6px 4px 4px 3px;
+  grid-template-columns: 2px 4px 2px 6px 2px 1fr 4px 4px 2px 5px 3px;
   grid-template-rows: 4px 6px 78px 31px 10px; //31 is svg fence
 }
 
@@ -919,7 +936,7 @@
   grid-row: 2;
   // background-color: #186a56;
   display: grid;
-  grid-template-columns: 2px 4px 2px 6px 57px 6px 4px 4px 3px;
+  grid-template-columns: 2px 4px 2px 6px 2px 1fr 4px 4px 2px 5px 3px;
   grid-template-rows: 4px 6px 78px 31px 10px;
 }
 // Peach 2nd floor======================
@@ -930,6 +947,7 @@
   display: grid;
   grid-template-columns: 1fr 387px 1fr;
   grid-template-rows: 16px 146px;
+  z-index: 5;
 }
 
 .pch-f2-windows-group {
@@ -1186,6 +1204,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 16px 115px 23px;
+  z-index: 5;
 }
 
 .pch-f1-upper {
