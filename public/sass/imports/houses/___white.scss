@@ -161,6 +161,14 @@
   background: #e5ceae;
   border-right: 1px solid #dab990;
   border-bottom: 1px solid #573b25;
+  position: relative;
+}
+.wh-deck-bot-shad {
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  .st0{fill:url(#SVGID_1_);}
 }
 
 .wh-attic-window-right {

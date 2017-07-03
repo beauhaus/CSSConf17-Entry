@@ -166,7 +166,16 @@ body {
   grid-row: 3;
   background: #e5ceae;
   border-right: 1px solid #dab990;
-  border-bottom: 1px solid #573b25; }
+  border-bottom: 1px solid #573b25;
+  position: relative; }
+
+.wh-deck-bot-shad {
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 10; }
+  .wh-deck-bot-shad .st0 {
+    fill: url(#SVGID_1_); }
 
 .wh-attic-window-right {
   background-color: #4d3d2e;
