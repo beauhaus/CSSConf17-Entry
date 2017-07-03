@@ -381,6 +381,43 @@
   }
 }
 
+.brk-f2-curtain {
+  &-left {
+    position: relative;
+    grid-column: 4;
+    grid-row: 4;
+    filter: blur(.7px);
+    .br-f2-curt-l-0{fill:none;stroke:#785A41;stroke-width:1.0372;stroke-miterlimit:10;}
+    .br-f2-curt-l-1{fill:#d5ae8f;}
+    .br-f2-curt-l-2{fill:none;stroke:#785A41;stroke-miterlimit:10;}
+    .br-f2-curt-l-3{fill:none;stroke:#785A41;stroke-width:0.9354;stroke-miterlimit:10;}
+    .br-f2-curt-l-4{fill:none;stroke:#785A41;stroke-width:0.4677;stroke-miterlimit:10;}
+  }
+
+  &-ctr {
+    grid-column: 4;
+    grid-row: 4;
+    filter: blur(.5px);
+    .br-f2-curt-l-0{fill:none;stroke:#785A41;stroke-width:1.0372;stroke-miterlimit:10;}
+    .br-f2-curt-l-1{fill:none;stroke:#785A41;stroke-miterlimit:10;}
+    .br-f2-curt-l-2{fill:none;stroke:#785A41;stroke-width:0.9354;stroke-miterlimit:10;}
+    .br-f2-curt-l-3{fill:none;stroke:#785A41;stroke-width:0.4677;stroke-miterlimit:10;}
+    .br-f2-curt-l-4{fill:#D5AE8F;}
+    }
+
+  &-right {
+    grid-column: 4;
+    grid-row: 4;
+    filter: blur(.5px);
+    background-color: #251b13;
+    .br-f2-curt-r-0{fill:none;stroke:#785A41;stroke-width:1.0372;stroke-miterlimit:10;}
+    .br-f2-curt-r-1{fill:none;stroke:#785A41;stroke-miterlimit:10;}
+    .br-f2-curt-r-2{fill:none;stroke:#785A41;stroke-width:0.9354;stroke-miterlimit:10;}
+    .br-f2-curt-r-3{fill:none;stroke:#785A41;stroke-width:0.4677;stroke-miterlimit:10;}
+    .br-f2-curt-r-4{fill:#D5AE8F;}
+  }
+}
+
 .brk-f3-window-frame {
   //muntin container
   grid-column: 4;
@@ -401,7 +438,7 @@
 .brk-muntin-vert-left {
   //w: 2px
   width: 1px;
-  height: 105px;
+  height: 113px;
   left: 16px;
   top: 0;
   position: absolute;
@@ -410,9 +447,9 @@
 .brk-muntin-vert-right {
   //w: 2px
   width: 1px;
-  height: 105px;
-  left: 33px;
-  top: 0;
+  height: 113px;
+  left: 34px;
+  top: 20;
   position: absolute;
 }
 
@@ -454,8 +491,6 @@
 }
 
 .brk-munt {
-  // this will work in case there's no time for SVG "wave" effect
-  box-shadow: -4px 4px 1px 1px rgba(#000000, 0.3);
   background: #a79467;
   opacity: 0.9;
 }
