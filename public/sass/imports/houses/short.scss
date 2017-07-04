@@ -90,8 +90,20 @@
   background: linear-gradient(180deg, #251505 0%, #a27c55 100%);
 }
 
-.row-eps-g {}
+.sh-tarp-left {
+  grid-column: 3/8;
+  grid-row: 2;
+  z-index: 10;
+  position: relative;
+  top: 3px;
+  left: 8px;
+}
 
-.row-eps-h {}
-
-.row-eps-i {}
+.tarp {
+.st0{fill:none;stroke:#5E3B1C;stroke-miterlimit:10;}
+.st1{fill:#81380D;}
+.st2{fill:#a28160;}
+.st3{fill:none;stroke:#4F4034;stroke-miterlimit:10;}
+.st4{fill:none;}
+.st5{fill:none;stroke:#75583E;stroke-miterlimit:10;}
+}
