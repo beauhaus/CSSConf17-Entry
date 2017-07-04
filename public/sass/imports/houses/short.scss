@@ -10,18 +10,65 @@
 
 
 .short-chimney {
-  background-color: #ac592d;
-  border-bottom: 5px solid #96431b;
+  // background-color: #ac592d;
+  border-bottom: 5px solid #834323;
   z-index: 10;
-  box-shadow: 0 56px 60px 20px #b18562;
+  // box-shadow: 0 56px 60px 20px #b18562;
 }
 
 .short-roof {
-  background: linear-gradient(180deg, #7f431f 0%,#75451d 30%, #321e0e 90%);
+  border-top: 3px solid #714028;
+  background: linear-gradient(230deg, #7f431f 0%,#75451d 30%, #321e0e 90%);
+  display: grid;
+  grid-template-columns: 204px 1fr;
+  grid-template-rows: 42px 1fr;
 }
+
+.short-roof-right {
+  grid-row: 2;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 8px 1fr;
+  grid-template-rows: 14px 1fr;
+}
+.short-mini-roof-top {
+  grid-row: 1;
+  grid-column: 1/-1;
+  background: linear-gradient(50deg, #585d57 0%, #585d57 25%, #44595d 40%,  #3b5254 60%, #585d57 100%);
+  border-bottom: 3px solid #574e46;
+  border-bottom-left-radius: 10px;
+}
+.short-mini-roof-body {
+  grid-row: 2;
+  grid-column: 2;
+
+  border-top: 5px solid #524334;
+  background: linear-gradient(0deg, #745a43 0%, #896545 100%);
+  border-left: 2px solid #2d2219;
+}
+
+.short-angled-facade{
+  grid-row: 2;
+  grid-column: 2;
+  position: relative;
+  width: 80px;
+  top: 23px;
+  right: 30px;
+  .st0{fill:none;stroke:#6E543B;stroke-miterlimit:10;}
+	.st1{fill:#BFA38E;}
+	.st2{fill:none;stroke:#6b4e39;stroke-miterlimit:10;}
+	.st3{fill:#A8876C;stroke:#6E543B;stroke-width:0.8481;stroke-miterlimit:10;}
+}
+
+
+
+
+
 
 .short-gutter {
   background-color: #bfa187;
+  border-top: 4px solid #A8876C;
+  box-shadow: inset 0px 4px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
 .short-awning {
@@ -31,7 +78,8 @@
 
 .short-awning-panel {
   border-left: 1px solid #837163;
-  background: linear-gradient(90deg, #998c7c 0%, rgba(46, 135, 41, 0.4) 100%);
+  background: #78847a;
+  box-shadow: inset 4px 0px 5px 0px #ab8a79;
 }
 
 .short-awning {

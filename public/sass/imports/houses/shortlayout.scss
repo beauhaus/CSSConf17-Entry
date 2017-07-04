@@ -4,7 +4,7 @@
 
 .short-house {
   display: grid;
-  grid-template-columns: 250px;
+  grid-template-columns: 254px;
   grid-template-rows: 434px 36px 120px 20px 28px 114px;
 }
 
@@ -18,13 +18,25 @@
   grid-template-rows: 1fr;
 }
 
-.eps-b-col-1,
-.eps-b-col-3 {
 
-}
 
 .short-chimney {
   z-index: 10;
+  display: grid;
+  grid-template-columns: 2px 30px 2px;
+  grid-template-rows: 10px 24px
+}
+
+.short-chimney-cap {
+  grid-row: 1;
+  grid-column: 1/-1;
+  background-color: #925632;
+  border-bottom: 3px solid #531c07;
+}
+.short-chimney-body {
+  grid-row: 2;
+  grid-column: 2;
+  background: linear-gradient(50deg, #94532d 0%, #a86135 100%);
 }
 
 .short-roof {

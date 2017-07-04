@@ -247,7 +247,7 @@ body {
   grid-column: 1;
   grid-row: 1;
   display: grid;
-  grid-template-columns: 1;
+  grid-template-columns: 1fr;
   grid-template-rows: 162px 32px 12px 66px 478px; }
 
 .white-sky {
@@ -2037,26 +2037,29 @@ body {
   background: linear-gradient(45deg, #51220e 40%, #29190c 70%); }
 
 .pch-f1-door-svg .st0 {
-  fill: #AA8B74; }
-.pch-f1-door-svg .st1 {
   opacity: 0.3;
   fill: #937358; }
-.pch-f1-door-svg .st2 {
+.pch-f1-door-svg .st1 {
   opacity: 0.3;
   fill: #604F40;
   stroke: #333333;
   stroke-miterlimit: 10; }
-.pch-f1-door-svg .st3 {
+.pch-f1-door-svg .st2 {
   fill: #AF8F68; }
-.pch-f1-door-svg .st4 {
+.pch-f1-door-svg .st3 {
   fill: #AF9162; }
-.pch-f1-door-svg .st5 {
+.pch-f1-door-svg .st4 {
   fill: none;
   stroke: #1A1A1A;
   stroke-miterlimit: 10; }
-.pch-f1-door-svg .st6 {
+.pch-f1-door-svg .st5 {
   fill: #665444;
   stroke: #333333;
+  stroke-miterlimit: 10; }
+.pch-f1-door-svg .st6 {
+  opacity: 0.8;
+  fill: #CCAA87;
+  stroke: #A88148;
   stroke-miterlimit: 10; }
 .pch-f1-door-svg .st7 {
   fill: #846E4A; }
@@ -2067,66 +2070,68 @@ body {
   stroke-width: 1.1836;
   stroke-miterlimit: 10; }
 .pch-f1-door-svg .st9 {
-  fill: #564F4B; }
+  opacity: 0.8;
+  fill: #605343; }
 .pch-f1-door-svg .st10 {
   opacity: 0.4;
   fill: #B27E4F; }
 .pch-f1-door-svg .st11 {
-  fill: #F7CF89; }
-.pch-f1-door-svg .st12 {
-  fill: #C6A275; }
-.pch-f1-door-svg .st13 {
-  fill: #997F58; }
-.pch-f1-door-svg .st14 {
-  fill: #605343; }
-.pch-f1-door-svg .st15 {
-  fill: #605853; }
-.pch-f1-door-svg .st16 {
-  fill: #665E58; }
-.pch-f1-door-svg .st17 {
-  fill: #CCAA87;
-  stroke: #8C7F68;
-  stroke-miterlimit: 10; }
-.pch-f1-door-svg .st18 {
+  opacity: 0.8;
   fill: #CCBAAE; }
-.pch-f1-door-svg .st19 {
+.pch-f1-door-svg .st12 {
+  fill: #F7CF89; }
+.pch-f1-door-svg .st13 {
+  opacity: 0.8;
+  fill: #D1A686; }
+.pch-f1-door-svg .st14 {
+  fill: #C6A275; }
+.pch-f1-door-svg .st15 {
+  fill: #997F58; }
+.pch-f1-door-svg .st16 {
+  fill: #605853; }
+.pch-f1-door-svg .st17 {
+  fill: #665E58; }
+.pch-f1-door-svg .st18 {
   fill: #301A0B; }
-.pch-f1-door-svg .st20 {
+.pch-f1-door-svg .st19 {
   fill: #CEAB74; }
-.pch-f1-door-svg .st21 {
+.pch-f1-door-svg .st20 {
   fill: none;
   stroke: #333333;
   stroke-miterlimit: 10; }
-.pch-f1-door-svg .st22 {
+.pch-f1-door-svg .st21 {
   opacity: 0.5;
   fill: #724E33; }
-.pch-f1-door-svg .st23 {
+.pch-f1-door-svg .st22 {
   opacity: 0.5;
   fill: #755532; }
-.pch-f1-door-svg .st24 {
+.pch-f1-door-svg .st23 {
   opacity: 0.5;
   fill: #776250; }
-.pch-f1-door-svg .st25 {
-  fill: #D1A686; }
-.pch-f1-door-svg .st26 {
+.pch-f1-door-svg .st24 {
   opacity: 0.3;
   fill: #53341F; }
+.pch-f1-door-svg .st25 {
+  fill: #A3875D; }
+.pch-f1-door-svg .st26 {
+  opacity: 0.8;
+  fill: #B28E76; }
 .pch-f1-door-svg .st27 {
+  opacity: 0.8;
   fill: #CCAA87;
-  stroke: #A88148;
+  stroke: #8C7F68;
   stroke-miterlimit: 10; }
 .pch-f1-door-svg .st28 {
-  fill: #A3875D; }
-.pch-f1-door-svg .st29 {
-  fill: #A58772; }
-.pch-f1-door-svg .st30 {
   fill: none;
   stroke: #FBB03B;
   stroke-width: 0.1921;
   stroke-miterlimit: 10; }
+.pch-f1-door-svg .st29 {
+  fill: #DBC1A0; }
+.pch-f1-door-svg .st30 {
+  opacity: 0.8;
+  fill: #896D59; }
 .pch-f1-door-svg .st31 {
-  fill: #d1b289; }
-.pch-f1-door-svg .st32 {
   fill: #443A30; }
 
 .pch-f1-window-ctr {
@@ -4028,16 +4033,64 @@ rows: 386 + 86 + 142 + 132*/
   background-color: transparent; }
 
 .short-chimney {
-  background-color: #ac592d;
-  border-bottom: 5px solid #96431b;
-  z-index: 10;
-  box-shadow: 0 56px 60px 20px #b18562; }
+  border-bottom: 5px solid #834323;
+  z-index: 10; }
 
 .short-roof {
-  background: linear-gradient(180deg, #7f431f 0%, #75451d 30%, #321e0e 90%); }
+  border-top: 3px solid #714028;
+  background: linear-gradient(230deg, #7f431f 0%, #75451d 30%, #321e0e 90%);
+  display: grid;
+  grid-template-columns: 204px 1fr;
+  grid-template-rows: 42px 1fr; }
+
+.short-roof-right {
+  grid-row: 2;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 8px 1fr;
+  grid-template-rows: 14px 1fr; }
+
+.short-mini-roof-top {
+  grid-row: 1;
+  grid-column: 1/-1;
+  background: linear-gradient(50deg, #585d57 0%, #585d57 25%, #44595d 40%, #3b5254 60%, #585d57 100%);
+  border-bottom: 3px solid #574e46;
+  border-bottom-left-radius: 10px; }
+
+.short-mini-roof-body {
+  grid-row: 2;
+  grid-column: 2;
+  border-top: 5px solid #524334;
+  background: linear-gradient(0deg, #745a43 0%, #896545 100%);
+  border-left: 2px solid #2d2219; }
+
+.short-angled-facade {
+  grid-row: 2;
+  grid-column: 2;
+  position: relative;
+  width: 80px;
+  top: 23px;
+  right: 30px; }
+  .short-angled-facade .st0 {
+    fill: none;
+    stroke: #6E543B;
+    stroke-miterlimit: 10; }
+  .short-angled-facade .st1 {
+    fill: #BFA38E; }
+  .short-angled-facade .st2 {
+    fill: none;
+    stroke: #6b4e39;
+    stroke-miterlimit: 10; }
+  .short-angled-facade .st3 {
+    fill: #A8876C;
+    stroke: #6E543B;
+    stroke-width: 0.8481;
+    stroke-miterlimit: 10; }
 
 .short-gutter {
-  background-color: #bfa187; }
+  background-color: #bfa187;
+  border-top: 4px solid #A8876C;
+  box-shadow: inset 0px 4px 3px 0px rgba(0, 0, 0, 0.5); }
 
 .short-awning {
   background-color: #c4a98e;
@@ -4045,7 +4098,8 @@ rows: 386 + 86 + 142 + 132*/
 
 .short-awning-panel {
   border-left: 1px solid #837163;
-  background: linear-gradient(90deg, #998c7c 0%, rgba(46, 135, 41, 0.4) 100%); }
+  background: #78847a;
+  box-shadow: inset 4px 0px 5px 0px #ab8a79; }
 
 .short-awning {
   background-color: #7b8378; }
@@ -4058,7 +4112,7 @@ rows: 386 + 86 + 142 + 132*/
 
 .short-house {
   display: grid;
-  grid-template-columns: 250px;
+  grid-template-columns: 254px;
   grid-template-rows: 434px 36px 120px 20px 28px 114px; }
 
 .short-sky {
@@ -4070,7 +4124,21 @@ rows: 386 + 86 + 142 + 132*/
   grid-template-rows: 1fr; }
 
 .short-chimney {
-  z-index: 10; }
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 2px 30px 2px;
+  grid-template-rows: 10px 24px; }
+
+.short-chimney-cap {
+  grid-row: 1;
+  grid-column: 1/-1;
+  background-color: #925632;
+  border-bottom: 3px solid #531c07; }
+
+.short-chimney-body {
+  grid-row: 2;
+  grid-column: 2;
+  background: linear-gradient(50deg, #94532d 0%, #a86135 100%); }
 
 .short-roof {
   grid-row: 3; }
