@@ -205,3 +205,21 @@ I have "polluted" the html with a great deal of SVG.
 But that is an issue to solve for another day.
 
 However, to be frank... it all looks a bit too "crisp" and clean for my taste. There is no sense of atmosphere. --No gauzy, particulate leaves blowing or blur... It needs something!
+
+
+#### Step 24.
+![step Twenty-four](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step24.png?raw=true)
+
+Okay. Well... This frikkin thing took 4 hours. I'm still learning illustrator. I didn't want to pollute the DOM with too much SVG and instead of a linear gradient from the top right to depict shadow, I did that in the CSS background (containing) div and put an opacity 50% in illustrator for the columns. I have four days left. --It's still just static. I like what I see, but there's so much incomplete about this.
+
+I have had very little sleep in the past few days & it looks like I'm not going to get much this week.
+
+When I DO sleep...I wake up in a panic thinking about what is broken.
+
+I have to say... I swear a lot more because of this project. --Ain't gonna lie. I'm pretty hard to be around these days. Tough to follow others in conversation because I just nod my head thinking about how to finish this project without screwing everything up.
+
+It really is absolute madness. I don't mind sayin'.
+
+okay... on to more of this... I'm going to take on the house all the way to the right. The "short-house".
+
+Later.

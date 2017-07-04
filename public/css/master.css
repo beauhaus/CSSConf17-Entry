@@ -2034,7 +2034,100 @@ body {
 .pch-f1-door-left {
   grid-column: 2;
   grid-row: 1/3;
-  background: #7a5837; }
+  background: linear-gradient(45deg, #51220e 40%, #29190c 70%); }
+
+.pch-f1-door-svg .st0 {
+  fill: #AA8B74; }
+.pch-f1-door-svg .st1 {
+  opacity: 0.3;
+  fill: #937358; }
+.pch-f1-door-svg .st2 {
+  opacity: 0.3;
+  fill: #604F40;
+  stroke: #333333;
+  stroke-miterlimit: 10; }
+.pch-f1-door-svg .st3 {
+  fill: #AF8F68; }
+.pch-f1-door-svg .st4 {
+  fill: #AF9162; }
+.pch-f1-door-svg .st5 {
+  fill: none;
+  stroke: #1A1A1A;
+  stroke-miterlimit: 10; }
+.pch-f1-door-svg .st6 {
+  fill: #665444;
+  stroke: #333333;
+  stroke-miterlimit: 10; }
+.pch-f1-door-svg .st7 {
+  fill: #846E4A; }
+.pch-f1-door-svg .st8 {
+  opacity: 0.6;
+  fill: none;
+  stroke: #333333;
+  stroke-width: 1.1836;
+  stroke-miterlimit: 10; }
+.pch-f1-door-svg .st9 {
+  fill: #564F4B; }
+.pch-f1-door-svg .st10 {
+  opacity: 0.4;
+  fill: #B27E4F; }
+.pch-f1-door-svg .st11 {
+  fill: #F7CF89; }
+.pch-f1-door-svg .st12 {
+  fill: #C6A275; }
+.pch-f1-door-svg .st13 {
+  fill: #997F58; }
+.pch-f1-door-svg .st14 {
+  fill: #605343; }
+.pch-f1-door-svg .st15 {
+  fill: #605853; }
+.pch-f1-door-svg .st16 {
+  fill: #665E58; }
+.pch-f1-door-svg .st17 {
+  fill: #CCAA87;
+  stroke: #8C7F68;
+  stroke-miterlimit: 10; }
+.pch-f1-door-svg .st18 {
+  fill: #CCBAAE; }
+.pch-f1-door-svg .st19 {
+  fill: #301A0B; }
+.pch-f1-door-svg .st20 {
+  fill: #CEAB74; }
+.pch-f1-door-svg .st21 {
+  fill: none;
+  stroke: #333333;
+  stroke-miterlimit: 10; }
+.pch-f1-door-svg .st22 {
+  opacity: 0.5;
+  fill: #724E33; }
+.pch-f1-door-svg .st23 {
+  opacity: 0.5;
+  fill: #755532; }
+.pch-f1-door-svg .st24 {
+  opacity: 0.5;
+  fill: #776250; }
+.pch-f1-door-svg .st25 {
+  fill: #D1A686; }
+.pch-f1-door-svg .st26 {
+  opacity: 0.3;
+  fill: #53341F; }
+.pch-f1-door-svg .st27 {
+  fill: #CCAA87;
+  stroke: #A88148;
+  stroke-miterlimit: 10; }
+.pch-f1-door-svg .st28 {
+  fill: #A3875D; }
+.pch-f1-door-svg .st29 {
+  fill: #A58772; }
+.pch-f1-door-svg .st30 {
+  fill: none;
+  stroke: #FBB03B;
+  stroke-width: 0.1921;
+  stroke-miterlimit: 10; }
+.pch-f1-door-svg .st31 {
+  fill: #d1b289; }
+.pch-f1-door-svg .st32 {
+  fill: #443A30; }
 
 .pch-f1-window-ctr {
   grid-column: 4;
