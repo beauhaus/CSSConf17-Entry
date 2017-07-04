@@ -167,13 +167,14 @@ body {
   background: #e5ceae;
   border-right: 1px solid #dab990;
   border-bottom: 1px solid #573b25;
-  position: relative; }
+  position: relative;
+  box-shadow: -8px 10px 10px 0px rgba(0, 0, 0, 0.7);
+  z-index: 10; }
 
 .wh-deck-bot-shad {
   position: relative;
-  top: 0;
-  right: 0;
-  z-index: 10; }
+  top: 0px;
+  right: 0; }
   .wh-deck-bot-shad .st0 {
     fill: url(#SVGID_1_); }
 
@@ -239,6 +240,51 @@ body {
   grid-row: 1;
   background: #aa906f;
   box-shadow: -2px 0px 1px 0px rgba(0, 0, 0, 0.4); }
+
+.wh-tarp {
+  position: relative;
+  top: 5px;
+  z-index: 12; }
+  .wh-tarp .st0 {
+    fill: #c1985d; }
+  .wh-tarp .st1 {
+    fill: none;
+    stroke: #b69c62;
+    stroke-width: 8.833;
+    stroke-miterlimit: 10; }
+  .wh-tarp .st2 {
+    fill: none;
+    stroke: #C4A869;
+    stroke-width: 0.7073;
+    stroke-miterlimit: 10; }
+  .wh-tarp .st3 {
+    fill: #56301D; }
+  .wh-tarp .st4 {
+    fill: #5E311B; }
+  .wh-tarp .st5 {
+    fill: #602E15; }
+  .wh-tarp .st6 {
+    fill: none; }
+  .wh-tarp .st7 {
+    fill: none;
+    stroke: #5e4b30;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10; }
+  .wh-tarp .st8 {
+    fill: none;
+    stroke: #9d7d4e;
+    stroke-width: 7.6937;
+    stroke-miterlimit: 10; }
+  .wh-tarp .st9 {
+    fill: none;
+    stroke: #C4A869;
+    stroke-width: 0.7902;
+    stroke-miterlimit: 10; }
+  .wh-tarp .st10 {
+    fill: none;
+    stroke: #866d49;
+    stroke-width: 5.3;
+    stroke-miterlimit: 10; }
 
 /*White-house layout profile
 
