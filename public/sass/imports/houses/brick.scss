@@ -576,6 +576,7 @@
   grid-row: 1;
   grid-column: 1/-1;
   background: linear-gradient(90deg, #b69174 30%, #a37856 100%);
+  z-index: 12;
 }
 
 .brk-f3-bot {
@@ -586,7 +587,35 @@
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   box-shadow: -4px 4px 3px 1px rgba(0, 0, 0, 0.4);
+  // z-index: 12;
 }
+
+
+.floor2-deck-shad-side {
+  filter: blur(1px);
+  position: relative;
+  opacity: .8;
+  top: -32px;
+  left: -26px;
+  // width: 100%;
+  z-index: 2;
+  .st0{fill:url(#SVGID_1_);}
+}
+
+
+.floor2-deck-shad-under {
+  filter: blur(1px);
+  position: relative;
+  opacity: .8;
+  top: -107px;
+  left: -24px;
+  width: 106%;
+  .st0{fill:url(#SVGID_1_);}
+  z-index: 80;
+}
+
+
+
 
 .brk-floor2 {
   grid-row: 3;
@@ -594,7 +623,32 @@
   display: grid;
   grid-template-columns: 8px 100px 40px 104px 28px 104px 10px;
   grid-template-rows: 94px 32px 10px;
+  position: relative;
 }
+
+.floor3-deck-shad-side {
+  filter: blur(1px);
+  position: absolute;
+  opacity: .8;
+  top: -63px;
+  left: -23px;
+  width: 100%;
+  .st0{fill:url(#SVGID_1_);}
+}
+
+
+.floor3-deck-shad-under {
+  filter: blur(1px);
+  position: absolute;
+  opacity: .8;
+  top: -23px;
+  left: -16px;
+  width: 102%;
+  .st0{fill:url(#SVGID_1_);}
+  z-index: 80;
+}
+
+
 
 .brk-floor2-window-left {
   grid-column: 2;
@@ -647,6 +701,7 @@
   display: grid;
   grid-template-columns: 10px 10px 394px 10px;
   grid-template-rows: 10px 1fr;
+  position: relative;
 }
 // Once obscured by shadow, these will be darker but peak out at the right
 

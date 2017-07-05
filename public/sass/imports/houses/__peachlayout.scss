@@ -948,9 +948,11 @@
   grid-template-columns: 1fr 387px 1fr;
   grid-template-rows: 16px 146px;
   z-index: 5;
+  position: relative;
 }
 
 .pch-f2-windows-group {
+  z-index: 10;
   grid-column: 2;
   grid-row: 2;
   display: grid;
@@ -988,6 +990,7 @@
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   box-shadow: -4px 1px 1px 0px rgba(0, 0, 0, 0.3);
+
 }
 
 .pch-f2-awning-base-container {
