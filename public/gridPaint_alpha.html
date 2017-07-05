@@ -2223,7 +2223,15 @@
   </div>
   <!-- firmament-container END -->
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+!function() {
+  $("div").each(function(index) {
+    $(this).delay(220*index).hide().fadeIn(220);
+});
+}();
 
+</script>
 </body>
 
 </html>

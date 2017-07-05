@@ -7,25 +7,6 @@
   font-size: .8em; }
 
 /*general outline of photo*/
-/*
-
-@keyframes appear {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-And then adding that to the universal selector.
-
-* {
-  opacity: 0;
-  animation: appear 1s 0s 1 forwards;
-}
-
-*/
 body {
   display: grid;
   grid-template-columns: 1fr 1400px 1fr;
@@ -4264,7 +4245,8 @@ rows: 386 + 86 + 142 + 132*/
     stroke: #6E543B;
     stroke-miterlimit: 10; }
   .short-angled-facade .st1 {
-    fill: #BFA38E; }
+    fill: #BFA38E;
+    opacity: 1; }
   .short-angled-facade .st2 {
     fill: none;
     stroke: #6b4e39;
