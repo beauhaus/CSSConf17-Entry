@@ -40,6 +40,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 10px 1fr;
+  position: relative;
 }
 
 .dk-gutters {

@@ -289,6 +289,65 @@ body {
   .wh-tarp-back-shad .st0 {
     fill: url(#SVGID_1_); }
 
+.gutter-pipe-one {
+  position: absolute;
+  bottom: -33px;
+  right: -15px;
+  height: 578px;
+  width: 39px;
+  z-index: 75; }
+  .gutter-pipe-one .st0 {
+    fill: none;
+    stroke: #3A221C;
+    stroke-width: 2.5487;
+    stroke-miterlimit: 10; }
+  .gutter-pipe-one .st1 {
+    opacity: 1;
+    fill: #514233; }
+  .gutter-pipe-one .st2 {
+    fill: none;
+    stroke: #3A221C;
+    stroke-width: 5;
+    stroke-miterlimit: 10; }
+  .gutter-pipe-one .st3 {
+    fill: #954B00;
+    stroke: #3A221C;
+    stroke-width: 0.9214;
+    stroke-miterlimit: 10; }
+  .gutter-pipe-one .st4 {
+    fill: none;
+    stroke: #A74F30;
+    stroke-width: 5.2727;
+    stroke-miterlimit: 10; }
+  .gutter-pipe-one .st5 {
+    fill: #A74F30;
+    stroke: #3A221C;
+    stroke-miterlimit: 10; }
+  .gutter-pipe-one .st6 {
+    fill: none;
+    stroke: #A74F30;
+    stroke-width: 6;
+    stroke-miterlimit: 10; }
+  .gutter-pipe-one .st7 {
+    fill: none;
+    stroke: #442118;
+    stroke-width: 3.1789;
+    stroke-miterlimit: 10; }
+  .gutter-pipe-one .st8 {
+    fill: #3F2215; }
+  .gutter-pipe-one .st9 {
+    fill: none;
+    stroke: #A74F30;
+    stroke-width: 3.1789;
+    stroke-miterlimit: 10; }
+  .gutter-pipe-one .st10 {
+    fill: none;
+    stroke: #492B1F;
+    stroke-width: 2;
+    stroke-miterlimit: 10; }
+  .gutter-pipe-one .st11 {
+    fill: #A74F30; }
+
 /*White-house layout profile
 
 */
@@ -297,7 +356,8 @@ body {
   grid-row: 1;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 162px 32px 12px 66px 478px; }
+  grid-template-rows: 162px 32px 12px 66px 478px;
+  position: relative; }
 
 .white-sky {
   grid-row: 1;
@@ -662,17 +722,23 @@ body {
     box-shadow: -1px 3px 2px -1px rgba(32, 20, 6, 0.8);
     z-index: 2; }
   .front-gable-roof.gab-roof-left .embossment-left {
-    background: white;
+    background: rgba(79, 49, 17, 0.8);
     grid-row: 2;
     grid-column: 2; }
+    .front-gable-roof.gab-roof-left .embossment-left .st0 {
+      fill: #d1be9d; }
   .front-gable-roof.gab-roof-ctr .embossment-ctr {
-    background: blue;
+    background: rgba(79, 49, 17, 0.8);
     grid-row: 2;
     grid-column: 2; }
+    .front-gable-roof.gab-roof-ctr .embossment-ctr .st0 {
+      fill: #d1be9d; }
   .front-gable-roof.gab-roof-right .embossment-right {
-    background: purple;
+    background: rgba(79, 49, 17, 0.8);
     grid-row: 2;
     grid-column: 2; }
+    .front-gable-roof.gab-roof-right .embossment-right .st0 {
+      fill: #d1be9d; }
 
 .gable-roof-bottom {
   border-top: 2px solid #c09f7e;
@@ -1063,7 +1129,7 @@ body {
   position: absolute;
   top: -7px;
   left: -8px;
-  z-index: 20; }
+  z-index: 90; }
   .pch-fl-1-deck-shad .st0 {
     fill: url(#SVGID_1_); }
   .pch-fl-1-deck-shad .st1 {
@@ -2490,6 +2556,47 @@ rows: 386 + 86 + 142 + 132*/
   z-index: -1;
   box-shadow: inset -16px -25px 40px 4px rgba(66, 48, 21, 0.9); }
 
+.dk-left-gutter-pipe {
+  left: 0;
+  bottom: 20px;
+  width: 15px;
+  height: 375px;
+  position: absolute;
+  z-index: 20; }
+  .dk-left-gutter-pipe .st0 {
+    opacity: 1;
+    fill: #844B20; }
+  .dk-left-gutter-pipe .st1 {
+    opacity: 1;
+    fill: #FFFFFF;
+    stroke: #6D301B;
+    stroke-width: 3.9756;
+    stroke-miterlimit: 10; }
+  .dk-left-gutter-pipe .st2 {
+    opacity: 1;
+    fill: #FFFFFF;
+    stroke: #442C15;
+    stroke-width: 3.9856;
+    stroke-miterlimit: 10; }
+  .dk-left-gutter-pipe .st3 {
+    opacity: 1;
+    fill: #FFFFFF;
+    stroke: #6D301B;
+    stroke-width: 2;
+    stroke-miterlimit: 10; }
+  .dk-left-gutter-pipe .st5 {
+    opacity: 1;
+    fill: none;
+    stroke: #3A2E2C;
+    stroke-width: 1.0239;
+    stroke-miterlimit: 10; }
+  .dk-left-gutter-pipe .st6 {
+    opacity: 1;
+    fill: none;
+    stroke: #6D2E1D;
+    stroke-width: 4.2361;
+    stroke-miterlimit: 10; }
+
 .munt {
   z-index: 0; }
 
@@ -2810,7 +2917,8 @@ rows: 386 + 86 + 142 + 132*/
   grid-column: 1;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 10px 1fr; }
+  grid-template-rows: 10px 1fr;
+  position: relative; }
 
 .dk-gutters {
   grid-column: 1;
@@ -3715,7 +3823,57 @@ rows: 386 + 86 + 142 + 132*/
   display: grid;
   grid-template-rows: 1fr 114px;
   grid-template-columns: 1fr 102px 1fr;
-  z-index: 5; }
+  z-index: 5;
+  position: relative; }
+
+.brk-right-door-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130px;
+  height: 126px; }
+  .brk-right-door-frame .st0 {
+    opacity: 1;
+    fill: #B7A68F; }
+  .brk-right-door-frame .st1 {
+    opacity: 1;
+    fill: #C3A98E; }
+  .brk-right-door-frame .st2 {
+    opacity: 1;
+    fill: #E5C37F;
+    stroke: #998C7F;
+    stroke-width: 1.9383;
+    stroke-miterlimit: 10; }
+  .brk-right-door-frame .st3 {
+    opacity: 1;
+    fill: #E5C37F;
+    stroke: #938679;
+    stroke-width: 3.0916;
+    stroke-miterlimit: 10; }
+  .brk-right-door-frame .st4 {
+    opacity: 1;
+    fill: #E5C37F;
+    stroke: #938679;
+    stroke-width: 3.0895;
+    stroke-miterlimit: 10; }
+  .brk-right-door-frame .st5 {
+    opacity: 1;
+    fill: #E5C37F;
+    stroke: #998C7E;
+    stroke-width: 2;
+    stroke-miterlimit: 10; }
+  .brk-right-door-frame .st6 {
+    opacity: 1;
+    fill: #B7A68F;
+    stroke: #333333;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10; }
+  .brk-right-door-frame .st7 {
+    opacity: 1;
+    fill: #E5C37F;
+    stroke: #A59583;
+    stroke-width: 2.359;
+    stroke-miterlimit: 10; }
 
 .brk-right-inner-door {
   grid-column: 2;
@@ -3798,6 +3956,46 @@ rows: 386 + 86 + 142 + 132*/
     content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"; }
   .brick.even::before {
     content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"; }
+
+.brk-gutter-pipe-right {
+  position: absolute;
+  right: -11px;
+  bottom: -2px;
+  width: 27px; }
+  .brk-gutter-pipe-right .st0 {
+    fill: none;
+    stroke: #77371C;
+    stroke-width: 3;
+    stroke-miterlimit: 10; }
+  .brk-gutter-pipe-right .st1 {
+    fill: #77371C;
+    stroke: #000000;
+    stroke-miterlimit: 10; }
+  .brk-gutter-pipe-right .st2 {
+    fill: #5E2D1E; }
+  .brk-gutter-pipe-right .st3 {
+    fill: none;
+    stroke: #77371C;
+    stroke-width: 6;
+    stroke-miterlimit: 10; }
+  .brk-gutter-pipe-right .st4 {
+    fill: none;
+    stroke: #4b281f;
+    stroke-width: 3;
+    stroke-miterlimit: 10; }
+  .brk-gutter-pipe-right .st5 {
+    fill: #77371C;
+    stroke: #321710;
+    stroke-miterlimit: 10; }
+  .brk-gutter-pipe-right .st6 {
+    fill: #000;
+    stroke: #000000;
+    stroke-miterlimit: 10; }
+  .brk-gutter-pipe-right .st7 {
+    fill: #5E2D1E;
+    stroke: #2D160F;
+    stroke-width: 3;
+    stroke-miterlimit: 10; }
 
 /*===============BRICK HOUSE Profile================*/
 /*
@@ -4119,7 +4317,39 @@ rows: 386 + 86 + 142 + 132*/
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 62px 21px 288px 136px;
-  z-index: 0; }
+  z-index: 0;
+  position: relative; }
+
+.dk-right-gutter-pipe {
+  left: -10px;
+  bottom: 50px;
+  width: 33px;
+  position: absolute;
+  z-index: 10; }
+  .dk-right-gutter-pipe .st0 {
+    opacity: 1;
+    fill: none;
+    stroke: #542F1E;
+    stroke-width: 3.0952;
+    stroke-miterlimit: 10; }
+  .dk-right-gutter-pipe .st1 {
+    opacity: 1;
+    fill: none;
+    stroke: #352721;
+    stroke-width: 5;
+    stroke-miterlimit: 10; }
+  .dk-right-gutter-pipe .st2 {
+    opacity: 1;
+    fill: none;
+    stroke: #723319;
+    stroke-width: 3;
+    stroke-miterlimit: 10; }
+  .dk-right-gutter-pipe .st3 {
+    opacity: 1;
+    fill: none;
+    stroke: #2D1A13;
+    stroke-width: 3.0952;
+    stroke-miterlimit: 10; }
 
 .brk-gutter-attic-container {
   grid-column: 1/-1;

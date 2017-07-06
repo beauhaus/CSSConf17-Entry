@@ -170,19 +170,25 @@
   &.gab-roof-left {
 
     .embossment-left {
-      background: white;
+      background: rgba(79, 49, 17, 0.8);
       grid-row: 2;
       grid-column: 2;
+      .st0{fill:#d1be9d;}
     }
 
   }
 
+
+
   &.gab-roof-ctr {
 
     .embossment-ctr {
-      background: blue;
+      background: rgba(79, 49, 17, 0.8);
       grid-row: 2;
       grid-column: 2;
+
+      .st0{fill:#d1be9d;}
+
     }
 
   }
@@ -190,9 +196,12 @@
   &.gab-roof-right {
 
     .embossment-right {
-      background: purple;
+      background: rgba(79, 49, 17, 0.8);
       grid-row: 2;
       grid-column: 2;
+
+      .st0{fill:#d1be9d;}
+
     }
 
   }
@@ -670,11 +679,12 @@
  position: relative;
 }
 .pch-fl-1-deck-shad {
+
   filter: blur(1px);
   position: absolute;
   top: -7px;
   left: -8px;
-  z-index: 20;
+  z-index: 90;
   .st0{;fill:url(#SVGID_1_);}
   	.st1{fill:url(#SVGID_2_);}
 }

@@ -48,6 +48,24 @@ rows: 386 + 86 + 142 + 132*/
   box-shadow: inset -16px -25px 40px 4px rgba(66, 48, 21, 0.9);
 }
 
+.dk-left-gutter-pipe {
+  left: 0;
+  bottom: 20px;
+  width: 15px;
+  height: 375px;
+  position: absolute;
+  z-index: 20;
+
+.st0{opacity: 1;fill:#844B20;}
+.st1{opacity: 1;fill:#FFFFFF;stroke:#6D301B;stroke-width:3.9756;stroke-miterlimit:10;}
+.st2{opacity: 1;fill:#FFFFFF;stroke:#442C15;stroke-width:3.9856;stroke-miterlimit:10;}
+.st3{opacity: 1;fill:#FFFFFF;stroke:#6D301B;stroke-width:2;stroke-miterlimit:10;}
+.st5{opacity: 1;fill:none;stroke:#3A2E2C;stroke-width:1.0239;stroke-miterlimit:10;}
+.st6{opacity: 1;fill:none;stroke:#6D2E1D;stroke-width:4.2361;stroke-miterlimit:10;}
+}
+
+
+
 .munt {
   // background-color: #6f5741;
   z-index: 0;
@@ -387,5 +405,3 @@ border-right: 1px solid black;
   width: 2px;
   color: black;
 }
-
-// NOTE: Spell out "I love CSS" with all door-knobs.

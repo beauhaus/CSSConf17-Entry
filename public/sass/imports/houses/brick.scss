@@ -902,6 +902,23 @@
   // border:20px solid burlywood;
   // background: fuchsia;
   z-index: 5;
+  position: relative;
+}
+.brk-right-door-frame {
+  // background: yellow;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130px;
+  height: 126px;
+  .st0{opacity: 1;fill:#B7A68F;}
+  .st1{opacity: 1;fill:#C3A98E;}
+  .st2{opacity: 1;fill:#E5C37F;stroke:#998C7F;stroke-width:1.9383;stroke-miterlimit:10;}
+  .st3{opacity: 1;fill:#E5C37F;stroke:#938679;stroke-width:3.0916;stroke-miterlimit:10;}
+  .st4{opacity: 1;fill:#E5C37F;stroke:#938679;stroke-width:3.0895;stroke-miterlimit:10;}
+  .st5{opacity: 1;fill:#E5C37F;stroke:#998C7E;stroke-width:2;stroke-miterlimit:10;}
+  .st6{opacity: 1;fill:#B7A68F;stroke:#333333;stroke-width:0.5;stroke-miterlimit:10;}
+  .st7{opacity: 1;fill:#E5C37F;stroke:#A59583;stroke-width:2.359;stroke-miterlimit:10;}
 }
 
 .brk-right-inner-door {
@@ -1003,4 +1020,21 @@
   &.even::before {
     content: "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII";
   }
+}
+
+
+.brk-gutter-pipe-right {
+  position: absolute;
+  right: -11px;
+  bottom: -2px;
+  width: 27px;
+
+  .st0{fill:none;stroke:#77371C;stroke-width:3;stroke-miterlimit:10;}
+  .st1{fill:#77371C;stroke:#000000;stroke-miterlimit:10;}
+  .st2{fill:#5E2D1E;}
+  .st3{fill:none;stroke:#77371C;stroke-width:6;stroke-miterlimit:10;}
+  .st4{fill:none;stroke:#4b281f;stroke-width:3;stroke-miterlimit:10;}
+  .st5{fill:#77371C;stroke:#321710;stroke-miterlimit:10;}
+  .st6{fill:#000;stroke:#000000;stroke-miterlimit:10;}
+  .st7{fill:#5E2D1E;stroke:#2D160F;stroke-width:3;stroke-miterlimit:10;}
 }

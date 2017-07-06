@@ -458,7 +458,24 @@
   grid-template-rows: 62px 21px 288px 136px;
   // 62: attic (21px: buffer) 306: top2 floors 137px: 1stfloor
   z-index: 0;
+  position: relative;
 }
+
+.dk-right-gutter-pipe {
+  left: -10px;
+  bottom: 50px;
+  width: 33px;
+  // height: 348px;
+  position: absolute;
+  z-index: 10;
+  .st0{opacity: 1; fill:none;stroke:#542F1E;stroke-width:3.0952;stroke-miterlimit:10;}
+  .st1{opacity: 1; fill:none;stroke:#352721;stroke-width:5;stroke-miterlimit:10;}
+  .st2{opacity: 1; fill:none;stroke:#723319;stroke-width:3;stroke-miterlimit:10;}
+  .st3{opacity: 1; fill:none;stroke:#2D1A13;stroke-width:3.0952;stroke-miterlimit:10;}
+}
+
+
+
 
 
 
