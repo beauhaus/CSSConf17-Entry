@@ -59,21 +59,24 @@ body {
   left: 0;
   position: absolute; }
 
-#dedication {
+#conf-logo .cls-1 {
+  transform: translate(75px, 250px); }
+
+#message {
   grid-row: 2;
   grid-column: 2;
   top: 0;
   left: 0;
   position: absolute; }
-  #dedication .st0 {
+  #message .st0 {
     font-family: 'MyriadPro-Regular'; }
-  #dedication .st1 {
+  #message .st1 {
     fill: #FFFFFF; }
-  #dedication .st2 {
+  #message .st2 {
     stroke: #000000;
     stroke-miterlimit: 10; }
-  #dedication .st3 {
-    font-size: 32; }
+  #message .st3 {
+    font-size: 62; }
 
 /*White-house color notes
 */
