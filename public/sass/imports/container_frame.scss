@@ -45,6 +45,9 @@ body {
 }
 
 .intro-logo {
+  // display: none;  //***  erase this
+
+
   z-index: 0;
   // margin: 5vh auto;
   top: 5vh;
@@ -53,5 +56,12 @@ body {
 /*   margin: 2vw 1vw;  */
 width: 1400px;
 height: 800px;
-border: 1px solid white;
+}
+.top-text-container {
+  position: fixed;
+  top: 2px;
+  left: 1vw;
+  .entry-txt {
+    display: inline;
+  }
 }
