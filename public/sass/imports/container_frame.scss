@@ -18,10 +18,11 @@ body {
   width: 100vw;
   height: 100vh;
   background: #384a54;
+  position: relative;
+  z-index: -2;
 }
 
 
-//NOTE: necessary(?)
 .firmament-container {
   grid-row: 2;
   grid-column: 2;
@@ -41,4 +42,16 @@ body {
   grid-template-rows: 750px 18px 32px; /* = 800 */
   overflow: hidden;
   // background: fuchsia;
+}
+
+.intro-logo {
+  z-index: 0;
+  // margin: 5vh auto;
+  top: 5vh;
+  left: 2vh;
+  position: absolute;
+/*   margin: 2vw 1vw;  */
+width: 1400px;
+height: 800px;
+border: 1px solid white;
 }

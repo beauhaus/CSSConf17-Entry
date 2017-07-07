@@ -13,7 +13,9 @@ body {
   grid-template-rows: 1fr 800px 1fr;
   width: 100vw;
   height: 100vh;
-  background: #384a54; }
+  background: #384a54;
+  position: relative;
+  z-index: -2; }
 
 .firmament-container {
   grid-row: 2;
@@ -33,6 +35,16 @@ body {
   grid-template-rows: 750px 18px 32px;
   /* = 800 */
   overflow: hidden; }
+
+.intro-logo {
+  z-index: 0;
+  top: 5vh;
+  left: 2vh;
+  position: absolute;
+  /*   margin: 2vw 1vw;  */
+  width: 1400px;
+  height: 800px;
+  border: 1px solid white; }
 
 /*White-house color notes
 */
@@ -357,7 +369,8 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 162px 32px 12px 66px 478px;
-  position: relative; }
+  position: relative;
+  z-index: 1; }
 
 .white-sky {
   grid-row: 1;
