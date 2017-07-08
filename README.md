@@ -260,3 +260,12 @@ Things I did properly:
 I edited the song at a particular point to remove the solo. I did this in AE of all things. It's the only editing program I know--But it was a coup to do this & greatly improved the over-all timing and visceral feeling that the animation gives.
 
 Above all, I'm very pleased with how the SVG integrates with the css. The key is proper, painstaking attention to shades of color. --Otherwise the gutterpipes and the door of the peach house would look comical. I really wanted to avoid that.
+
+#### Step result.
+![last step](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/result.png?raw=true)
+
+Okay. It's done.
+
+If anyone ever reads this. I'd like to thank you for reading. Give a little love to a newbie on twitter @beau_dev
+
+Thank you!
