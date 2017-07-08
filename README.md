@@ -162,7 +162,7 @@ Time consuming. It's nice, but I don't think i'm going to submit this.
 #### Step 13.
 ![step Thirteen](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step13.png?raw=true)
 Ugh... Don't ask.
-Total pain in the ass.
+Total pain in the butt.
 
 So much fun, tho.
 
@@ -214,12 +214,49 @@ Okay. Well... This frikkin thing took 4 hours. I'm still learning illustrator. I
 
 I have had very little sleep in the past few days & it looks like I'm not going to get much this week.
 
-When I DO sleep...I wake up in a panic thinking about what is broken.
+I often wake up in a panic thinking about what is broken.
 
 I have to say... I swear a lot more because of this project. --Ain't gonna lie. I'm pretty hard to be around these days. Tough to follow others in conversation because I just nod my head thinking about how to finish this project without screwing everything up.
 
-It really is absolute madness. I don't mind sayin'.
+It really is absolute madness.
 
 okay... on to more of this... I'm going to take on the house all the way to the right. The "short-house".
 
-Later.
+
+#### Step 27.
+![step27](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/step27.png?raw=true)
+
+I need to put the gutterpipes on each building. It's looking a bit empty and I shold pay closer attention to the original painting as a guide.
+
+I'm happy with it, though.
+
+
+#### Step laststep.
+![last step](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/laststep.png?raw=true)
+Submitted at 5pm yesterday.
+
+I learned lots in this past month.
+
+Things I would do over if I had the time:
+
+The clouds. I thought they this pic needed something in the background and I overdid it. This could be solved with an opacity adjustment. --or a size adjustment.
+
+My friend said, "I expected Snoopy to jump out of the sky!" ... LOL... Point taken.
+
+ --I should take that lump and learn from it. It was a friendly, funny criticism and he has a point.
+
+I most regret that logo (center pic above) doesn't work on all screens.
+
+Even in chrome... on some resolutions it doesn't quite work.
+
+It's a "works on my machine" problem and very approachable and solvable.
+
+I concentrated on chrome and firefox--but neglected to test in safari. --It looks awful on safari.
+
+I started too late on the final logo & still don't quite understand the svg sizing and viewBox concept. It's a basic concept and I should know better.
+
+Things I did properly:
+
+I edited the song at a particular point to remove the solo. I did this in AE of all things. It's the only editing program I know--But it was a coup to do this & greatly improved the over-all timing and visceral feeling that the animation gives.
+
+Above all, I'm very pleased with how the SVG integrates with the css. The key is proper, painstaking attention to shades of color. --Otherwise the gutterpipes and the door of the peach house would look comical. I really wanted to avoid that.

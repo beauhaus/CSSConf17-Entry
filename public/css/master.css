@@ -15,7 +15,8 @@ body {
   height: 100vh;
   background: #384a54;
   position: relative;
-  z-index: -2; }
+  z-index: -2;
+  overflow: hidden; }
 
 .firmament-container {
   grid-row: 2;
@@ -53,14 +54,9 @@ body {
     display: inline; }
 
 #conf-logo {
-  grid-row: 2;
-  grid-column: 2;
   top: 0;
   left: 0;
   position: absolute; }
-
-#conf-logo .cls-1 {
-  transform: translate(75px, 250px); }
 
 #message {
   grid-row: 2;
@@ -77,6 +73,39 @@ body {
     stroke-miterlimit: 10; }
   #message .st3 {
     font-size: 62; }
+
+.clouds {
+  width: 100%;
+  opacity: .7;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1; }
+  .clouds .st0 {
+    fill: url(#regular_1_);
+    stroke: #000000;
+    stroke-width: 0.2609;
+    stroke-miterlimit: 10; }
+  .clouds .st1 {
+    fill: url(#bulbus_1_);
+    stroke: #000000;
+    stroke-width: 0.2609;
+    stroke-miterlimit: 10; }
+  .clouds .st2 {
+    fill: url(#bulb2_1_);
+    stroke: #000000;
+    stroke-width: 0.1982;
+    stroke-miterlimit: 10; }
+  .clouds .st3 {
+    fill: url(#tiny_2_);
+    stroke: #000000;
+    stroke-width: 0.1994;
+    stroke-miterlimit: 10; }
+  .clouds .st4 {
+    fill: url(#huge_1_);
+    stroke: #000000;
+    stroke-width: 0.2139;
+    stroke-miterlimit: 10; }
 
 /*White-house color notes
 */
@@ -2608,7 +2637,7 @@ rows: 386 + 86 + 142 + 132*/
   width: 15px;
   height: 375px;
   position: absolute;
-  z-index: 20; }
+  z-index: 30; }
   .dk-left-gutter-pipe .st0 {
     opacity: 1;
     fill: #844B20; }

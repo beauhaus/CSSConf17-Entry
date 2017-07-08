@@ -20,6 +20,7 @@ body {
   background: #384a54;
   position: relative;
   z-index: -2;
+  overflow: hidden;
 }
 
 
@@ -67,17 +68,12 @@ height: 800px;
 }
 
 
-#conf-logo {
-  grid-row: 2;
-  grid-column: 2;
+#conf-logo { //exit text
   top: 0;
   left: 0;
   position: absolute;
 
-}
-#conf-logo .cls-1 {
-  // transform:translate(50%, 0%);
-  transform: translate(75px, 250px);
+
 }
 
 #message {
@@ -90,4 +86,20 @@ height: 800px;
   .st1{fill:#FFFFFF;}
   .st2{stroke:#000000;stroke-miterlimit:10;}
   .st3{font-size:62;}
+
+}
+
+.clouds {
+  width: 100%;
+  opacity: .7;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  .st0{fill:url(#regular_1_);stroke:#000000;stroke-width:0.2609;stroke-miterlimit:10;}
+  .st1{fill:url(#bulbus_1_);stroke:#000000;stroke-width:0.2609;stroke-miterlimit:10;}
+  .st2{fill:url(#bulb2_1_);stroke:#000000;stroke-width:0.1982;stroke-miterlimit:10;}
+  .st3{fill:url(#tiny_2_);stroke:#000000;stroke-width:0.1994;stroke-miterlimit:10;}
+  .st4{fill:url(#huge_1_);stroke:#000000;stroke-width:0.2139;stroke-miterlimit:10;}
+
 }
