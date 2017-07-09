@@ -60,6 +60,8 @@ Day (what? 5?) Ugh...this is slow. :(
 
 The project is now officially subdivided and modularized into sass! :)
 
+--Oops! --It turns out there ISN'T a "subgrid" property in grid. lol --Was tempted to erase the entry above... but left that silly comment up there. #noob
+
 It was about 30minutes, but it was fun. --Totally helpful to reinforce my grasp of the behavior of sass --watch and it's vicissitudes.
 
 #### And here's step four.
@@ -269,3 +271,9 @@ Okay. It's done.
 If anyone ever reads this. I'd like to thank you for reading. Give a little love to a newbie on twitter @beau_dev
 
 Thank you!
+
+The final. :)
+
+https://codepen.io/beau_dev/full/rwZPjm/
+
+Please watch in full-scrn :)
