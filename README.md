@@ -218,8 +218,6 @@ I have had very little sleep in the past few days & it looks like I'm not going 
 
 I often wake up in a panic thinking about what is broken.
 
-I have to say... I swear a lot more because of this project. --Ain't gonna lie. I'm pretty hard to be around these days. Tough to follow others in conversation because I just nod my head thinking about how to finish this project without screwing everything up.
-
 It really is absolute madness.
 
 okay... on to more of this... I'm going to take on the house all the way to the right. The "short-house".
