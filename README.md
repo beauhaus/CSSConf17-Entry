@@ -274,4 +274,4 @@ The final. :)
 
 https://codepen.io/beau_dev/full/rwZPjm/
 
-Please watch in full-scrn :)
+Please watch in chrome full-scrn :)
