@@ -4,7 +4,7 @@ Pure CSS photorealistic depiction of a water-color as a project to help me learn
 ### Here's the painting. It seems ideal for grid (line-based approach);
 [![step1](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/original.jpg?raw=true)](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/original.jpg?raw=true)
 
-![FinalGif](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/DevConf17.gif?raw=true)
+![FinalGif](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/DevConf17_480.gif?raw=true)
 
 
 #### An outline in order to prepare definition of grids:
