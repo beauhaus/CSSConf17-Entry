@@ -1,9 +1,10 @@
 # grid_painting
 Pure CSS photorealistic depiction of a water-color as a project to help me learn Grid.
-
-### Here's the painting. It seems ideal for grid (line-based approach);
+### Source Image
+#### Here's the painting. It seems ideal for grid (line-based approach);
 [![step1](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/original.jpg?raw=true)](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/original.jpg?raw=true)
 
+### Final (animated with jQuery)
 ![FinalGif](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/DevConf17_480.gif?raw=true)
 
 
