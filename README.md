@@ -1,15 +1,11 @@
 # grid_painting
-I'm 'painting' with CSS a water-color(?) as a project to help me learn Grid.
-CSS shapes may need to come into play here as well.
+Pure CSS photorealistic depiction of a water-color as a project to help me learn Grid.
 
 ### Here's the painting. It seems ideal for grid (line-based approach);
 [![step1](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/original.jpg?raw=true)](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/original.jpg?raw=true)
 
-It was done by Louisiana native, Jim Blanchard.
+![FinalGif](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/DevConf17.gif?raw=true)
 
-He's  a prominent architectural archival painter [http://www.jimblanchardgallery.com/](http://www.jimblanchardgallery.com/)
-
-His work is beyond phenomenal and extremely precise.
 
 #### An outline in order to prepare definition of grids:
 [![step1](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/outline.png?raw=true)](https://github.com/Beauvelop/grid_painting/blob/master/public/steps/outline.png?raw=true)
@@ -275,3 +271,9 @@ The final. :)
 https://codepen.io/beau_dev/full/rwZPjm/
 
 Please watch in chrome full-scrn :)
+
+## Acknowledgements
+
+Original painting by Louisiana native, Jim Blanchard, a prominent architectural archival painter [http://www.jimblanchardgallery.com/](http://www.jimblanchardgallery.com/)
+
+His work is beyond phenomenal and extremely precise.
